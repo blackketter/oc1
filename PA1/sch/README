@@ -1,5 +1,0 @@
-#!/bin/sh
-perl convert_bom.pl  OPENCALC-PA1.BOM
-perl convert_netlist.pl  OPENCALC-pa1.asc
-
-
