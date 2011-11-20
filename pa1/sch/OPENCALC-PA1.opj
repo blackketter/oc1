@@ -53,7 +53,7 @@
     (BOM_Scope "0")
     (BOM_Mode "0")
     (BOM_Report_File
-       "C:\Documents and Settings\caleb\My Documents\opencalc\trunk\sch\OPENCALC-PA1.BOM")
+       "c:\cygwin\home\caleb\opencalc-hw\oc1\pa1\sch\OPENCALC-PA1.BOM")
     (BOM_Merge_Include "FALSE")
     (BOM_Property_Combine_7.0
        "{Item}\t{Quantity}\t{Reference}\t{Value}\t{PCB Footprint}\t{Source}\t{Source-PN}\t{MFG}\t{MFG-PN}")
@@ -93,7 +93,7 @@
     (DRC_Report_Netnames "FALSE")
     (DRC_View_Output "TRUE")
     (DRC_Report_File
-       "C:\Documents and Settings\caleb\My Documents\se\hardware\strap-on\trunk\sch\CODEC-BOARD.DRC")
+       ".\opencalc-pa1.DRC")
     (DRC_Check_for_Misleading_TAP "FALSE")
     (DRC_Visible_Power_pins "FALSE"))
   (Folder "Outputs"
@@ -106,7 +106,7 @@
     (File "..\..\orcad_libs\local.olb"
       (Type "Report"))
     (File
-       "c:\documents and settings\caleb\my documents\se\hardware\strap-on\trunk\sch\codec-board.drc"
+       "c:\cygwin\home\caleb\opencalc-hw\oc1\pa1\sch\opencalc-pa1.drc"
       (Type "Report"))
     (File "c:\pcb\orcad-libs\local.olb"
       (Type "Schematic Library")))
