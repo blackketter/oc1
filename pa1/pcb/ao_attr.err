@@ -1,0 +1,14 @@
+Assembly Variant Service has detected improper attribute values
+
+Sun Oct 09 11:34:06 2011
+
+Current Job : opencalc.pcb
+
+
+Format:
+OBJ_NAME
+OLD_VALUE{EMPTY;TOO_LONG}
+NEW_VALUE{DELETED;TOO_LONG}
+RESUME
+
+

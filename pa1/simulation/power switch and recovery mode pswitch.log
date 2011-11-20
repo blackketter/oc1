@@ -1,0 +1,22 @@
+Circuit: * C:\Documents and Settings\caleb\My Documents\opencalc\trunk\simulation\power switch and recovery mode pswitch.asc
+
+Direct Newton iteration for .op point succeeded.
+
+Date: Fri Sep 16 17:41:18 2011
+Total elapsed time: 0.250 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 4132
+traniter = 4105
+tranpoints = 1599
+accept = 1466
+rejected = 133
+matrix size = 46
+fillins = 20
+solver = Normal
+Matrix Compiler1: 3.87 KB object code size  2.2/2.0/[0.7]
+Matrix Compiler2: 4.12 KB object code size  1.3/2.0/[1.1]
+
+

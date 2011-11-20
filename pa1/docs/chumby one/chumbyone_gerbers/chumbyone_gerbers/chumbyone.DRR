@@ -1,0 +1,31 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: chumbyone.PcbDoc   11/17/2009  10:31:00 PM
+---------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : chumbyone.TXT
+EIA File   : chumbyone.DRL
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        8mil (0.2032mm)          Round          299              25.95 Inch (659.21 mm)
+T2        10mil (0.254mm)          Round          365              42.90 Inch (1089.54 mm)
+T3        12mil (0.3048mm)         Round          8                1.54 Inch (39.05 mm)
+T4        12.99mil (0.32995mm)     Round          14               1.35 Inch (34.27 mm)
+T5        15mil (0.381mm)          Round          117              18.30 Inch (464.74 mm)
+T6        25.59mil (0.64999mm)     Round          4                0.15 Inch (3.81 mm)
+T7        35mil (0.889mm)          Round          1                0.00 Inch (0.00 mm)
+T8        35.43mil (0.89992mm)     Round          21               11.13 Inch (282.79 mm)
+T9        40.16mil (1.02006mm)     Round          3                0.20 Inch (5.08 mm)
+T10       59.06mil (1.50012mm)     Round          1                0.00 Inch (0.00 mm)
+T11       82.68mil (2.10007mm)     Round          4                5.01 Inch (127.38 mm)
+T12       35.43mil (0.89992mm)     Round          2         NPTH   0.17 Inch (4.25 mm)
+T13       47.24mil (1.1999mm)      Round          4         NPTH   1.43 Inch (36.25 mm)
+T14       50mil (1.27mm)           Round          2         NPTH   0.40 Inch (10.16 mm)
+T15       51.18mil (1.29997mm)     Round          1         NPTH   0.00 Inch (0.00 mm)
+T16       66.93mil (1.70002mm)     Round          2         NPTH   0.28 Inch (7.00 mm)
+T17       82.68mil (2.10007mm)     Round          2         NPTH   1.48 Inch (37.59 mm)
+---------------------------------------------------------------------------
+Totals                                            850              110.28 Inch (2801.13 mm)
+
+Total Processing Time (hh:mm:ss) : 00:00:01

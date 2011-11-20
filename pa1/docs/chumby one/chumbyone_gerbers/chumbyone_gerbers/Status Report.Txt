@@ -1,0 +1,30 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Project [falconwing_6.PrjPCB]
+   Generated File[falconwing_v6e.GTL]
+   Generated File[falconwing_v6e.GP1]
+   Generated File[falconwing_v6e.G1]
+   Generated File[falconwing_v6e.G2]
+   Generated File[falconwing_v6e.GP2]
+   Generated File[falconwing_v6e.GBL]
+   Generated File[falconwing_v6e.GPB]
+   Generated File[falconwing_v6e.GPT]
+   Generated File[falconwing_v6e.GTO]
+   Generated File[falconwing_v6e.GTP]
+   Generated File[falconwing_v6e.GTS]
+   Generated File[falconwing_v6e.GBS]
+   Generated File[falconwing_v6e.GBP]
+   Generated File[falconwing_v6e.GBO]
+   Generated File[falconwing_v6e.GM2]
+   Generated File[falconwing_v6e.GKO]
+   Generated File[falconwing_v6e.GD1]
+   Generated File[falconwing_v6e.GG1]
+   Generated File[falconwing_v6e.RUL]
+   Generated File[falconwing_v6e.EXTREP]
+   Generated File[falconwing_v6e.REP]
+
+
+Files Generated   : 21
+Documents Printed : 0
+
+Finished Output Generation At 10:32:09 PM On 11/17/2009

@@ -1,0 +1,28 @@
+* C:\Documents and Settings\caleb\My Documents\opencalc\trunk\simulation\battery charger and monitor.asc
+D1 VBUS N001 BAT54
+R1 N005 N001 100k
+Q1 N002 N005 N001 0 2N3906
+R2 N005 N008 2.2k
+R3 N010 CHARGE_ENABLE 47k
+Q2 N008 N010 0 0 2N3904
+R4 N003 N002 12.7
+R5 VBATT N003 12.7
+V1 VBATT 0 3
+V2 VBUS 0 5
+V3 CHARGE_ENABLE 0 PWL(0 0 1m 0 2m 3.0)
+Q3 N004 N006 VBATT 0 2N3906
+R6 N006 N007 47k
+Q4 N007 N009 0 0 2N3904
+R7 N004 LRADC4 75k
+R8 LRADC4 0 24k
+V4 BATT_MEASURE 0 PWL(0 0 5m 3 100m 3.0)
+R9 BATT_MEASURE N009 100k
+C1 LRADC4 0 10n
+.model D D
+.lib C:\Program Files\LTC\LTspiceIV\lib\cmp\standard.dio
+.model NPN NPN
+.model PNP PNP
+.lib C:\Program Files\LTC\LTspiceIV\lib\cmp\standard.bjt
+.tran 20m
+.backanno
+.end

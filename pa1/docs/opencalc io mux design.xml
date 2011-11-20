@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<PinMuxDesign xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Chip>i.MX233 169BGA</Chip>
+  <Peripheral Name="AUART1" IsExcluded="false">
+    <AltMode Name="ALT2" BallNumber="C6" BallName="I2C_SDA" Signal="AUART1_RX" IsExcluded="false" />
+    <AltMode Name="ALT2" BallNumber="C5" BallName="I2C_SCL" Signal="AUART1_TX" IsExcluded="false" />
+  </Peripheral>
+  <Peripheral Name="AUART2" IsExcluded="false">
+    <AltMode Name="ALT1" BallNumber="E8" BallName="ROTARYB" Signal="AUART2_CTS" IsExcluded="false" />
+    <AltMode Name="ALT1" BallNumber="D7" BallName="ROTARYA" Signal="AUART2_RTS" IsExcluded="false" />
+    <AltMode Name="ALT1" BallNumber="N4" BallName="GPMI_D14" Signal="AUART2_RX" IsExcluded="false" />
+    <AltMode Name="ALT1" BallNumber="N5" BallName="GPMI_D15" Signal="AUART2_TX" IsExcluded="false" />
+  </Peripheral>
+  <Peripheral Name="EMI" IsExcluded="false">
+    <AltMode Name="ALT0" BallNumber="K13" BallName="EMI_A00" Signal="EMI_A00" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="K12" BallName="EMI_A01" Signal="EMI_A01" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="J13" BallName="EMI_A02" Signal="EMI_A02" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="K11" BallName="EMI_A03" Signal="EMI_A03" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="G10" BallName="EMI_A04" Signal="EMI_A04" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="G12" BallName="EMI_A05" Signal="EMI_A05" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="F12" BallName="EMI_A06" Signal="EMI_A06" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="G11" BallName="EMI_A07" Signal="EMI_A07" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="G13" BallName="EMI_A08" Signal="EMI_A08" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="F13" BallName="EMI_A09" Signal="EMI_A09" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="J12" BallName="EMI_A10" Signal="EMI_A10" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="H10" BallName="EMI_A11" Signal="EMI_A11" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="H13" BallName="EMI_A12" Signal="EMI_A12" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="L13" BallName="EMI_BA0" Signal="EMI_BA0" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="L12" BallName="EMI_BA1" Signal="EMI_BA1" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="M13" BallName="EMI_CASN" Signal="EMI_CASN" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="J10" BallName="EMI_CE0N" Signal="EMI_CE0N" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="H12" BallName="EMI_CE1N" Signal="EMI_CE1N" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="F11" BallName="EMI_CKE" Signal="EMI_CKE" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="M6" BallName="EMI_CLK" Signal="EMI_CLK" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="N6" BallName="EMI_CLKN" Signal="EMI_CLKN" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="K10" BallName="EMI_D00" Signal="EMI_D00" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="M10" BallName="EMI_D01" Signal="EMI_D01" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="N11" BallName="EMI_D02" Signal="EMI_D02" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="N10" BallName="EMI_D03" Signal="EMI_D03" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="M11" BallName="EMI_D04" Signal="EMI_D04" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="K9" BallName="EMI_D05" Signal="EMI_D05" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="L11" BallName="EMI_D06" Signal="EMI_D06" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="L9" BallName="EMI_D07" Signal="EMI_D07" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="N9" BallName="EMI_D08" Signal="EMI_D08" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="N8" BallName="EMI_D09" Signal="EMI_D09" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="M8" BallName="EMI_D10" Signal="EMI_D10" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="K7" BallName="EMI_D11" Signal="EMI_D11" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="L7" BallName="EMI_D12" Signal="EMI_D12" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="K6" BallName="EMI_D13" Signal="EMI_D13" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="N7" BallName="EMI_D14" Signal="EMI_D14" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="M7" BallName="EMI_D15" Signal="EMI_D15" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="M12" BallName="EMI_DQM0" Signal="EMI_DQM0" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="M9" BallName="EMI_DQM1" Signal="EMI_DQM1" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="N12" BallName="EMI_DQS0" Signal="EMI_DQS0" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="K8" BallName="EMI_DQS1" Signal="EMI_DQS1" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="N13" BallName="EMI_RASN" Signal="EMI_RASN" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="J11" BallName="EMI_WEN" Signal="EMI_WEN" IsExcluded="false" />
+  </Peripheral>
+  <Peripheral Name="LCD" IsExcluded="false">
+    <AltMode Name="ALT0" BallNumber="H4" BallName="LCD_CS" Signal="LCD_CS" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="D3" BallName="LCD_D00" Signal="LCD_D00" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="E2" BallName="LCD_D01" Signal="LCD_D01" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="E4" BallName="LCD_D02" Signal="LCD_D02" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="F1" BallName="LCD_D03" Signal="LCD_D03" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="F3" BallName="LCD_D04" Signal="LCD_D04" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="F5" BallName="LCD_D05" Signal="LCD_D05" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="G2" BallName="LCD_D06" Signal="LCD_D06" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="G5" BallName="LCD_D07" Signal="LCD_D07" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="H2" BallName="LCD_D08" Signal="LCD_D08" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="K1" BallName="LCD_DOTCK" Signal="LCD_DOTCK" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="H5" BallName="LCD_ENABLE" Signal="LCD_ENABLE" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="J2" BallName="LCD_HSYNC" Signal="LCD_HSYNC" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="J5" BallName="LCD_RESET" Signal="LCD_RESET" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="J3" BallName="LCD_RS" Signal="LCD_RS" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="J1" BallName="LCD_VSYNC" Signal="LCD_VSYNC" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="J4" BallName="LCD_WR" Signal="LCD_WR" IsExcluded="false" />
+  </Peripheral>
+  <Peripheral Name="SAIF" IsExcluded="false">
+    <AltMode Name="ALT2" BallNumber="E3" BallName="LCD_D16" Signal="SAIF_ALT_BITCLK" IsExcluded="false" />
+    <AltMode Name="ALT2" BallNumber="G4" BallName="LCD_D11" Signal="SAIF_LRCLK" IsExcluded="false" />
+    <AltMode Name="ALT2" BallNumber="H1" BallName="LCD_D10" Signal="SAIF_MCLK_BITCLK" IsExcluded="false" />
+  </Peripheral>
+  <Peripheral Name="SAIF1" IsExcluded="false">
+    <AltMode Name="ALT2" BallNumber="H3" BallName="LCD_D09" Signal="SAIF1_SDATA0" IsExcluded="false" />
+    <AltMode Name="ALT2" BallNumber="E5" BallName="LCD_D15" Signal="SAIF1_SDATA1" IsExcluded="false" />
+  </Peripheral>
+  <Peripheral Name="SSP1" IsExcluded="false">
+    <AltMode Name="ALT0" BallNumber="H9" BallName="SSP1_CMD" Signal="SSP1_CMD" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="G9" BallName="SSP1_DATA0" Signal="SSP1_DATA0" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="F9" BallName="SSP1_DATA1" Signal="SSP1_DATA1" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="F10" BallName="SSP1_DATA2" Signal="SSP1_DATA2" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="E10" BallName="SSP1_DATA3" Signal="SSP1_DATA3" IsExcluded="false" />
+    <AltMode Name="ALT2" BallNumber="G7" BallName="AUART1_CTS" Signal="SSP1_DATA4" IsExcluded="false" />
+    <AltMode Name="ALT2" BallNumber="H7" BallName="AUART1_RTS" Signal="SSP1_DATA5" IsExcluded="false" />
+    <AltMode Name="ALT2" BallNumber="H8" BallName="AUART1_RX" Signal="SSP1_DATA6" IsExcluded="false" />
+    <AltMode Name="ALT2" BallNumber="J8" BallName="AUART1_TX" Signal="SSP1_DATA7" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="D10" BallName="SSP1_DETECT" Signal="SSP1_DETECT" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="D12" BallName="SSP1_SCK" Signal="SSP1_SCK" IsExcluded="false" />
+  </Peripheral>
+</PinMuxDesign>
