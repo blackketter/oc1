@@ -1,0 +1,39 @@
+Circuit: * C:\Documents and Settings\caleb\My Documents\opencalc\trunk\simulation\LED driver simulation, 0.1V dropout.asc
+
+WARNING: Node N003 is floating.
+
+WARNING: Less than two connections to node NC_01.  This node is used by M2.
+WARNING: Less than two connections to node N003.  This node is used by M2.
+Direct Newton iteration for .op point succeeded.
+Ignoring empty pin current: Ix(u1:1)
+Ignoring empty pin current: Ix(u1:2)
+Ignoring empty pin current: Ix(u2:1)
+Ignoring empty pin current: Ix(u2:2)
+Ignoring empty pin current: Ix(u1:1)
+Ignoring empty pin current: Ix(u1:2)
+Ignoring empty pin current: Ix(u2:1)
+Ignoring empty pin current: Ix(u2:2)
+Changing Tseed to 1e-013
+Changing Tseed to 1e-015
+Changing Tseed to 1e-012
+Heightened Def Con from 1.37623e-012 to 2.00138e-009
+Heightened Def Con from 4e-005 to 4.0002e-005
+
+Date: Sat Sep 24 15:26:32 2011
+Total elapsed time: 23.844 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2550202
+traniter = 2550169
+tranpoints = 600285
+accept = 450372
+rejected = 149912
+matrix size = 23
+fillins = 23
+solver = Normal
+Matrix Compiler1: 1.83 KB object code size  1.1/0.9/[0.4]
+Matrix Compiler2: 2.01 KB object code size  0.7/1.1/[0.6]
+
+
