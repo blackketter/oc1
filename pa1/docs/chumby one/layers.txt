@@ -1,0 +1,22 @@
+chumbyone-macro.APR_LIB
+chumbyone.DRL
+chumbyone.DRR
+chumbyone.EXTREP
+chumbyone.GPT 1 top something.. like paste
+chumbyone.GTL 1 top copper   
+chumbyone.GTO 1 top silk
+chumbyone.GTP 1 top paste
+chumbyone.GTS 1 top soldermask
+chumbyone.GP1 2 ground plane 1
+chumbyone.G1  3 inner copper 1
+chumbyone.G2  4 inner copper 2
+chumbyone.GP2 5 power plane
+chumbyone.GBL 6 bottom copper
+chumbyone.GBO 6 bottom silk
+chumbyone.GBP 6 bottom paste 
+chumbyone.GBS 6 bottom soldermask
+chumbyone.GPB   identical to GBP (paste, but with 4 extra slots?)
+chumbyone.GD1   Drill drawing 1 
+chumbyone.GG1   Drill drawing 2
+chumbyone.GKO   board outline
+

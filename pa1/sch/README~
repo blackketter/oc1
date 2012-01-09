@@ -1,4 +1,0 @@
-#!/bin/sh
-perl convert_bom.pl  CODEC-BOARD.BOM
-perl convert_netlist.pl  CODEC-BOARD.asc
-
