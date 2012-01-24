@@ -1,11 +1,11 @@
 (PCB "OPENCALC-PA1"
  (description
-  (timeStamp "2011 11 20 19 21 39")
+  (timeStamp "2012 01 02 19 58 51")
   (program "CAPTURE.EXE" (Version "10.5.0.b001"))
   (source "Original data from OrCAD/CAPTURE schematic")
   (title "OPENCALC OC1 KEYPAD MATRIX")
-  (date "Sunday, November 06, 2011")
-  (document "C:\\DOCUMENTS AND SETTINGS\\CALEB\\MY DOCUMENTS\\OPENCALC\\TRUNK\\SCH\\OPENCALC-PA1.DSN")
+  (date "Saturday, December 03, 2011")
+  (document "C:\\CYGWIN\\HOME\\CALEB\\OPENCALC-HW\\OC1\\PA1\\SCH\\OPENCALC-PA1.DSN")
   (revision "1")
   (organization "")
   (address1 "")
@@ -26,6 +26,17 @@
      (Tolerance 1%)
      (Value 1.05M)
      (Power 1/16W))))
+  (component "CON-3-DF13-VERTICAL"
+   (place J2
+    (property 
+     ("PCB Footprint" "DF13-3P-1.25DSA")
+     ("Source-PN" "H2192-ND")
+     (timestamp 009BB005)
+     ("Source Package" "CON-3-DF13-VERTICAL")
+     (MFG HIROSE)
+     (Source Digikey)
+     (Value "CON-3-DF13-VERTICAL")
+     ("MFG-PN" "DF13-3P-1.25DSA"))))
   (component "LED-TPS61042DRB"
    (place U23
     (property 
@@ -40,8 +51,8 @@
      ("Source-PN" "A100229CT-ND")
      (timestamp 0087C683)
      ("Source Package" "LCD-ASIJ24016GFDCIDI.PDF")
-     (MFG "TE Connectivity")
      (Source Digikey)
+     (MFG "TE Connectivity")
      (Value "LCD-ASIJ24016GFDCIDI.PDF")
      ("MFG-PN" "4-1734839-0"))))
   (component "BATTERY-AA-2X"
@@ -51,8 +62,8 @@
      ("Source-PN" "BA2AAPC-ND")
      (timestamp 00904FA0)
      ("Source Package" "BATTERY-AA-2X")
-     (Source Digikey)
      (MFG MPD)
+     (Source Digikey)
      (Value "BATTERY-AA-2X")
      ("MFG-PN" BA2AAPC))))
   (component "SPI-EEPROM"
@@ -62,8 +73,8 @@
      ("Source-PN" "CAT25080YI-GT3TR-ND")
      (timestamp 008C2EED)
      ("Source Package" "SPI-EEPROM")
-     (Source Digikey)
      (MFG ON)
+     (Source Digikey)
      (Value "SPI-EEPROM")
      ("MFG-PN" "CAT25080YI-GT3"))))
   (component RES,100K,0402,1%
@@ -73,84 +84,72 @@
      ("Source-PN" x)
      (timestamp 0004BADC)
      ("Source Package" RES,100K,0402,1%)
-     (MFG x)
      (Source x)
+     (MFG x)
      (Tolerance 1%)
      (Value 100K)
-     (Power 1/16W)
-     ("MFG-PN" x)))
+     ("MFG-PN" x)
+     (Power 1/16W)))
    (place R67
     (property 
      ("PCB Footprint" 0402/R)
      ("Source-PN" "311-100KLRCT-ND")
      (timestamp 0088B868)
      ("Source Package" RES,100K,0402,1%)
-     (MFG Yaego)
      (Source Digikey)
+     (MFG Yaego)
      (Tolerance 1%)
      (Value 100K)
-     (Power 1/16W)
-     ("MFG-PN" "RC0402FR-07100KL")))
+     ("MFG-PN" "RC0402FR-07100KL")
+     (Power 1/16W)))
    (place R72
     (property 
      ("PCB Footprint" 0402/R)
      ("Source-PN" "311-100KLRCT-ND")
      (timestamp 00893063)
      ("Source Package" RES,100K,0402,1%)
-     (MFG Yaego)
      (Source Digikey)
+     (MFG Yaego)
      (Tolerance 1%)
      (Value 100K)
-     (Power 1/16W)
-     ("MFG-PN" "RC0402FR-07100KL")))
+     ("MFG-PN" "RC0402FR-07100KL")
+     (Power 1/16W)))
    (place R73
     (property 
      ("PCB Footprint" 0402/R)
      ("Source-PN" "311-100KLRCT-ND")
      (timestamp 008931B2)
      ("Source Package" RES,100K,0402,1%)
-     (MFG Yaego)
      (Source Digikey)
+     (MFG Yaego)
      (Tolerance 1%)
      (Value 100K)
-     (Power 1/16W)
-     ("MFG-PN" "RC0402FR-07100KL")))
+     ("MFG-PN" "RC0402FR-07100KL")
+     (Power 1/16W)))
    (place R41
     (property 
      ("PCB Footprint" 0402/R)
      ("Source-PN" x)
      (timestamp 004AB545)
      ("Source Package" RES,100K,0402,1%)
-     (MFG x)
      (Source x)
+     (MFG x)
      (Tolerance 1%)
      (Value 100K)
-     (Power 1/16W)
-     ("MFG-PN" x)))
+     ("MFG-PN" x)
+     (Power 1/16W)))
    (place R79
     (property 
      ("PCB Footprint" 0402/R)
      ("Source-PN" "311-100KLRCT-ND")
      (timestamp 0086FF69)
      ("Source Package" RES,100K,0402,1%)
-     (MFG Yaego)
      (Source Digikey)
+     (MFG Yaego)
      (Tolerance 1%)
      (Value 100K)
-     (Power 1/16W)
-     ("MFG-PN" "RC0402FR-07100KL")))
-   (place R86
-    (property 
-     ("PCB Footprint" 0402/R)
-     ("Source-PN" "311-100KLRCT-ND")
-     (timestamp 009156AC)
-     ("Source Package" RES,100K,0402,1%)
-     (MFG Yaego)
-     (Source Digikey)
-     (Tolerance 1%)
-     (Value 100K)
-     (Power 1/16W)
-     ("MFG-PN" "RC0402FR-07100KL"))))
+     ("MFG-PN" "RC0402FR-07100KL")
+     (Power 1/16W))))
   (component CON1
    (place LCD_K1
     (property 
@@ -173,8 +172,8 @@
      (timestamp 004A5DCB)
      (Dielectric X5R)
      ("Source Package" CAP,10UF,0603,X5R,6.3V)
-     (Source Digikey)
      (MFG TDK)
+     (Source Digikey)
      (Value 10UF)
      ("MFG-PN" C1608X5R0J106M)))
    (place C75
@@ -185,8 +184,8 @@
      (timestamp 004A5D01)
      (Dielectric X5R)
      ("Source Package" CAP,10UF,0603,X5R,6.3V)
-     (Source Digikey)
      (MFG TDK)
+     (Source Digikey)
      (Value 10UF)
      ("MFG-PN" C1608X5R0J106M)))
    (place C76
@@ -197,8 +196,8 @@
      (timestamp 004A5CD7)
      (Dielectric X5R)
      ("Source Package" CAP,10UF,0603,X5R,6.3V)
-     (Source Digikey)
      (MFG TDK)
+     (Source Digikey)
      (Value 10UF)
      ("MFG-PN" C1608X5R0J106M)))
    (place C18
@@ -221,8 +220,8 @@
      (timestamp 004ADCFA)
      (Dielectric X5R)
      ("Source Package" CAP,10UF,0603,X5R,6.3V)
-     (Source Digikey)
      (MFG TDK)
+     (Source Digikey)
      (Value 330nF)
      ("MFG-PN" C1608X5R1E334K))))
   (component "SW DIP-8-0.05"
@@ -232,8 +231,8 @@
      ("Source-PN" "563-1011-1-ND")
      (timestamp 007EB859)
      ("Source Package" "SW DIP-8-0.05")
-     (MFG Copal)
      (Source Digikey)
+     (MFG Copal)
      (Value "SW DIP-8-0.05")
      ("MFG-PN" "CHS-08TA"))))
   (component "PHONEJACK-4COND-SJ-43515TS"
@@ -243,8 +242,8 @@
      ("Source-PN" "CP-43515TS-ND")
      (timestamp 009020B0)
      ("Source Package" "PHONEJACK-4COND-SJ-43515TS")
-     (MFG CUI)
      (Source Digikey)
+     (MFG CUI)
      (Value "SJ-43515TS")
      ("MFG-PN" "SJ-43515TS"))))
   (component CRYSTAL_0.768KHZ_SMT
@@ -255,8 +254,8 @@
      (timestamp 000512C7)
      ("Load Capacitance" 12.5pF)
      ("Source Package" CRYSTAL_0.768KHZ_SMT)
-     (MFG "Abracon Corporation")
      (Source Digikey)
+     (MFG "Abracon Corporation")
      (Value CRYSTAL_32.768KHZ_SMT)
      ("MFG-PN" "ABS25-32.768KHZ-T"))))
   (component RES,47K,0402,1%
@@ -266,8 +265,8 @@
      ("Source-PN" "RMCF1/16S0RTR-ND")
      (timestamp 00880D08)
      ("Source Package" RES,47K,0402,1%)
-     (Source Digikey)
      (MFG Stackpole)
+     (Source Digikey)
      (Value "NM(47K)")
      ("MFG-PN" "RMCF 1/16S 0 R")))
    (place R10
@@ -276,8 +275,8 @@
      ("Source-PN" "RMCF1/16S0RTR-ND")
      (timestamp 004B3CF4)
      ("Source Package" RES,47K,0402,1%)
-     (Source Digikey)
      (MFG Stackpole)
+     (Source Digikey)
      (Value 47K)
      ("MFG-PN" "RMCF 1/16S 0 R")))
    (place R11
@@ -286,8 +285,8 @@
      ("Source-PN" "RMCF1/16S0RTR-ND")
      (timestamp 0004E027)
      ("Source Package" RES,47K,0402,1%)
-     (Source Digikey)
      (MFG Stackpole)
+     (Source Digikey)
      (Value 47K)
      ("MFG-PN" "RMCF 1/16S 0 R")))
    (place R12
@@ -296,8 +295,8 @@
      ("Source-PN" "RMCF1/16S0RTR-ND")
      (timestamp 00034A3E)
      ("Source Package" RES,47K,0402,1%)
-     (Source Digikey)
      (MFG Stackpole)
+     (Source Digikey)
      (Value 47K)
      ("MFG-PN" "RMCF 1/16S 0 R")))
    (place R13
@@ -306,8 +305,8 @@
      ("Source-PN" "RMCF1/16S0RTR-ND")
      (timestamp 00023383)
      ("Source Package" RES,47K,0402,1%)
-     (Source Digikey)
      (MFG Stackpole)
+     (Source Digikey)
      (Value 47K)
      ("MFG-PN" "RMCF 1/16S 0 R")))
    (place R14
@@ -316,8 +315,8 @@
      ("Source-PN" "RMCF1/16S0RTR-ND")
      (timestamp 00032D52)
      ("Source Package" RES,47K,0402,1%)
-     (Source Digikey)
      (MFG Stackpole)
+     (Source Digikey)
      (Value 47K)
      ("MFG-PN" "RMCF 1/16S 0 R")))
    (place R15
@@ -326,8 +325,8 @@
      ("Source-PN" "RMCF1/16S0RTR-ND")
      (timestamp 00034A42)
      ("Source Package" RES,47K,0402,1%)
-     (Source Digikey)
      (MFG Stackpole)
+     (Source Digikey)
      (Value 47K)
      ("MFG-PN" "RMCF 1/16S 0 R")))
    (place R16
@@ -336,8 +335,8 @@
      ("Source-PN" "RMCF1/16S0RTR-ND")
      (timestamp 0087EEEE)
      ("Source Package" RES,47K,0402,1%)
-     (Source Digikey)
      (MFG Stackpole)
+     (Source Digikey)
      (Value 47K)
      ("MFG-PN" "RMCF 1/16S 0 R"))))
   (component MCIMX233DJM4B_0
@@ -354,168 +353,168 @@
      ("Source-PN" "311-1.00KLRCT-ND")
      (timestamp 009725BC)
      ("Source Package" RES,1.00K,0402,1%)
-     (MFG Yaego)
      (Source Digikey)
+     (MFG Yaego)
      (Tolerance 1%)
      (Value 1.00K)
-     (Power 1/16W)
-     ("MFG-PN" "RC0402FR-071KL")))
+     ("MFG-PN" "RC0402FR-071KL")
+     (Power 1/16W)))
    (place R33
     (property 
      ("PCB Footprint" 0402/R)
      ("Source-PN" "311-1.00KLRCT-ND")
      (timestamp 007F41F4)
      ("Source Package" RES,1.00K,0402,1%)
-     (MFG Yaego)
      (Source Digikey)
+     (MFG Yaego)
      (Tolerance 1%)
      (Value 1.00K)
-     (Power 1/16W)
-     ("MFG-PN" "RC0402FR-071KL")))
+     ("MFG-PN" "RC0402FR-071KL")
+     (Power 1/16W)))
    (place R34
     (property 
      ("PCB Footprint" 0402/R)
      ("Source-PN" "311-1.00KLRCT-ND")
      (timestamp 007F4208)
      ("Source Package" RES,1.00K,0402,1%)
-     (MFG Yaego)
      (Source Digikey)
+     (MFG Yaego)
      (Tolerance 1%)
      (Value 1.00K)
-     (Power 1/16W)
-     ("MFG-PN" "RC0402FR-071KL")))
+     ("MFG-PN" "RC0402FR-071KL")
+     (Power 1/16W)))
    (place R68
     (property 
      ("PCB Footprint" 0402/R)
      ("Source-PN" "311-1.00KLRCT-ND")
      (timestamp 0089E2A4)
      ("Source Package" RES,1.00K,0402,1%)
-     (MFG Yaego)
      (Source Digikey)
+     (MFG Yaego)
      (Tolerance 1%)
      (Value 1.00K)
-     (Power 1/16W)
-     ("MFG-PN" "RC0402FR-071KL")))
+     ("MFG-PN" "RC0402FR-071KL")
+     (Power 1/16W)))
    (place R74
     (property 
      ("PCB Footprint" 0402/R)
      ("Source-PN" "311-1.00KLRCT-ND")
      (timestamp 008904F7)
      ("Source Package" RES,1.00K,0402,1%)
-     (MFG Yaego)
      (Source Digikey)
+     (MFG Yaego)
      (Tolerance 1%)
      (Value 1.00K)
-     (Power 1/16W)
-     ("MFG-PN" "RC0402FR-071KL")))
+     ("MFG-PN" "RC0402FR-071KL")
+     (Power 1/16W)))
    (place R75
     (property 
      ("PCB Footprint" 0402/R)
      ("Source-PN" "311-1.00KLRCT-ND")
      (timestamp 0089D99F)
      ("Source Package" RES,1.00K,0402,1%)
-     (MFG Yaego)
      (Source Digikey)
+     (MFG Yaego)
      (Tolerance 1%)
      (Value 1.00K)
-     (Power 1/16W)
-     ("MFG-PN" "RC0402FR-071KL")))
+     ("MFG-PN" "RC0402FR-071KL")
+     (Power 1/16W)))
    (place R50
     (property 
      ("PCB Footprint" 0402/R)
      ("Source-PN" "311-1.00KLRCT-ND")
      (timestamp 0089E652)
      ("Source Package" RES,1.00K,0402,1%)
-     (MFG Yaego)
      (Source Digikey)
+     (MFG Yaego)
      (Tolerance 1%)
      (Value 1.00K)
-     (Power 1/16W)
-     ("MFG-PN" "RC0402FR-071KL")))
+     ("MFG-PN" "RC0402FR-071KL")
+     (Power 1/16W)))
    (place R51
     (property 
      ("PCB Footprint" 0402/R)
      ("Source-PN" "311-1.00KLRCT-ND")
      (timestamp 0089F1BC)
      ("Source Package" RES,1.00K,0402,1%)
-     (MFG Yaego)
      (Source Digikey)
+     (MFG Yaego)
      (Tolerance 1%)
      (Value 1.00K)
-     (Power 1/16W)
-     ("MFG-PN" "RC0402FR-071KL")))
+     ("MFG-PN" "RC0402FR-071KL")
+     (Power 1/16W)))
    (place R52
     (property 
      ("PCB Footprint" 0402/R)
      ("Source-PN" "311-1.00KLRCT-ND")
      (timestamp 0089F425)
      ("Source Package" RES,1.00K,0402,1%)
-     (MFG Yaego)
      (Source Digikey)
+     (MFG Yaego)
      (Tolerance 1%)
      (Value 1.00K)
-     (Power 1/16W)
-     ("MFG-PN" "RC0402FR-071KL")))
+     ("MFG-PN" "RC0402FR-071KL")
+     (Power 1/16W)))
    (place R53
     (property 
      ("PCB Footprint" 0402/R)
      ("Source-PN" "311-1.00KLRCT-ND")
      (timestamp 0089F68E)
      ("Source Package" RES,1.00K,0402,1%)
-     (MFG Yaego)
      (Source Digikey)
+     (MFG Yaego)
      (Tolerance 1%)
      (Value 1.00K)
-     (Power 1/16W)
-     ("MFG-PN" "RC0402FR-071KL")))
+     ("MFG-PN" "RC0402FR-071KL")
+     (Power 1/16W)))
    (place R54
     (property 
      ("PCB Footprint" 0402/R)
      ("Source-PN" "311-1.00KLRCT-ND")
      (timestamp 0089F8F7)
      ("Source Package" RES,1.00K,0402,1%)
-     (MFG Yaego)
      (Source Digikey)
+     (MFG Yaego)
      (Tolerance 1%)
      (Value 1.00K)
-     (Power 1/16W)
-     ("MFG-PN" "RC0402FR-071KL")))
+     ("MFG-PN" "RC0402FR-071KL")
+     (Power 1/16W)))
    (place R55
     (property 
      ("PCB Footprint" 0402/R)
      ("Source-PN" "311-1.00KLRCT-ND")
      (timestamp 0089FB60)
      ("Source Package" RES,1.00K,0402,1%)
-     (MFG Yaego)
      (Source Digikey)
+     (MFG Yaego)
      (Tolerance 1%)
      (Value 1.00K)
-     (Power 1/16W)
-     ("MFG-PN" "RC0402FR-071KL")))
+     ("MFG-PN" "RC0402FR-071KL")
+     (Power 1/16W)))
    (place R23
     (property 
      ("PCB Footprint" 0402/R)
      ("Source-PN" "311-1.00KLRCT-ND")
      (timestamp 007F30A4)
      ("Source Package" RES,1.00K,0402,1%)
-     (MFG Yaego)
      (Source Digikey)
+     (MFG Yaego)
      (Tolerance 1%)
      (Value 1.00K)
-     (Power 1/16W)
-     ("MFG-PN" "RC0402FR-071KL")))
+     ("MFG-PN" "RC0402FR-071KL")
+     (Power 1/16W)))
    (place R24
     (property 
      ("PCB Footprint" 0402/R)
      ("Source-PN" "311-1.00KLRCT-ND")
      (timestamp 007F31E7)
      ("Source Package" RES,1.00K,0402,1%)
-     (MFG Yaego)
      (Source Digikey)
+     (MFG Yaego)
      (Tolerance 1%)
      (Value 1.00K)
-     (Power 1/16W)
-     ("MFG-PN" "RC0402FR-071KL"))))
+     ("MFG-PN" "RC0402FR-071KL")
+     (Power 1/16W))))
   (component CAP,4.7UF,0805,X5R,10V
    (place C140
     (property 
@@ -565,18 +564,6 @@
      (MFG TDK)
      (Value 1.0UF)
      ("MFG-PN" C2012X5R1E105M/0.85)))
-   (place C144
-    (property 
-     (Voltage 25V)
-     ("PCB Footprint" 0805/C)
-     ("Source-PN" "587-1782-1-ND")
-     (timestamp 0096CB8B)
-     (Dielectric X5R)
-     ("Source Package" CAP,4.7UF,0805,X5R,10V)
-     (Source Digikey)
-     (MFG "Taiyo Yuden")
-     (Value 4.7UF)
-     ("MFG-PN" "TMK212BJ475KG-T")))
    (place C145
     (property 
      (Voltage 25V)
@@ -613,186 +600,6 @@
      (MFG TDK)
      (Value 1.0UF)
      ("MFG-PN" C2012X5R1E105M/0.85)))
-   (place C118
-    (property 
-     (Voltage 16V)
-     ("PCB Footprint" 0805/C)
-     ("Source-PN" "445-7638-1-ND")
-     (timestamp 0095EAC4)
-     (Dielectric X5R)
-     ("Source Package" CAP,4.7UF,0805,X5R,10V)
-     (Source Digikey)
-     (MFG TDK)
-     (Value 2.2UF)
-     ("MFG-PN" C2012X5R1C225K/1.25)))
-   (place C119
-    (property 
-     (Voltage 16V)
-     ("PCB Footprint" 0805/C)
-     ("Source-PN" "445-7638-1-ND")
-     (timestamp 00965849)
-     (Dielectric X5R)
-     ("Source Package" CAP,4.7UF,0805,X5R,10V)
-     (Source Digikey)
-     (MFG TDK)
-     (Value 2.2UF)
-     ("MFG-PN" C2012X5R1C225K/1.25)))
-   (place C120
-    (property 
-     (Voltage 25V)
-     ("PCB Footprint" 0805/C)
-     ("Source-PN" "587-1782-1-ND")
-     (timestamp 0095FD78)
-     (Dielectric X5R)
-     ("Source Package" CAP,4.7UF,0805,X5R,10V)
-     (Source Digikey)
-     (MFG "Taiyo Yuden")
-     (Value 4.7UF)
-     ("MFG-PN" "TMK212BJ475KG-T")))
-   (place C121
-    (property 
-     (Voltage 25V)
-     ("PCB Footprint" 0805/C)
-     ("Source-PN" "587-1782-1-ND")
-     (timestamp 00960CB0)
-     (Dielectric X5R)
-     ("Source Package" CAP,4.7UF,0805,X5R,10V)
-     (Source Digikey)
-     (MFG "Taiyo Yuden")
-     (Value 4.7UF)
-     ("MFG-PN" "TMK212BJ475KG-T")))
-   (place C122
-    (property 
-     (Voltage 25V)
-     ("PCB Footprint" 0805/C)
-     ("Source-PN" "587-1782-1-ND")
-     (timestamp 009614D8)
-     (Dielectric X5R)
-     ("Source Package" CAP,4.7UF,0805,X5R,10V)
-     (Source Digikey)
-     (MFG "Taiyo Yuden")
-     (Value 4.7UF)
-     ("MFG-PN" "TMK212BJ475KG-T")))
-   (place C123
-    (property 
-     (Voltage 25V)
-     ("PCB Footprint" 0805/C)
-     ("Source-PN" "587-1782-1-ND")
-     (timestamp 0096185A)
-     (Dielectric X5R)
-     ("Source Package" CAP,4.7UF,0805,X5R,10V)
-     (Source Digikey)
-     (MFG "Taiyo Yuden")
-     (Value 4.7UF)
-     ("MFG-PN" "TMK212BJ475KG-T")))
-   (place C124
-    (property 
-     (Voltage 25V)
-     ("PCB Footprint" 0805/C)
-     ("Source-PN" "587-1782-1-ND")
-     (timestamp 00961BDC)
-     (Dielectric X5R)
-     ("Source Package" CAP,4.7UF,0805,X5R,10V)
-     (Source Digikey)
-     (MFG "Taiyo Yuden")
-     (Value 4.7UF)
-     ("MFG-PN" "TMK212BJ475KG-T")))
-   (place C125
-    (property 
-     (Voltage 16V)
-     ("PCB Footprint" 0805/C)
-     ("Source-PN" "445-7638-1-ND")
-     (timestamp 00965B94)
-     (Dielectric X5R)
-     ("Source Package" CAP,4.7UF,0805,X5R,10V)
-     (Source Digikey)
-     (MFG TDK)
-     (Value 2.2UF)
-     ("MFG-PN" C2012X5R1C225K/1.25)))
-   (place C126
-    (property 
-     (Voltage 16V)
-     ("PCB Footprint" 0805/C)
-     ("Source-PN" "445-7638-1-ND")
-     (timestamp 00965EDF)
-     (Dielectric X5R)
-     ("Source Package" CAP,4.7UF,0805,X5R,10V)
-     (Source Digikey)
-     (MFG TDK)
-     (Value 2.2UF)
-     ("MFG-PN" C2012X5R1C225K/1.25)))
-   (place C127
-    (property 
-     (Voltage 16V)
-     ("PCB Footprint" 0805/C)
-     ("Source-PN" "445-7638-1-ND")
-     (timestamp 0096622A)
-     (Dielectric X5R)
-     ("Source Package" CAP,4.7UF,0805,X5R,10V)
-     (Source Digikey)
-     (MFG TDK)
-     (Value 2.2UF)
-     ("MFG-PN" C2012X5R1C225K/1.25)))
-   (place C128
-    (property 
-     (Voltage 25V)
-     ("PCB Footprint" 0805/C)
-     ("Source-PN" "587-1782-1-ND")
-     (timestamp 00963B96)
-     (Dielectric X5R)
-     ("Source Package" CAP,4.7UF,0805,X5R,10V)
-     (Source Digikey)
-     (MFG "Taiyo Yuden")
-     (Value 4.7UF)
-     ("MFG-PN" "TMK212BJ475KG-T")))
-   (place C129
-    (property 
-     (Voltage 25V)
-     ("PCB Footprint" 0805/C)
-     ("Source-PN" "587-1782-1-ND")
-     (timestamp 00963D6C)
-     (Dielectric X5R)
-     ("Source Package" CAP,4.7UF,0805,X5R,10V)
-     (Source Digikey)
-     (MFG "Taiyo Yuden")
-     (Value 4.7UF)
-     ("MFG-PN" "TMK212BJ475KG-T")))
-   (place C130
-    (property 
-     (Voltage 16V)
-     ("PCB Footprint" 0805/C)
-     ("Source-PN" "445-7638-1-ND")
-     (timestamp 00966575)
-     (Dielectric X5R)
-     ("Source Package" CAP,4.7UF,0805,X5R,10V)
-     (Source Digikey)
-     (MFG TDK)
-     (Value 2.2UF)
-     ("MFG-PN" C2012X5R1C225K/1.25)))
-   (place C131
-    (property 
-     (Voltage 16V)
-     ("PCB Footprint" 0805/C)
-     ("Source-PN" "445-7632-1-ND")
-     (timestamp 009668C0)
-     (Dielectric X5R)
-     ("Source Package" CAP,4.7UF,0805,X5R,10V)
-     (Source Digikey)
-     (MFG TDK)
-     (Value 1.0UF)
-     ("MFG-PN" C2012X5R1C105K/0.85)))
-   (place C132
-    (property 
-     (Voltage 25V)
-     ("PCB Footprint" 0805/C)
-     ("Source-PN" "587-1782-1-ND")
-     (timestamp 0096CF15)
-     (Dielectric X5R)
-     ("Source Package" CAP,4.7UF,0805,X5R,10V)
-     (Source Digikey)
-     (MFG "Taiyo Yuden")
-     (Value 4.7UF)
-     ("MFG-PN" "TMK212BJ475KG-T")))
    (place C133
     (property 
      (Voltage 16V)
@@ -880,7 +687,7 @@
   (component SPEAKER
    (place J4
     (property 
-     ("PCB Footprint" SPEAKER)
+     ("PCB Footprint" "DF13-2P-1.25DSA")
      (timestamp 0003BE31)
      ("Source Package" SPEAKER)
      (Value SPEAKER))))
@@ -891,12 +698,12 @@
      ("Source-PN" x)
      (timestamp 000392A3)
      ("Source Package" RES,1.00,0402,1%)
-     (MFG x)
      (Source x)
+     (MFG x)
      (Tolerance 1%)
      (Value 1.00)
-     (Power 1/16W)
-     ("MFG-PN" x))))
+     ("MFG-PN" x)
+     (Power 1/16W))))
   (component "LCD-MFG-G240160DPSW-3N-E"
    (place U6
     (property 
@@ -913,8 +720,8 @@
      (timestamp 00972664)
      (Dielectric X7R)
      ("Source Package" CAP,2.2NF,0402,X7R,50V)
-     (Source Digikey)
      (MFG TDK)
+     (Source Digikey)
      (Value 2.2NF)
      ("MFG-PN" C1005X7R1H222K)))
    (place C37
@@ -925,8 +732,8 @@
      (timestamp 0084198C)
      (Dielectric X7R)
      ("Source Package" CAP,2.2NF,0402,X7R,50V)
-     (Source Digikey)
      (MFG TDK)
+     (Source Digikey)
      (Value 2.2NF)
      ("MFG-PN" C1005X7R1H222K)))
    (place C38
@@ -937,8 +744,8 @@
      (timestamp 00841910)
      (Dielectric X7R)
      ("Source Package" CAP,2.2NF,0402,X7R,50V)
-     (Source Digikey)
      (MFG TDK)
+     (Source Digikey)
      (Value 2.2NF)
      ("MFG-PN" C1005X7R1H222K))))
   (component USB_MICRO_B
@@ -948,8 +755,8 @@
      ("Source-PN" "H11634TR-ND")
      (timestamp 000002B5)
      ("Source Package" USB_MICRO_B)
-     (Source Digikey)
      (MFG Hirose)
+     (Source Digikey)
      (Value USB_MICRO_B)
      ("MFG-PN" "ZX62-B-5PA(11)"))))
   (component CAP,8PF,0402,COG,50V
@@ -961,8 +768,8 @@
      (timestamp 000525B7)
      (Dielectric NPO)
      ("Source Package" CAP,8PF,0402,COG,50V)
-     (MFG TDK)
      (Source Digikey)
+     (MFG TDK)
      (Value 8PF)
      ("MFG-PN" C1005C0G1H080D)))
    (place C3
@@ -973,8 +780,8 @@
      (timestamp 0005282F)
      (Dielectric NPO)
      ("Source Package" CAP,8PF,0402,COG,50V)
-     (MFG TDK)
      (Source Digikey)
+     (MFG TDK)
      (Value 8PF)
      ("MFG-PN" C1005C0G1H080D))))
   (component IND,15u,920mA
@@ -984,8 +791,8 @@
      ("Source-PN" "SDR0403-150MLTR-ND")
      (timestamp 0000EF78)
      ("Source Package" IND,15u,920mA)
-     (MFG Bournes)
      (Source Digikey)
+     (MFG Bournes)
      (Value IND,15u,920mA)
      ("MFG-PN" "SDR0403-150ML"))))
   (component MDDR1,32MX16,VFBGA
@@ -995,8 +802,8 @@
      ("Source-PN" "MT46H32M16LFBF-6 IT:C")
      (timestamp 00056A06)
      ("Source Package" MDDR1,32MX16,VFBGA)
-     (MFG Micron)
      (Source "NU Horizons")
+     (MFG Micron)
      (Value MDDR1,32MX16,VFBGA)
      ("MFG-PN" MT46H32M16LF))))
   (component CAP,10UF,0805,X5R,6.3V
@@ -1019,18 +826,8 @@
      ("Source-PN" "ASI-T-270EA2AN/D")
      (timestamp 0093C590)
      ("Source Package" "LCD-ASI-2.7-3.0-DISPLAY")
-     (Source ASI)
      (MFG ASI)
-     (Value "LCD-ASI-2.7-3.0-DISPLAY")
-     ("MFG-PN" "ASI-T-270EA2AN/D")))
-   (place J9
-    (property 
-     ("PCB Footprint" "FFC-0.6-DUAL-ROW-39")
-     ("Source-PN" "ASI-T-270EA2AN/D")
-     (timestamp 009508D5)
-     ("Source Package" "LCD-ASI-2.7-3.0-DISPLAY")
      (Source ASI)
-     (MFG ASI)
      (Value "LCD-ASI-2.7-3.0-DISPLAY")
      ("MFG-PN" "ASI-T-270EA2AN/D"))))
   (component FERRITE
@@ -1047,8 +844,8 @@
      ("Source-PN" "445-1560-1-ND")
      (timestamp 0083F5D4)
      ("Source Package" FERRITE)
-     (MFG TDK)
      (Source Digikey)
+     (MFG TDK)
      (Value FERRITE)
      ("MFG-PN" MMZ2012Y152B)))
    (place L4
@@ -1057,17 +854,95 @@
      ("Source-PN" "445-1560-1-ND")
      (timestamp 00840557)
      ("Source Package" FERRITE)
-     (MFG TDK)
      (Source Digikey)
+     (MFG TDK)
      (Value FERRITE)
      ("MFG-PN" MMZ2012Y152B))))
-  (component LMV321/SO
-   (place U22
+  (component RES,47.0K,0402,1%
+   (place R102
     (property 
-     ("PCB Footprint" "SOT-25")
-     (timestamp 00914505)
-     ("Source Package" LMV321/SO)
-     (Value LMV321/SO))))
+     ("PCB Footprint" 0402/R)
+     ("Source-PN" "311-47.0KLRCT-ND")
+     (timestamp 009AF7FF)
+     ("Source Package" RES,47.0K,0402,1%)
+     (MFG Yageo)
+     (Source Digikey)
+     (Tolerance 1%)
+     (Value 47.0K)
+     (Power 1/16W)
+     ("MFG-PN" "RC0402FR-0747KL")))
+   (place R66
+    (property 
+     ("PCB Footprint" 0402/R)
+     ("Source-PN" "311-47.0KLRCT-ND")
+     (timestamp 0088AAC5)
+     ("Source Package" RES,47.0K,0402,1%)
+     (MFG Yageo)
+     (Source Digikey)
+     (Tolerance 1%)
+     (Value 47.0K)
+     (Power 1/16W)
+     ("MFG-PN" "RC0402FR-0747KL")))
+   (place R44
+    (property 
+     ("PCB Footprint" 0402/R)
+     ("Source-PN" "311-47.0KLRCT-ND")
+     (timestamp 00881E8C)
+     ("Source Package" RES,47.0K,0402,1%)
+     (MFG Yageo)
+     (Source Digikey)
+     (Tolerance 1%)
+     (Value 47.0K)
+     (Power 1/16W)
+     ("MFG-PN" "RC0402FR-0747KL")))
+   (place R46
+    (property 
+     ("PCB Footprint" 0402/R)
+     ("Source-PN" "311-47.0KLRCT-ND")
+     (timestamp 000BBAFC)
+     ("Source Package" RES,47.0K,0402,1%)
+     (MFG Yageo)
+     (Source Digikey)
+     (Tolerance 1%)
+     (Value 47.0K)
+     (Power 1/16W)
+     ("MFG-PN" "RC0402FR-0747KL")))
+   (place R78
+    (property 
+     ("PCB Footprint" 0402/R)
+     ("Source-PN" "311-47.0KLRCT-ND")
+     (timestamp 00875289)
+     ("Source Package" RES,47.0K,0402,1%)
+     (MFG Yageo)
+     (Source Digikey)
+     (Tolerance 1%)
+     (Value 47.0K)
+     (Power 1/16W)
+     ("MFG-PN" "RC0402FR-0747KL")))
+   (place R47
+    (property 
+     ("PCB Footprint" 0402/R)
+     ("Source-PN" "311-47.0KLRCT-ND")
+     (timestamp 00881E17)
+     ("Source Package" RES,47.0K,0402,1%)
+     (MFG Yageo)
+     (Source Digikey)
+     (Tolerance 1%)
+     (Value 47.0K)
+     (Power 1/16W)
+     ("MFG-PN" "RC0402FR-0747KL")))
+   (place R83
+    (property 
+     ("PCB Footprint" 0402/R)
+     ("Source-PN" "311-47.0KLRCT-ND")
+     (timestamp 008E00B5)
+     ("Source Package" RES,47.0K,0402,1%)
+     (MFG Yageo)
+     (Source Digikey)
+     (Tolerance 1%)
+     (Value 47.0K)
+     (Power 1/16W)
+     ("MFG-PN" "RC0402FR-0747KL"))))
   (component "DIODE-ESD-DUAL"
    (place U13
     (property 
@@ -1075,8 +950,8 @@
      ("Source-PN" "568-4041-1-ND")
      (timestamp 007F529C)
      ("Source Package" "DIODE-ESD-DUAL")
-     (Source Digikey)
      (MFG NXP)
+     (Source Digikey)
      (Value "DIODE-ESD-DUAL")
      ("MFG-PN" PESD3V3L2BT,215)))
    (place U15
@@ -1085,8 +960,8 @@
      ("Source-PN" "568-4041-1-ND")
      (timestamp 00846969)
      ("Source Package" "DIODE-ESD-DUAL")
-     (Source Digikey)
      (MFG NXP)
+     (Source Digikey)
      (Value "DIODE-ESD-DUAL")
      ("MFG-PN" PESD3V3L2BT,215)))
    (place U16
@@ -1095,8 +970,8 @@
      ("Source-PN" "568-4041-1-ND")
      (timestamp 00845CB8)
      ("Source Package" "DIODE-ESD-DUAL")
-     (Source Digikey)
      (MFG NXP)
+     (Source Digikey)
      (Value "DIODE-ESD-DUAL")
      ("MFG-PN" PESD3V3L2BT,215)))
    (place U17
@@ -1105,8 +980,8 @@
      ("Source-PN" "568-4041-1-ND")
      (timestamp 00846085)
      ("Source Package" "DIODE-ESD-DUAL")
-     (Source Digikey)
      (MFG NXP)
+     (Source Digikey)
      (Value "DIODE-ESD-DUAL")
      ("MFG-PN" PESD3V3L2BT,215)))
    (place U18
@@ -1115,8 +990,8 @@
      ("Source-PN" "568-4041-1-ND")
      (timestamp 008462C1)
      ("Source Package" "DIODE-ESD-DUAL")
-     (Source Digikey)
      (MFG NXP)
+     (Source Digikey)
      (Value "DIODE-ESD-DUAL")
      ("MFG-PN" PESD3V3L2BT,215)))
    (place U19
@@ -1125,8 +1000,8 @@
      ("Source-PN" "568-4041-1-ND")
      (timestamp 008DE45F)
      ("Source Package" "DIODE-ESD-DUAL")
-     (Source Digikey)
      (MFG NXP)
+     (Source Digikey)
      (Value "DIODE-ESD-DUAL")
      ("MFG-PN" PESD3V3L2BT,215)))
    (place U20
@@ -1135,8 +1010,8 @@
      ("Source-PN" "568-4041-1-ND")
      (timestamp 008E0FC3)
      ("Source Package" "DIODE-ESD-DUAL")
-     (Source Digikey)
      (MFG NXP)
+     (Source Digikey)
      (Value "DIODE-ESD-DUAL")
      ("MFG-PN" PESD3V3L2BT,215)))
    (place U8
@@ -1145,8 +1020,8 @@
      ("Source-PN" "568-4041-1-ND")
      (timestamp 008400DB)
      ("Source Package" "DIODE-ESD-DUAL")
-     (Source Digikey)
      (MFG NXP)
+     (Source Digikey)
      (Value "DIODE-ESD-DUAL")
      ("MFG-PN" PESD3V3L2BT,215)))
    (place U9
@@ -1155,8 +1030,8 @@
      ("Source-PN" "568-4041-1-ND")
      (timestamp 007F2A99)
      ("Source Package" "DIODE-ESD-DUAL")
-     (Source Digikey)
      (MFG NXP)
+     (Source Digikey)
      (Value "DIODE-ESD-DUAL")
      ("MFG-PN" PESD3V3L2BT,215)))
    (place U10
@@ -1165,8 +1040,8 @@
      ("Source-PN" "568-4041-1-ND")
      (timestamp 00839DA4)
      ("Source Package" "DIODE-ESD-DUAL")
-     (Source Digikey)
      (MFG NXP)
+     (Source Digikey)
      (Value "DIODE-ESD-DUAL")
      ("MFG-PN" PESD3V3L2BT,215)))
    (place U11
@@ -1175,8 +1050,8 @@
      ("Source-PN" "568-4041-1-ND")
      (timestamp 0084510C)
      ("Source Package" "DIODE-ESD-DUAL")
-     (Source Digikey)
      (MFG NXP)
+     (Source Digikey)
      (Value "DIODE-ESD-DUAL")
      ("MFG-PN" PESD3V3L2BT,215)))
    (place U12
@@ -1185,107 +1060,10 @@
      ("Source-PN" "568-4041-1-ND")
      (timestamp 007F0D80)
      ("Source Package" "DIODE-ESD-DUAL")
-     (Source Digikey)
      (MFG NXP)
+     (Source Digikey)
      (Value "DIODE-ESD-DUAL")
      ("MFG-PN" PESD3V3L2BT,215))))
-  (component RES,47.0K,0402,1%
-   (place R89
-    (property 
-     ("PCB Footprint" 0402/R)
-     ("Source-PN" "311-47.0KLRCT-ND")
-     (timestamp 009219C9)
-     ("Source Package" RES,47.0K,0402,1%)
-     (Source Digikey)
-     (MFG Yageo)
-     (Tolerance 1%)
-     (Value 47.0K)
-     ("MFG-PN" "RC0402FR-0747KL")
-     (Power 1/16W)))
-   (place R102
-    (property 
-     ("PCB Footprint" 0402/R)
-     ("Source-PN" "311-47.0KLRCT-ND")
-     (timestamp 009AF7FF)
-     ("Source Package" RES,47.0K,0402,1%)
-     (Source Digikey)
-     (MFG Yageo)
-     (Tolerance 1%)
-     (Value 47.0K)
-     ("MFG-PN" "RC0402FR-0747KL")
-     (Power 1/16W)))
-   (place R66
-    (property 
-     ("PCB Footprint" 0402/R)
-     ("Source-PN" "311-47.0KLRCT-ND")
-     (timestamp 0088AAC5)
-     ("Source Package" RES,47.0K,0402,1%)
-     (Source Digikey)
-     (MFG Yageo)
-     (Tolerance 1%)
-     (Value 47.0K)
-     ("MFG-PN" "RC0402FR-0747KL")
-     (Power 1/16W)))
-   (place R44
-    (property 
-     ("PCB Footprint" 0402/R)
-     ("Source-PN" "311-47.0KLRCT-ND")
-     (timestamp 00881E8C)
-     ("Source Package" RES,47.0K,0402,1%)
-     (Source Digikey)
-     (MFG Yageo)
-     (Tolerance 1%)
-     (Value 47.0K)
-     ("MFG-PN" "RC0402FR-0747KL")
-     (Power 1/16W)))
-   (place R46
-    (property 
-     ("PCB Footprint" 0402/R)
-     ("Source-PN" "311-47.0KLRCT-ND")
-     (timestamp 000BBAFC)
-     ("Source Package" RES,47.0K,0402,1%)
-     (Source Digikey)
-     (MFG Yageo)
-     (Tolerance 1%)
-     (Value 47.0K)
-     ("MFG-PN" "RC0402FR-0747KL")
-     (Power 1/16W)))
-   (place R78
-    (property 
-     ("PCB Footprint" 0402/R)
-     ("Source-PN" "311-47.0KLRCT-ND")
-     (timestamp 00875289)
-     ("Source Package" RES,47.0K,0402,1%)
-     (Source Digikey)
-     (MFG Yageo)
-     (Tolerance 1%)
-     (Value 47.0K)
-     ("MFG-PN" "RC0402FR-0747KL")
-     (Power 1/16W)))
-   (place R47
-    (property 
-     ("PCB Footprint" 0402/R)
-     ("Source-PN" "311-47.0KLRCT-ND")
-     (timestamp 00881E17)
-     ("Source Package" RES,47.0K,0402,1%)
-     (Source Digikey)
-     (MFG Yageo)
-     (Tolerance 1%)
-     (Value 47.0K)
-     ("MFG-PN" "RC0402FR-0747KL")
-     (Power 1/16W)))
-   (place R83
-    (property 
-     ("PCB Footprint" 0402/R)
-     ("Source-PN" "311-47.0KLRCT-ND")
-     (timestamp 008E00B5)
-     ("Source Package" RES,47.0K,0402,1%)
-     (Source Digikey)
-     (MFG Yageo)
-     (Tolerance 1%)
-     (Value 47.0K)
-     ("MFG-PN" "RC0402FR-0747KL")
-     (Power 1/16W))))
   (component RES,10.0K,0402,1%
    (place R25
     (property 
@@ -1293,168 +1071,156 @@
      ("Source-PN" "311-10.0KLRCT-ND")
      (timestamp 0084125E)
      ("Source Package" RES,10.0K,0402,1%)
-     (MFG Digikey)
      (Source Digikey)
+     (MFG Digikey)
      (Tolerance 1%)
      (Value 10.0K)
-     (Power 1/16W)
-     ("MFG-PN" "RC0402FR-0710KL")))
+     ("MFG-PN" "RC0402FR-0710KL")
+     (Power 1/16W)))
    (place R28
     (property 
      ("PCB Footprint" 0402/R)
      ("Source-PN" "311-10.0KLRCT-ND")
      (timestamp 0084160E)
      ("Source Package" RES,10.0K,0402,1%)
-     (MFG Digikey)
      (Source Digikey)
+     (MFG Digikey)
      (Tolerance 1%)
      (Value 10.0K)
-     (Power 1/16W)
-     ("MFG-PN" "RC0402FR-0710KL")))
+     ("MFG-PN" "RC0402FR-0710KL")
+     (Power 1/16W)))
    (place R3
     (property 
      ("PCB Footprint" 0402/R)
      ("Source-PN" "311-10.0KLRCT-ND")
      (timestamp 0009685A)
      ("Source Package" RES,10.0K,0402,1%)
-     (MFG Digikey)
      (Source Digikey)
+     (MFG Digikey)
      (Tolerance 1%)
      (Value 10.0K)
-     (Power 1/16W)
-     ("MFG-PN" "RC0402FR-0710KL")))
+     ("MFG-PN" "RC0402FR-0710KL")
+     (Power 1/16W)))
    (place R4
     (property 
      ("PCB Footprint" 0402/R)
      ("Source-PN" "311-10.0KLRCT-ND")
      (timestamp 00096BC4)
      ("Source Package" RES,10.0K,0402,1%)
-     (MFG Digikey)
      (Source Digikey)
+     (MFG Digikey)
      (Tolerance 1%)
      (Value 10.0K)
-     (Power 1/16W)
-     ("MFG-PN" "RC0402FR-0710KL")))
+     ("MFG-PN" "RC0402FR-0710KL")
+     (Power 1/16W)))
    (place R5
     (property 
      ("PCB Footprint" 0402/R)
      ("Source-PN" "311-10.0KLRCT-ND")
      (timestamp 00096B19)
      ("Source Package" RES,10.0K,0402,1%)
-     (MFG Digikey)
      (Source Digikey)
+     (MFG Digikey)
      (Tolerance 1%)
      (Value 10.0K)
-     (Power 1/16W)
-     ("MFG-PN" "RC0402FR-0710KL")))
+     ("MFG-PN" "RC0402FR-0710KL")
+     (Power 1/16W)))
    (place R6
     (property 
      ("PCB Footprint" 0402/R)
      ("Source-PN" "311-10.0KLRCT-ND")
      (timestamp 004B6EF2)
      ("Source Package" RES,10.0K,0402,1%)
-     (MFG Digikey)
      (Source Digikey)
+     (MFG Digikey)
      (Tolerance 1%)
      (Value 10.0K)
-     (Power 1/16W)
-     ("MFG-PN" "RC0402FR-0710KL")))
+     ("MFG-PN" "RC0402FR-0710KL")
+     (Power 1/16W)))
    (place R69
     (property 
      ("PCB Footprint" 0402/R)
      ("Source-PN" "311-10.0KLRCT-ND")
      (timestamp 0088CA02)
      ("Source Package" RES,10.0K,0402,1%)
-     (MFG Digikey)
      (Source Digikey)
+     (MFG Digikey)
      (Tolerance 1%)
      (Value 10.0K)
-     (Power 1/16W)
-     ("MFG-PN" "RC0402FR-0710KL")))
+     ("MFG-PN" "RC0402FR-0710KL")
+     (Power 1/16W)))
    (place R70
     (property 
      ("PCB Footprint" 0402/R)
      ("Source-PN" "311-10.0KLRCT-ND")
      (timestamp 00893D60)
      ("Source Package" RES,10.0K,0402,1%)
-     (MFG Digikey)
      (Source Digikey)
+     (MFG Digikey)
      (Tolerance 1%)
      (Value 10.0K)
-     (Power 1/16W)
-     ("MFG-PN" "RC0402FR-0710KL")))
+     ("MFG-PN" "RC0402FR-0710KL")
+     (Power 1/16W)))
    (place R71
     (property 
      ("PCB Footprint" 0402/R)
      ("Source-PN" "311-10.0KLRCT-ND")
      (timestamp 008950A1)
      ("Source Package" RES,10.0K,0402,1%)
-     (MFG Digikey)
      (Source Digikey)
+     (MFG Digikey)
      (Tolerance 1%)
      (Value 10.0K)
-     (Power 1/16W)
-     ("MFG-PN" "RC0402FR-0710KL")))
+     ("MFG-PN" "RC0402FR-0710KL")
+     (Power 1/16W)))
    (place R76
     (property 
      ("PCB Footprint" 0402/R)
      ("Source-PN" "311-10.0KLRCT-ND")
      (timestamp 008919CD)
      ("Source Package" RES,10.0K,0402,1%)
-     (MFG Digikey)
      (Source Digikey)
+     (MFG Digikey)
      (Tolerance 1%)
      (Value 10.0K)
-     (Power 1/16W)
-     ("MFG-PN" "RC0402FR-0710KL")))
+     ("MFG-PN" "RC0402FR-0710KL")
+     (Power 1/16W)))
    (place R77
     (property 
      ("PCB Footprint" 0402/R)
      ("Source-PN" "311-10.0KLRCT-ND")
      (timestamp 0088E281)
      ("Source Package" RES,10.0K,0402,1%)
-     (MFG Digikey)
      (Source Digikey)
+     (MFG Digikey)
      (Tolerance 1%)
      (Value 10.0K)
-     (Power 1/16W)
-     ("MFG-PN" "RC0402FR-0710KL")))
+     ("MFG-PN" "RC0402FR-0710KL")
+     (Power 1/16W)))
    (place R80
     (property 
      ("PCB Footprint" 0402/R)
      ("Source-PN" "311-10.0KLRCT-ND")
      (timestamp 008DB533)
      ("Source Package" RES,10.0K,0402,1%)
-     (MFG Digikey)
      (Source Digikey)
+     (MFG Digikey)
      (Tolerance 1%)
      (Value "NM(10.0K)")
-     (Power 1/16W)
-     ("MFG-PN" "RC0402FR-0710KL")))
+     ("MFG-PN" "RC0402FR-0710KL")
+     (Power 1/16W)))
    (place R81
     (property 
      ("PCB Footprint" 0402/R)
      ("Source-PN" "311-10.0KLRCT-ND")
      (timestamp 008DBA20)
      ("Source Package" RES,10.0K,0402,1%)
-     (MFG Digikey)
      (Source Digikey)
+     (MFG Digikey)
      (Tolerance 1%)
      (Value 10.0K)
-     (Power 1/16W)
-     ("MFG-PN" "RC0402FR-0710KL")))
-   (place R88
-    (property 
-     ("PCB Footprint" 0402/R)
-     ("Source-PN" "311-10.0KLRCT-ND")
-     (timestamp 0092015F)
-     ("Source Package" RES,10.0K,0402,1%)
-     (MFG Digikey)
-     (Source Digikey)
-     (Tolerance 1%)
-     (Value 10.0K)
-     (Power 1/16W)
-     ("MFG-PN" "RC0402FR-0710KL"))))
+     ("MFG-PN" "RC0402FR-0710KL")
+     (Power 1/16W))))
   (component DIODE,BAT54S
    (place D1
     (property 
@@ -1462,8 +1228,8 @@
      ("Source-PN" "BAT54SFSTR-ND")
      (timestamp 0084238F)
      ("Source Package" DIODE,BAT54S)
-     (Source Digikey)
      (MFG Fairchild)
+     (Source Digikey)
      (Value BAT54S)
      ("MFG-PN" BAT54C)))
    (place D2
@@ -1472,8 +1238,8 @@
      ("Source-PN" "BAT54SFSTR-ND")
      (timestamp 00842C20)
      ("Source Package" DIODE,BAT54S)
-     (Source Digikey)
      (MFG Fairchild)
+     (Source Digikey)
      (Value BAT54S)
      ("MFG-PN" BAT54C)))
    (place D3
@@ -1482,8 +1248,8 @@
      ("Source-PN" "BAT54SFSTR-ND")
      (timestamp 00843878)
      ("Source Package" DIODE,BAT54S)
-     (Source Digikey)
      (MFG Fairchild)
+     (Source Digikey)
      (Value BAT54S)
      ("MFG-PN" BAT54C)))
    (place D4
@@ -1492,8 +1258,8 @@
      ("Source-PN" "BAT54SFSTR-ND")
      (timestamp 00843BB0)
      ("Source Package" DIODE,BAT54S)
-     (Source Digikey)
      (MFG Fairchild)
+     (Source Digikey)
      (Value BAT54S)
      ("MFG-PN" BAT54C)))
    (place D6
@@ -1502,8 +1268,8 @@
      ("Source-PN" "BAT54SFSTR-ND")
      (timestamp 008449E3)
      ("Source Package" DIODE,BAT54S)
-     (Source Digikey)
      (MFG Fairchild)
+     (Source Digikey)
      (Value BAT54S)
      ("MFG-PN" BAT54C))))
   (component TPS63020
@@ -1513,8 +1279,8 @@
      ("Source-PN" TPS63020DSJ)
      (timestamp 004A5E8F)
      ("Source Package" TPS63020)
-     (Source TI)
      (MFG TI)
+     (Source TI)
      (Value TPS63020)
      ("MFG-PN" TPS63020DSJR))))
   (component RES,150K,0402,1%
@@ -1524,12 +1290,12 @@
      ("Source-PN" "311-150KLRCT-ND")
      (timestamp 004A5E31)
      ("Source Package" RES,150K,0402,1%)
-     (Source Digikey)
      (MFG Yaego)
+     (Source Digikey)
      (Tolerance 1%)
      (Value 150K)
-     ("MFG-PN" "RC0402FR-07150KL")
-     (Power 1/16W))))
+     (Power 1/16W)
+     ("MFG-PN" "RC0402FR-07150KL"))))
   (component CAP,15PF,0402,COG,50V
    (place C4
     (property 
@@ -1556,8 +1322,8 @@
      ("Source-PN" "568-4510-2-ND")
      (timestamp 008921F7)
      ("Source Package" MMBT3904)
-     (Source Digikey)
      (MFG NXP)
+     (Source Digikey)
      (Value MMBT3904)
      ("MFG-PN" MMBT3904,215)))
    (place Q8
@@ -1566,8 +1332,8 @@
      ("Source-PN" "568-4510-2-ND")
      (timestamp 00892343)
      ("Source Package" MMBT3904)
-     (Source Digikey)
      (MFG NXP)
+     (Source Digikey)
      (Value MMBT3904)
      ("MFG-PN" MMBT3904,215)))
    (place Q9
@@ -1576,18 +1342,8 @@
      ("Source-PN" "568-4510-2-ND")
      (timestamp 0086FE17)
      ("Source Package" MMBT3904)
-     (Source Digikey)
      (MFG NXP)
-     (Value MMBT3904)
-     ("MFG-PN" MMBT3904,215)))
-   (place Q11
-    (property 
-     ("PCB Footprint" "SOT95P230X109-3N")
-     ("Source-PN" "568-4510-2-ND")
-     (timestamp 009216B9)
-     ("Source Package" MMBT3904)
      (Source Digikey)
-     (MFG NXP)
      (Value MMBT3904)
      ("MFG-PN" MMBT3904,215)))
    (place Q12
@@ -1596,8 +1352,8 @@
      ("Source-PN" "568-4510-2-ND")
      (timestamp 009725EA)
      ("Source Package" MMBT3904)
-     (Source Digikey)
      (MFG NXP)
+     (Source Digikey)
      (Value MMBT3904)
      ("MFG-PN" MMBT3904,215)))
    (place Q3
@@ -1606,8 +1362,8 @@
      ("Source-PN" "568-4510-2-ND")
      (timestamp 004AB229)
      ("Source Package" MMBT3904)
-     (Source Digikey)
      (MFG NXP)
+     (Source Digikey)
      (Value MMBT3904)
      ("MFG-PN" MMBT3904,215)))
    (place Q4
@@ -1616,8 +1372,8 @@
      ("Source-PN" "568-4510-2-ND")
      (timestamp 007F700E)
      ("Source Package" MMBT3904)
-     (Source Digikey)
      (MFG NXP)
+     (Source Digikey)
      (Value MMBT3904)
      ("MFG-PN" MMBT3904,215)))
    (place Q5
@@ -1626,8 +1382,8 @@
      ("Source-PN" "568-4510-2-ND")
      (timestamp 0088807F)
      ("Source Package" MMBT3904)
-     (Source Digikey)
      (MFG NXP)
+     (Source Digikey)
      (Value MMBT3904)
      ("MFG-PN" MMBT3904,215))))
   (component DIODE,BAT54C
@@ -1637,8 +1393,8 @@
      ("Source-PN" "BAT54CFSTR-ND")
      (timestamp 008B0DC7)
      ("Source Package" DIODE,BAT54C)
-     (Source Digikey)
      (MFG Fairchild)
+     (Source Digikey)
      (Value BAT54C)
      ("MFG-PN" BAT54C)))
    (place D21
@@ -1647,8 +1403,8 @@
      ("Source-PN" "BAT54CFSTR-ND")
      (timestamp 008B0EA3)
      ("Source Package" DIODE,BAT54C)
-     (Source Digikey)
      (MFG Fairchild)
+     (Source Digikey)
      (Value BAT54C)
      ("MFG-PN" BAT54C)))
    (place D22
@@ -1657,8 +1413,8 @@
      ("Source-PN" "BAT54CFSTR-ND")
      (timestamp 008B0E03)
      ("Source Package" DIODE,BAT54C)
-     (Source Digikey)
      (MFG Fairchild)
+     (Source Digikey)
      (Value BAT54C)
      ("MFG-PN" BAT54C)))
    (place D25
@@ -1667,8 +1423,8 @@
      ("Source-PN" "BAT54CFSTR-ND")
      (timestamp 008B093F)
      ("Source Package" DIODE,BAT54C)
-     (Source Digikey)
      (MFG Fairchild)
+     (Source Digikey)
      (Value BAT54C)
      ("MFG-PN" BAT54C)))
    (place D26
@@ -1677,8 +1433,8 @@
      ("Source-PN" "BAT54CFSTR-ND")
      (timestamp 008B0A1B)
      ("Source Package" DIODE,BAT54C)
-     (Source Digikey)
      (MFG Fairchild)
+     (Source Digikey)
      (Value BAT54C)
      ("MFG-PN" BAT54C)))
    (place D27
@@ -1687,8 +1443,8 @@
      ("Source-PN" "BAT54CFSTR-ND")
      (timestamp 008B097B)
      ("Source Package" DIODE,BAT54C)
-     (Source Digikey)
      (MFG Fairchild)
+     (Source Digikey)
      (Value BAT54C)
      ("MFG-PN" BAT54C)))
    (place D29
@@ -1697,8 +1453,8 @@
      ("Source-PN" "BAT54CFSTR-ND")
      (timestamp 008B04D1)
      ("Source Package" DIODE,BAT54C)
-     (Source Digikey)
      (MFG Fairchild)
+     (Source Digikey)
      (Value BAT54C)
      ("MFG-PN" BAT54C)))
    (place D30
@@ -1707,8 +1463,8 @@
      ("Source-PN" "BAT54CFSTR-ND")
      (timestamp 008B05AD)
      ("Source Package" DIODE,BAT54C)
-     (Source Digikey)
      (MFG Fairchild)
+     (Source Digikey)
      (Value BAT54C)
      ("MFG-PN" BAT54C)))
    (place D31
@@ -1717,8 +1473,8 @@
      ("Source-PN" "BAT54CFSTR-ND")
      (timestamp 008B050D)
      ("Source Package" DIODE,BAT54C)
-     (Source Digikey)
      (MFG Fairchild)
+     (Source Digikey)
      (Value BAT54C)
      ("MFG-PN" BAT54C)))
    (place D32
@@ -1727,8 +1483,8 @@
      ("Source-PN" "BAT54CFSTR-ND")
      (timestamp 0090FEC0)
      ("Source Package" DIODE,BAT54C)
-     (Source Digikey)
      (MFG Fairchild)
+     (Source Digikey)
      (Value BAT54C)
      ("MFG-PN" BAT54C)))
    (place D33
@@ -1737,8 +1493,8 @@
      ("Source-PN" "BAT54CFSTR-ND")
      (timestamp 008A7FCE)
      ("Source Package" DIODE,BAT54C)
-     (Source Digikey)
      (MFG Fairchild)
+     (Source Digikey)
      (Value BAT54C)
      ("MFG-PN" BAT54C)))
    (place D34
@@ -1747,8 +1503,8 @@
      ("Source-PN" "BAT54CFSTR-ND")
      (timestamp 008A9AFF)
      ("Source Package" DIODE,BAT54C)
-     (Source Digikey)
      (MFG Fairchild)
+     (Source Digikey)
      (Value BAT54C)
      ("MFG-PN" BAT54C)))
    (place D35
@@ -1757,8 +1513,8 @@
      ("Source-PN" "BAT54CFSTR-ND")
      (timestamp 008AC108)
      ("Source Package" DIODE,BAT54C)
-     (Source Digikey)
      (MFG Fairchild)
+     (Source Digikey)
      (Value BAT54C)
      ("MFG-PN" BAT54C)))
    (place D36
@@ -1767,8 +1523,8 @@
      ("Source-PN" "BAT54CFSTR-ND")
      (timestamp 0090FDC4)
      ("Source Package" DIODE,BAT54C)
-     (Source Digikey)
      (MFG Fairchild)
+     (Source Digikey)
      (Value BAT54C)
      ("MFG-PN" BAT54C)))
    (place D37
@@ -1777,8 +1533,8 @@
      ("Source-PN" "BAT54CFSTR-ND")
      (timestamp 0090FDFC)
      ("Source Package" DIODE,BAT54C)
-     (Source Digikey)
      (MFG Fairchild)
+     (Source Digikey)
      (Value BAT54C)
      ("MFG-PN" BAT54C)))
    (place D38
@@ -1787,8 +1543,8 @@
      ("Source-PN" "BAT54CFSTR-ND")
      (timestamp 0090FE90)
      ("Source Package" DIODE,BAT54C)
-     (Source Digikey)
      (MFG Fairchild)
+     (Source Digikey)
      (Value BAT54C)
      ("MFG-PN" BAT54C)))
    (place D39
@@ -1797,8 +1553,8 @@
      ("Source-PN" "BAT54CFSTR-ND")
      (timestamp 0090FEEC)
      ("Source Package" DIODE,BAT54C)
-     (Source Digikey)
      (MFG Fairchild)
+     (Source Digikey)
      (Value BAT54C)
      ("MFG-PN" BAT54C)))
    (place D40
@@ -1807,8 +1563,8 @@
      ("Source-PN" "BAT54CFSTR-ND")
      (timestamp 0090FF7C)
      ("Source Package" DIODE,BAT54C)
-     (Source Digikey)
      (MFG Fairchild)
+     (Source Digikey)
      (Value BAT54C)
      ("MFG-PN" BAT54C)))
    (place D41
@@ -1817,8 +1573,8 @@
      ("Source-PN" "BAT54CFSTR-ND")
      (timestamp 0098236D)
      ("Source Package" DIODE,BAT54C)
-     (Source Digikey)
      (MFG Fairchild)
+     (Source Digikey)
      (Value BAT54C)
      ("MFG-PN" BAT54C)))
    (place D10
@@ -1827,8 +1583,8 @@
      ("Source-PN" "BAT54CFSTR-ND")
      (timestamp 008B1CB7)
      ("Source Package" DIODE,BAT54C)
-     (Source Digikey)
      (MFG Fairchild)
+     (Source Digikey)
      (Value BAT54C)
      ("MFG-PN" BAT54C)))
    (place D12
@@ -1837,8 +1593,8 @@
      ("Source-PN" "BAT54CFSTR-ND")
      (timestamp 008B1765)
      ("Source Package" DIODE,BAT54C)
-     (Source Digikey)
      (MFG Fairchild)
+     (Source Digikey)
      (Value BAT54C)
      ("MFG-PN" BAT54C)))
    (place D13
@@ -1847,8 +1603,8 @@
      ("Source-PN" "BAT54CFSTR-ND")
      (timestamp 008B1841)
      ("Source Package" DIODE,BAT54C)
-     (Source Digikey)
      (MFG Fairchild)
+     (Source Digikey)
      (Value BAT54C)
      ("MFG-PN" BAT54C)))
    (place D14
@@ -1857,8 +1613,8 @@
      ("Source-PN" "BAT54CFSTR-ND")
      (timestamp 008B17A1)
      ("Source Package" DIODE,BAT54C)
-     (Source Digikey)
      (MFG Fairchild)
+     (Source Digikey)
      (Value BAT54C)
      ("MFG-PN" BAT54C)))
    (place D16
@@ -1867,8 +1623,8 @@
      ("Source-PN" "BAT54CFSTR-ND")
      (timestamp 008B1289)
      ("Source Package" DIODE,BAT54C)
-     (Source Digikey)
      (MFG Fairchild)
+     (Source Digikey)
      (Value BAT54C)
      ("MFG-PN" BAT54C)))
    (place D17
@@ -1877,8 +1633,8 @@
      ("Source-PN" "BAT54CFSTR-ND")
      (timestamp 008B1365)
      ("Source Package" DIODE,BAT54C)
-     (Source Digikey)
      (MFG Fairchild)
+     (Source Digikey)
      (Value BAT54C)
      ("MFG-PN" BAT54C)))
    (place D18
@@ -1887,8 +1643,8 @@
      ("Source-PN" "BAT54CFSTR-ND")
      (timestamp 008B12C5)
      ("Source Package" DIODE,BAT54C)
-     (Source Digikey)
      (MFG Fairchild)
+     (Source Digikey)
      (Value BAT54C)
      ("MFG-PN" BAT54C)))
    (place D8
@@ -1897,8 +1653,8 @@
      ("Source-PN" "BAT54CFSTR-ND")
      (timestamp 008B1C7B)
      ("Source Package" DIODE,BAT54C)
-     (Source Digikey)
      (MFG Fairchild)
+     (Source Digikey)
      (Value BAT54C)
      ("MFG-PN" BAT54C)))
    (place D9
@@ -1907,17 +1663,10 @@
      ("Source-PN" "BAT54CFSTR-ND")
      (timestamp 008B1D57)
      ("Source Package" DIODE,BAT54C)
-     (Source Digikey)
      (MFG Fairchild)
+     (Source Digikey)
      (Value BAT54C)
      ("MFG-PN" BAT54C))))
-  (component "HEADER-3-.1"
-   (place J2
-    (property 
-     ("PCB Footprint" "HEADER-3-.1")
-     (timestamp 0003EC07)
-     ("Source Package" "HEADER-3-.1")
-     (Value "NM(HEADER-3-.1)"))))
   (component CAP,33UF,1210,X5R,6.3V
    (place C51
     (property 
@@ -1927,8 +1676,8 @@
      (timestamp 00083A64)
      (Dielectric X5R)
      ("Source Package" CAP,33UF,1210,X5R,6.3V)
-     (MFG TDK)
      (Source Digikey)
+     (MFG TDK)
      (Value 33UF)
      ("MFG-PN" C3225X5R0J336M/2.50)))
    (place C52
@@ -1939,8 +1688,8 @@
      (timestamp 000912D2)
      (Dielectric X5R)
      ("Source Package" CAP,33UF,1210,X5R,6.3V)
-     (MFG TDK)
      (Source Digikey)
+     (MFG TDK)
      (Value 33UF)
      ("MFG-PN" C3225X5R0J336M/2.50)))
    (place C62
@@ -1951,8 +1700,8 @@
      (timestamp 00086B82)
      (Dielectric X5R)
      ("Source Package" CAP,33UF,1210,X5R,6.3V)
-     (MFG TDK)
      (Source Digikey)
+     (MFG TDK)
      (Value 33UF)
      ("MFG-PN" C3225X5R0J336M/2.50)))
    (place C70
@@ -1963,8 +1712,8 @@
      (timestamp 0008BAE6)
      (Dielectric X5R)
      ("Source Package" CAP,33UF,1210,X5R,6.3V)
-     (MFG TDK)
      (Source Digikey)
+     (MFG TDK)
      (Value 33UF)
      ("MFG-PN" C3225X5R0J336M/2.50)))
    (place C45
@@ -1975,8 +1724,8 @@
      (timestamp 00078D44)
      (Dielectric X5R)
      ("Source Package" CAP,33UF,1210,X5R,6.3V)
-     (MFG TDK)
      (Source Digikey)
+     (MFG TDK)
      (Value 33UF)
      ("MFG-PN" C3225X5R0J336M/2.50))))
   (component INDUCTOR
@@ -1986,23 +1735,28 @@
      ("Source-PN" "490-5336-1-ND")
      (timestamp 004A5D49)
      ("Source Package" INDUCTOR)
-     (MFG muRata)
      (Source Digikey)
+     (MFG muRata)
      (Value IND,2.2U,1.5A)
      ("MFG-PN" LQH32PN2R2NN0L)))
    (place L7
     (property 
-     (timestamp 00972648)
+     ("PCB Footprint" NR6028)
+     ("Source-PN" "587-2104-1-ND")
+     (timestamp 009B5139)
      ("Source Package" INDUCTOR)
-     (Value 47u)))
+     (MFG "Taiyo Yuden")
+     (Source Digikey)
+     (Value 47u)
+     ("MFG-PN" NR6028T470M)))
    (place L9
     (property 
      ("PCB Footprint" NR6028)
      ("Source-PN" "587-2102-1-ND")
      (timestamp 00980E2D)
      ("Source Package" INDUCTOR)
-     (MFG "Taiyo Yuden")
      (Source Digikey)
+     (MFG "Taiyo Yuden")
      (Value 10u)
      ("MFG-PN" NR6028T100M))))
   (component CAP,4.7UF,0603,X5R,6.3V
@@ -2014,8 +1768,8 @@
      (timestamp 0098B1EE)
      (Dielectric X5R)
      ("Source Package" CAP,4.7UF,0603,X5R,6.3V)
-     (Source Digikey)
      (MFG TDK)
+     (Source Digikey)
      (Value 4.7UF)
      ("MFG-PN" C1608X5R0J475M)))
    (place C46
@@ -2026,8 +1780,8 @@
      (timestamp 00911C72)
      (Dielectric X5R)
      ("Source Package" CAP,4.7UF,0603,X5R,6.3V)
-     (Source Digikey)
      (MFG TDK)
+     (Source Digikey)
      (Value 4.7UF)
      ("MFG-PN" C1608X5R0J475M))))
   (component CAP,1NF,0402,X7R,50V
@@ -2182,24 +1936,24 @@
      ("Source-PN" x)
      (timestamp 0083F0CA)
      ("Source Package" RES,100,0402,1%)
-     (MFG x)
      (Source x)
+     (MFG x)
      (Tolerance 1%)
      (Value 100)
-     (Power 1/16W)
-     ("MFG-PN" x)))
+     ("MFG-PN" x)
+     (Power 1/16W)))
    (place R27
     (property 
      ("PCB Footprint" 0402/R)
      ("Source-PN" x)
      (timestamp 0083E67F)
      ("Source Package" RES,100,0402,1%)
-     (MFG x)
      (Source x)
+     (MFG x)
      (Tolerance 1%)
      (Value 100)
-     (Power 1/16W)
-     ("MFG-PN" x))))
+     ("MFG-PN" x)
+     (Power 1/16W))))
   (component MMBT3906
    (place Q6
     (property 
@@ -2207,8 +1961,8 @@
      ("Source-PN" "MMBT3906-FDICT-ND")
      (timestamp 008925C9)
      ("Source Package" MMBT3906)
-     (MFG NXP)
      (Source Digikey)
+     (MFG NXP)
      (Value MMBT3906)
      ("MFG-PN" MMBT3904,215)))
    (place Q1
@@ -2217,8 +1971,8 @@
      ("Source-PN" "MMBT3906-FDICT-ND")
      (timestamp 004AA0B3)
      ("Source Package" MMBT3906)
-     (MFG NXP)
      (Source Digikey)
+     (MFG NXP)
      (Value MMBT3906)
      ("MFG-PN" MMBT3904,215)))
    (place Q2
@@ -2227,8 +1981,8 @@
      ("Source-PN" "MMBT3906-FDICT-ND")
      (timestamp 007F8926)
      ("Source Package" MMBT3906)
-     (MFG NXP)
      (Source Digikey)
+     (MFG NXP)
      (Value MMBT3906)
      ("MFG-PN" MMBT3904,215))))
   (component CON24A_0
@@ -2245,12 +1999,12 @@
      ("Source-PN" x)
      (timestamp 0004B08B)
      ("Source Package" RES,470K,0402,1%)
-     (MFG x)
      (Source x)
+     (MFG x)
      (Tolerance 1%)
      (Value "NM(470K)")
-     (Power 1/16W)
-     ("MFG-PN" x))))
+     ("MFG-PN" x)
+     (Power 1/16W))))
   (component CAP,1UF,0603,X5R,16V
    (place C26
     (property 
@@ -2307,84 +2061,84 @@
      ("Source-PN" "311-0.0JRCT-ND")
      (timestamp 0083EB8C)
      ("Source Package" RES,0,0402,1%)
-     (MFG Yaego)
      (Source Digikey)
+     (MFG Yaego)
      (Tolerance 1%)
      (Value 0)
-     (Power 1/16W)
-     ("MFG-PN" "RC0402JR-070RL")))
+     ("MFG-PN" "RC0402JR-070RL")
+     (Power 1/16W)))
    (place R92
     (property 
      ("PCB Footprint" 0402/R)
      ("Source-PN" "311-0.0JRCT-ND")
      (timestamp 00972B8A)
      ("Source Package" RES,0,0402,1%)
-     (MFG Yaego)
      (Source Digikey)
+     (MFG Yaego)
      (Tolerance 1%)
      (Value "NM(0)")
-     (Power 1/16W)
-     ("MFG-PN" "RC0402JR-070RL")))
+     ("MFG-PN" "RC0402JR-070RL")
+     (Power 1/16W)))
    (place R93
     (property 
      ("PCB Footprint" 0402/R)
      ("Source-PN" "311-0.0JRCT-ND")
      (timestamp 00973EB7)
      ("Source Package" RES,0,0402,1%)
-     (MFG Yaego)
      (Source Digikey)
+     (MFG Yaego)
      (Tolerance 1%)
      (Value 0)
-     (Power 1/16W)
-     ("MFG-PN" "RC0402JR-070RL")))
+     ("MFG-PN" "RC0402JR-070RL")
+     (Power 1/16W)))
    (place R94
     (property 
      ("PCB Footprint" 0402/R)
      ("Source-PN" "311-0.0JRCT-ND")
      (timestamp 00974212)
      ("Source Package" RES,0,0402,1%)
-     (MFG Yaego)
      (Source Digikey)
+     (MFG Yaego)
      (Tolerance 1%)
      (Value 0)
-     (Power 1/16W)
-     ("MFG-PN" "RC0402JR-070RL")))
+     ("MFG-PN" "RC0402JR-070RL")
+     (Power 1/16W)))
    (place R32
     (property 
      ("PCB Footprint" 0402/R)
      ("Source-PN" "311-0.0JRCT-ND")
      (timestamp 0083EEEB)
      ("Source Package" RES,0,0402,1%)
-     (MFG Yaego)
      (Source Digikey)
+     (MFG Yaego)
      (Tolerance 1%)
      (Value 0)
-     (Power 1/16W)
-     ("MFG-PN" "RC0402JR-070RL")))
+     ("MFG-PN" "RC0402JR-070RL")
+     (Power 1/16W)))
    (place R7
     (property 
      ("PCB Footprint" 0402/R)
      ("Source-PN" "311-0.0JRCT-ND")
      (timestamp 0088131D)
      ("Source Package" RES,0,0402,1%)
-     (MFG Yaego)
      (Source Digikey)
+     (MFG Yaego)
      (Tolerance 1%)
      (Value 0)
-     (Power 1/16W)
-     ("MFG-PN" "RC0402JR-070RL")))
+     ("MFG-PN" "RC0402JR-070RL")
+     (Power 1/16W)))
    (place R82
     (property 
      ("PCB Footprint" 0402/R)
      ("Source-PN" "311-0.0JRCT-ND")
      (timestamp 008DF682)
      ("Source Package" RES,0,0402,1%)
-     (MFG Yaego)
      (Source Digikey)
+     (MFG Yaego)
      (Tolerance 1%)
      (Value 0)
-     (Power 1/16W)
-     ("MFG-PN" "RC0402JR-070RL"))))
+     ("MFG-PN" "RC0402JR-070RL")
+     (Power 1/16W))))
   (component RES,1.00M,0402,1%
    (place R84
     (property 
@@ -2392,12 +2146,12 @@
      ("Source-PN" "311-1.00MLRCT-ND")
      (timestamp 008E08F5)
      ("Source Package" RES,1.00M,0402,1%)
-     (Source Digkey)
      (MFG Yaego)
+     (Source Digkey)
      (Tolerance 1%)
      (Value 1.00M)
-     ("MFG-PN" "RC0402FR-071ML")
-     (Power 1/16W))))
+     (Power 1/16W)
+     ("MFG-PN" "RC0402FR-071ML"))))
   (component RES,75.0K,0402,1%
    (place R42
     (property 
@@ -2405,12 +2159,12 @@
      ("Source-PN" x)
      (timestamp 007F7022)
      ("Source Package" RES,75.0K,0402,1%)
-     (MFG x)
      (Source x)
+     (MFG x)
      (Tolerance 1%)
      (Value 75.0K)
-     (Power 1/16W)
-     ("MFG-PN" x))))
+     ("MFG-PN" x)
+     (Power 1/16W))))
   (component "CAPACITOR POL"
    (place C33
     (property 
@@ -2420,8 +2174,8 @@
      (timestamp 00839D4C)
      (Dielectric TANT)
      ("Source Package" "CAPACITOR POL")
-     (MFG Kemet)
      (Source Digikey)
+     (MFG Kemet)
      (Value 220UF)
      ("MFG-PN" B45196H1227M409)))
    (place C35
@@ -2432,8 +2186,8 @@
      (timestamp 00839D5C)
      (Dielectric TANT)
      ("Source Package" "CAPACITOR POL")
-     (Source Digikey)
      (MFG Kemet)
+     (Source Digikey)
      (Value 220UF)
      ("MFG-PN" B45196H1227M409))))
   (component CRYSTAL_24MHZ_SMT
@@ -2443,8 +2197,8 @@
      ("Source-PN" "644-1027-2-ND")
      (timestamp 00000221)
      ("Source Package" CRYSTAL_24MHZ_SMT)
-     (Source Digikey)
      (MFG NDK)
+     (Source Digikey)
      (Value CRYSTAL_24MHZ_SMT)
      ("MFG-PN" "NX8045GB-24.000000MHZ"))))
   (component CAP,2.2UF,0603,X5R,10V
@@ -2456,8 +2210,8 @@
      (timestamp 004B03C6)
      (Dielectric X5R)
      ("Source Package" CAP,2.2UF,0603,X5R,10V)
-     (Source Digikey)
      (MFG TDK)
+     (Source Digikey)
      (Value 2.2UF)
      ("MFG-PN" C1608X5R0J225K)))
    (place C21
@@ -2468,8 +2222,8 @@
      (timestamp 004B035A)
      (Dielectric X5R)
      ("Source Package" CAP,2.2UF,0603,X5R,10V)
-     (Source Digikey)
      (MFG TDK)
+     (Source Digikey)
      (Value "NM(2.2UF)")
      ("MFG-PN" C1608X5R0J225K)))
    (place C22
@@ -2480,8 +2234,8 @@
      (timestamp 004B0432)
      (Dielectric X5R)
      ("Source Package" CAP,2.2UF,0603,X5R,10V)
-     (Source Digikey)
      (MFG TDK)
+     (Source Digikey)
      (Value 2.2UF)
      ("MFG-PN" C1608X5R0J225K)))
    (place C23
@@ -2492,8 +2246,8 @@
      (timestamp 004B049E)
      (Dielectric X5R)
      ("Source Package" CAP,2.2UF,0603,X5R,10V)
-     (Source Digikey)
      (MFG TDK)
+     (Source Digikey)
      (Value "NM(2.2UF)")
      ("MFG-PN" C1608X5R0J225K)))
    (place C74
@@ -2504,23 +2258,10 @@
      (timestamp 004A5D71)
      (Dielectric X5R)
      ("Source Package" CAP,2.2UF,0603,X5R,10V)
-     (Source Digikey)
      (MFG TDK)
+     (Source Digikey)
      (Value 2.2UF)
      ("MFG-PN" C1608X5R0J225K))))
-  (component RES,3.00K,0402,1%
-   (place R87
-    (property 
-     ("PCB Footprint" 0402/R)
-     ("Source-PN" x)
-     (timestamp 00915AA5)
-     ("Source Package" RES,3.00K,0402,1%)
-     (Source x)
-     (MFG x)
-     (Tolerance 1%)
-     (Value 3.00K)
-     ("MFG-PN" x)
-     (Power 1/16W))))
   (component DIODE,20V,1A
    (place D5
     (property 
@@ -2528,8 +2269,8 @@
      ("Source-PN" "B120-FDITR-ND")
      (timestamp 000814DD)
      ("Source Package" DIODE,20V,1A)
-     (MFG Diodes)
      (Source Digikey)
+     (MFG Diodes)
      (Value DIODE,20V,1A)
      ("MFG-PN" "B120-13-F"))))
   (component RES,24.0K,0402,1%
@@ -2539,12 +2280,12 @@
      ("Source-PN" "P24.0KLCT-ND")
      (timestamp 007F7C30)
      ("Source Package" RES,24.0K,0402,1%)
-     (Source Digikey)
      (MFG Panasonic)
+     (Source Digikey)
      (Tolerance 1%)
      (Value 24.0K)
-     ("MFG-PN" "ERJ-2RKF2402X")
-     (Power 1/16W))))
+     (Power 1/16W)
+     ("MFG-PN" "ERJ-2RKF2402X"))))
   (component RES,2.20K,0402,1%
    (place R43
     (property 
@@ -2552,12 +2293,12 @@
      ("Source-PN" x)
      (timestamp 004ABF27)
      ("Source Package" RES,2.20K,0402,1%)
-     (Source x)
      (MFG x)
+     (Source x)
      (Tolerance 1%)
      (Value 2.20K)
-     ("MFG-PN" x)
-     (Power 1/16W))))
+     (Power 1/16W)
+     ("MFG-PN" x))))
   (component RES,1.20,0402,1%
    (place R39
     (property 
@@ -2565,24 +2306,24 @@
      ("Source-PN" "RMCF1210FT12R7CT-ND")
      (timestamp 000BBA7A)
      ("Source Package" RES,1.20,0402,1%)
-     (Source Digikey)
      (MFG Stackpole)
+     (Source Digikey)
      (Tolerance 1%)
      (Value 12.7)
-     (Power 1/4W)
-     ("MFG-PN" RMCF1210FT12R7)))
+     ("MFG-PN" RMCF1210FT12R7)
+     (Power 1/4W)))
    (place R40
     (property 
      ("PCB Footprint" 1210/R)
      ("Source-PN" "RMCF1210FT12R7CT-ND")
      (timestamp 000BBAAA)
      ("Source Package" RES,1.20,0402,1%)
-     (Source Digikey)
      (MFG Stackpole)
+     (Source Digikey)
      (Tolerance 1%)
      (Value 12.7)
-     (Power 1/4W)
-     ("MFG-PN" RMCF1210FT12R7))))
+     ("MFG-PN" RMCF1210FT12R7)
+     (Power 1/4W))))
   (component CAP,10NF,0402,X7R,25V
    (place C86
     (property 
@@ -2592,8 +2333,8 @@
      (timestamp 00873F43)
      (Dielectric X7R)
      ("Source Package" CAP,10NF,0402,X7R,25V)
-     (MFG Yageo)
      (Source Digikey)
+     (MFG Yageo)
      (Value 10NF)
      ("MFG-PN" CC0402KRX7R9BB103)))
    (place C55
@@ -2604,8 +2345,8 @@
      (timestamp 000912EA)
      (Dielectric X7R)
      ("Source Package" CAP,10NF,0402,X7R,25V)
-     (MFG Yageo)
      (Source Digikey)
+     (MFG Yageo)
      (Value 10NF)
      ("MFG-PN" CC0402KRX7R9BB103)))
    (place C59
@@ -2616,8 +2357,8 @@
      (timestamp 00086BAE)
      (Dielectric X7R)
      ("Source Package" CAP,10NF,0402,X7R,25V)
-     (MFG Yageo)
      (Source Digikey)
+     (MFG Yageo)
      (Value 10NF)
      ("MFG-PN" CC0402KRX7R9BB103)))
    (place C67
@@ -2628,8 +2369,8 @@
      (timestamp 0008BB06)
      (Dielectric X7R)
      ("Source Package" CAP,10NF,0402,X7R,25V)
-     (MFG Yageo)
      (Source Digikey)
+     (MFG Yageo)
      (Value 10NF)
      ("MFG-PN" CC0402KRX7R9BB103)))
    (place C71
@@ -2640,8 +2381,8 @@
      (timestamp 007F8791)
      (Dielectric X7R)
      ("Source Package" CAP,10NF,0402,X7R,25V)
-     (MFG Yageo)
      (Source Digikey)
+     (MFG Yageo)
      (Value 10NF)
      ("MFG-PN" CC0402KRX7R9BB103)))
    (place C43
@@ -2652,8 +2393,8 @@
      (timestamp 00079A81)
      (Dielectric X7R)
      ("Source Package" CAP,10NF,0402,X7R,25V)
-     (MFG Yageo)
      (Source Digikey)
+     (MFG Yageo)
      (Value 10NF)
      ("MFG-PN" CC0402KRX7R9BB103))))
   (component CAP,100NF,0402,X5R,10V
@@ -2666,18 +2407,6 @@
      ("Source Package" CAP,100NF,0402,X5R,10V)
      (Source Digikey)
      (Value 100NF)))
-   (place C83
-    (property 
-     (Voltage 10V)
-     ("PCB Footprint" 0402/C)
-     ("Source-PN" "445-1266-1-ND")
-     (timestamp 0091657E)
-     (Dielectric X5R)
-     ("Source Package" CAP,100NF,0402,X5R,10V)
-     (MFG TDK)
-     (Source Digikey)
-     (Value 100NF)
-     ("MFG-PN" C1005X5R0J104K)))
    (place C84
     (property 
      (Voltage 10V)
@@ -2713,8 +2442,8 @@
      (timestamp 004B1435)
      (Dielectric X5R)
      ("Source Package" CAP,100NF,0402,X5R,10V)
-     (MFG TDK)
      (Source Digikey)
+     (MFG TDK)
      (Value 100NF)
      ("MFG-PN" C1005X5R0J104K)))
    (place C57
@@ -2734,8 +2463,8 @@
      (timestamp 0087FE48)
      (Dielectric X5R)
      ("Source Package" CAP,100NF,0402,X5R,10V)
-     (MFG TDK)
      (Source Digikey)
+     (MFG TDK)
      (Value 100NF)
      ("MFG-PN" C1005X5R0J104K)))
    (place C1
@@ -2764,8 +2493,8 @@
      (timestamp 007F30B8)
      (Dielectric X5R)
      ("Source Package" CAP,100NF,0402,X5R,10V)
-     (MFG TDK)
      (Source Digikey)
+     (MFG TDK)
      (Value 100NF)
      ("MFG-PN" C1005X5R0J104K)))
    (place C63
@@ -2785,8 +2514,8 @@
      (timestamp 007F31FB)
      (Dielectric X5R)
      ("Source Package" CAP,100NF,0402,X5R,10V)
-     (MFG TDK)
      (Source Digikey)
+     (MFG TDK)
      (Value 100NF)
      ("MFG-PN" C1005X5R0J104K)))
    (place C64
@@ -2824,8 +2553,8 @@
      (timestamp 007F0FB7)
      (Dielectric X5R)
      ("Source Package" CAP,100NF,0402,X5R,10V)
-     (MFG TDK)
      (Source Digikey)
+     (MFG TDK)
      (Value 100NF)
      ("MFG-PN" C1005X5R0J104K)))
    (place C36
@@ -2836,8 +2565,8 @@
      (timestamp 007F11AE)
      (Dielectric X5R)
      ("Source Package" CAP,100NF,0402,X5R,10V)
-     (MFG TDK)
      (Source Digikey)
+     (MFG TDK)
      (Value 100NF)
      ("MFG-PN" C1005X5R0J104K)))
    (place C68
@@ -2857,8 +2586,8 @@
      (timestamp 007F414A)
      (Dielectric X5R)
      ("Source Package" CAP,100NF,0402,X5R,10V)
-     (MFG TDK)
      (Source Digikey)
+     (MFG TDK)
      (Value 100NF)
      ("MFG-PN" C1005X5R0J104K)))
    (place C73
@@ -2869,8 +2598,8 @@
      (timestamp 004A5EAB)
      (Dielectric X5R)
      ("Source Package" CAP,100NF,0402,X5R,10V)
-     (MFG TDK)
      (Source Digikey)
+     (MFG TDK)
      (Value 100NF)
      ("MFG-PN" C1005X5R0J104K)))
    (place C41
@@ -2881,8 +2610,8 @@
      (timestamp 007F4162)
      (Dielectric X5R)
      ("Source Package" CAP,100NF,0402,X5R,10V)
-     (MFG TDK)
      (Source Digikey)
+     (MFG TDK)
      (Value 100NF)
      ("MFG-PN" C1005X5R0J104K)))
    (place C42
@@ -2955,8 +2684,8 @@
      ("Source-PN" "RB520S30T1GOSTR-ND")
      (timestamp 0088FDF2)
      ("Source Package" DIODE,RB520S30T1)
-     (MFG ON)
      (Source Digikey)
+     (MFG ON)
      (Value RB520S30T1)
      ("MFG-PN" RB520S30T1G)))
    (place D7
@@ -2965,8 +2694,8 @@
      ("Source-PN" "RB520S30T1GOSTR-ND")
      (timestamp 004ABAB9)
      ("Source Package" DIODE,RB520S30T1)
-     (MFG ON)
      (Source Digikey)
+     (MFG ON)
      (Value RB520S30T1)
      ("MFG-PN" RB520S30T1G))))
   (component "MICROSD-lid-type"
@@ -2976,8 +2705,8 @@
      ("Source-PN" "101-00303-68-1-ND")
      (timestamp 00063DD8)
      ("Source Package" "MICROSD-lid-type")
-     (Source Digikey)
      (MFG Amphenol)
+     (Source Digikey)
      (Value "MICROSD-lid-type")
      ("MFG-PN" "101-00303-68"))))
   (component TP
@@ -3066,183 +2795,168 @@
      ("Source-PN" "P4.70KLCT-ND")
      (timestamp 00852B85)
      ("Source Package" RES,4.70K,0402,1%)
-     (MFG Panasonic)
      (Source Digikey)
+     (MFG Panasonic)
      (Tolerance 1%)
      (Value 4.70K)
-     (Power 1/16W)
-     ("MFG-PN" "ERJ-2RKF4701X")))
+     ("MFG-PN" "ERJ-2RKF4701X")
+     (Power 1/16W)))
    (place R59
     (property 
      ("PCB Footprint" 0402/R)
      ("Source-PN" "P4.70KLCT-ND")
      (timestamp 00853297)
      ("Source Package" RES,4.70K,0402,1%)
-     (MFG Panasonic)
      (Source Digikey)
+     (MFG Panasonic)
      (Tolerance 1%)
      (Value 4.70K)
-     (Power 1/16W)
-     ("MFG-PN" "ERJ-2RKF4701X")))
+     ("MFG-PN" "ERJ-2RKF4701X")
+     (Power 1/16W)))
    (place R60
     (property 
      ("PCB Footprint" 0402/R)
      ("Source-PN" "P4.70KLCT-ND")
      (timestamp 00853393)
      ("Source Package" RES,4.70K,0402,1%)
-     (MFG Panasonic)
      (Source Digikey)
+     (MFG Panasonic)
      (Tolerance 1%)
      (Value 4.70K)
-     (Power 1/16W)
-     ("MFG-PN" "ERJ-2RKF4701X")))
+     ("MFG-PN" "ERJ-2RKF4701X")
+     (Power 1/16W)))
    (place R61
     (property 
      ("PCB Footprint" 0402/R)
      ("Source-PN" "P4.70KLCT-ND")
      (timestamp 0085348F)
      ("Source Package" RES,4.70K,0402,1%)
-     (MFG Panasonic)
      (Source Digikey)
+     (MFG Panasonic)
      (Tolerance 1%)
      (Value 4.70K)
-     (Power 1/16W)
-     ("MFG-PN" "ERJ-2RKF4701X")))
+     ("MFG-PN" "ERJ-2RKF4701X")
+     (Power 1/16W)))
    (place R30
     (property 
      ("PCB Footprint" 0402/R)
      ("Source-PN" "P4.70KLCT-ND")
      (timestamp 00841AF8)
      ("Source Package" RES,4.70K,0402,1%)
-     (MFG Panasonic)
      (Source Digikey)
+     (MFG Panasonic)
      (Tolerance 1%)
      (Value 4.70K)
-     (Power 1/16W)
-     ("MFG-PN" "ERJ-2RKF4701X")))
+     ("MFG-PN" "ERJ-2RKF4701X")
+     (Power 1/16W)))
    (place R62
     (property 
      ("PCB Footprint" 0402/R)
      ("Source-PN" "P4.70KLCT-ND")
      (timestamp 0085358B)
      ("Source Package" RES,4.70K,0402,1%)
-     (MFG Panasonic)
      (Source Digikey)
+     (MFG Panasonic)
      (Tolerance 1%)
      (Value 4.70K)
-     (Power 1/16W)
-     ("MFG-PN" "ERJ-2RKF4701X")))
+     ("MFG-PN" "ERJ-2RKF4701X")
+     (Power 1/16W)))
    (place R31
     (property 
      ("PCB Footprint" 0402/R)
      ("Source-PN" "P4.70KLCT-ND")
      (timestamp 00841A7B)
      ("Source Package" RES,4.70K,0402,1%)
-     (MFG Panasonic)
      (Source Digikey)
+     (MFG Panasonic)
      (Tolerance 1%)
      (Value 4.70K)
-     (Power 1/16W)
-     ("MFG-PN" "ERJ-2RKF4701X")))
+     ("MFG-PN" "ERJ-2RKF4701X")
+     (Power 1/16W)))
    (place R63
     (property 
      ("PCB Footprint" 0402/R)
      ("Source-PN" "P4.70KLCT-ND")
      (timestamp 00853687)
      ("Source Package" RES,4.70K,0402,1%)
-     (MFG Panasonic)
      (Source Digikey)
+     (MFG Panasonic)
      (Tolerance 1%)
      (Value 4.70K)
-     (Power 1/16W)
-     ("MFG-PN" "ERJ-2RKF4701X")))
+     ("MFG-PN" "ERJ-2RKF4701X")
+     (Power 1/16W)))
    (place R17
     (property 
      ("PCB Footprint" 0402/R)
      ("Source-PN" "P4.70KLCT-ND")
      (timestamp 007EEA2B)
      ("Source Package" RES,4.70K,0402,1%)
-     (MFG Panasonic)
      (Source Digikey)
+     (MFG Panasonic)
      (Tolerance 1%)
      (Value 4.70K)
-     (Power 1/16W)
-     ("MFG-PN" "ERJ-2RKF4701X")))
+     ("MFG-PN" "ERJ-2RKF4701X")
+     (Power 1/16W)))
    (place R18
     (property 
      ("PCB Footprint" 0402/R)
      ("Source-PN" "P4.70KLCT-ND")
      (timestamp 007EE990)
      ("Source Package" RES,4.70K,0402,1%)
-     (MFG Panasonic)
      (Source Digikey)
+     (MFG Panasonic)
      (Tolerance 1%)
      (Value 4.70K)
-     (Power 1/16W)
-     ("MFG-PN" "ERJ-2RKF4701X")))
+     ("MFG-PN" "ERJ-2RKF4701X")
+     (Power 1/16W)))
    (place R19
     (property 
      ("PCB Footprint" 0402/R)
      ("Source-PN" "P4.70KLCT-ND")
      (timestamp 007EE842)
      ("Source Package" RES,4.70K,0402,1%)
-     (MFG Panasonic)
      (Source Digikey)
+     (MFG Panasonic)
      (Tolerance 1%)
      (Value 4.70K)
-     (Power 1/16W)
-     ("MFG-PN" "ERJ-2RKF4701X")))
+     ("MFG-PN" "ERJ-2RKF4701X")
+     (Power 1/16W)))
    (place R20
     (property 
      ("PCB Footprint" 0402/R)
      ("Source-PN" "P4.70KLCT-ND")
      (timestamp 007EE7A7)
      ("Source Package" RES,4.70K,0402,1%)
-     (MFG Panasonic)
      (Source Digikey)
+     (MFG Panasonic)
      (Tolerance 1%)
      (Value 4.70K)
-     (Power 1/16W)
-     ("MFG-PN" "ERJ-2RKF4701X")))
+     ("MFG-PN" "ERJ-2RKF4701X")
+     (Power 1/16W)))
    (place R21
     (property 
      ("PCB Footprint" 0402/R)
      ("Source-PN" "P4.70KLCT-ND")
      (timestamp 007EE70C)
      ("Source Package" RES,4.70K,0402,1%)
-     (MFG Panasonic)
      (Source Digikey)
+     (MFG Panasonic)
      (Tolerance 1%)
      (Value 4.70K)
-     (Power 1/16W)
-     ("MFG-PN" "ERJ-2RKF4701X")))
+     ("MFG-PN" "ERJ-2RKF4701X")
+     (Power 1/16W)))
    (place R22
     (property 
      ("PCB Footprint" 0402/R)
      ("Source-PN" "P4.70KLCT-ND")
      (timestamp 007EE587)
      ("Source Package" RES,4.70K,0402,1%)
-     (MFG Panasonic)
      (Source Digikey)
+     (MFG Panasonic)
      (Tolerance 1%)
      (Value 4.70K)
-     (Power 1/16W)
-     ("MFG-PN" "ERJ-2RKF4701X"))))
-  (component "PMOS, BSS84"
-   (place Q10
-    (property 
-     (VGSS "+-20")
-     ("PCB Footprint" "SOT-323")
-     ("Source-PN" "568-1660-1-ND")
-     (timestamp 0091E045)
-     ("Source Package" "PMOS, BSS84")
-     (MFG Diodes)
-     (Source Digikey)
-     (RDSON "15 @ 3V")
-     (Value "PMOS, BSS84")
-     (Idrain 0.130)
-     (VDSS 50)
-     ("MFG-PN" BSS84))))
+     ("MFG-PN" "ERJ-2RKF4701X")
+     (Power 1/16W))))
   (component CAP,1UF,0402,X5R,10V
    (place C53
     (property 
@@ -3324,24 +3038,24 @@
      ("Source-PN" x)
      (timestamp 0007B384)
      ("Source Package" RES,0.100,0402,1%)
-     (MFG x)
      (Source x)
+     (MFG x)
      (Tolerance 1%)
      (Value 0.100)
-     (Power 1/16W)
-     ("MFG-PN" x)))
+     ("MFG-PN" x)
+     (Power 1/16W)))
    (place R38
     (property 
      ("PCB Footprint" 0402/R)
      ("Source-PN" x)
      (timestamp 00083A4C)
      ("Source Package" RES,0.100,0402,1%)
-     (MFG x)
      (Source x)
+     (MFG x)
      (Tolerance 1%)
      (Value 0.100)
-     (Power 1/16W)
-     ("MFG-PN" x))))
+     ("MFG-PN" x)
+     (Power 1/16W))))
   (component RES,24.0,0402,1%
    (place R91
     (property 
@@ -3349,12 +3063,12 @@
      ("Source-PN" x)
      (timestamp 009ADD21)
      ("Source Package" RES,24.0,0402,1%)
-     (MFG x)
      (Source x)
+     (MFG x)
      (Tolerance 1%)
      (Value "NM(24.0)")
-     (Power 1/16W)
-     ("MFG-PN" x))))
+     ("MFG-PN" x)
+     (Power 1/16W))))
   (component RES,10.0,0402,1%
    (place R101
     (property 
@@ -3362,20 +3076,20 @@
      ("Source-PN" "311-10.0LRCT-ND")
      (timestamp 009A7147)
      ("Source Package" RES,10.0,0402,1%)
-     (MFG Yageo)
      (Source Digikey)
+     (MFG Yageo)
      (Tolerance 1%)
      (Value 10.0)
-     (Power 1/16W)
-     ("MFG-PN" "RC0402FR-0710RL")))
+     ("MFG-PN" "RC0402FR-0710RL")
+     (Power 1/16W)))
    (place R8
     (property 
      ("PCB Footprint" 0402/R)
      ("Source-PN" "ERJ-2GEJ106X")
      (timestamp 004ADDAF)
      ("Source Package" RES,10.0,0402,1%)
-     (MFG Yageo)
      (Source Digikey)
+     (MFG Yageo)
      (Tolerance 5%)
      (Value 10.0M)
      (Power 1/16W)
@@ -3387,8 +3101,8 @@
      ("Source-PN" "450-1650-ND")
      (timestamp 008B12E3)
      ("Source Package" "SW PUSHBUTTON")
-     (Source Digikey)
      (MFG "TE Connectivity")
+     (Source Digikey)
      (Value "NM(SW-PUCK)")
      ("MFG-PN" FSM4JH)))
    (place SW50
@@ -3397,8 +3111,8 @@
      ("Source-PN" "450-1650-ND")
      (timestamp 0090FF0A)
      ("Source Package" "SW PUSHBUTTON")
-     (Source Digikey)
      (MFG "TE Connectivity")
+     (Source Digikey)
      (Value "NM(SW-PUCK)")
      ("MFG-PN" FSM4JH)))
    (place SW51
@@ -3407,8 +3121,8 @@
      ("Source-PN" "450-1650-ND")
      (timestamp 0090FF1A)
      ("Source Package" "SW PUSHBUTTON")
-     (Source Digikey)
      (MFG "TE Connectivity")
+     (Source Digikey)
      (Value "NM(SW-PUCK)")
      ("MFG-PN" FSM4JH)))
    (place SW20
@@ -3417,8 +3131,8 @@
      ("Source-PN" "450-1650-ND")
      (timestamp 008B1333)
      ("Source Package" "SW PUSHBUTTON")
-     (Source Digikey)
      (MFG "TE Connectivity")
+     (Source Digikey)
      (Value "NM(SW-PUCK)")
      ("MFG-PN" FSM4JH)))
    (place SW52
@@ -3427,8 +3141,8 @@
      ("Source-PN" "450-1650-ND")
      (timestamp 0005DABE)
      ("Source Package" "SW PUSHBUTTON")
-     (MFG "TE Connectivity")
      (Source Digikey)
+     (MFG "TE Connectivity")
      (Value "NM(SW-PUCK)")
      ("MFG-PN" FSM4JH)))
    (place SW53
@@ -3437,8 +3151,8 @@
      ("Source-PN" "450-1650-ND")
      (timestamp 0005DACE)
      ("Source Package" "SW PUSHBUTTON")
-     (MFG "TE Connectivity")
      (Source Digikey)
+     (MFG "TE Connectivity")
      (Value "NM(SW-PUCK)")
      ("MFG-PN" FSM4JH)))
    (place SW22
@@ -3447,8 +3161,8 @@
      ("Source-PN" "450-1650-ND")
      (timestamp 008B12F3)
      ("Source Package" "SW PUSHBUTTON")
-     (Source Digikey)
      (MFG "TE Connectivity")
+     (Source Digikey)
      (Value "NM(SW-PUCK)")
      ("MFG-PN" FSM4JH)))
    (place SW54
@@ -3457,8 +3171,8 @@
      ("Source-PN" "450-1650-ND")
      (timestamp 0005DADE)
      ("Source Package" "SW PUSHBUTTON")
-     (MFG "TE Connectivity")
      (Source Digikey)
+     (MFG "TE Connectivity")
      (Value "NM(SW-PUCK)")
      ("MFG-PN" FSM4JH)))
    (place SW23
@@ -3467,8 +3181,8 @@
      ("Source-PN" "450-1650-ND")
      (timestamp 008B1303)
      ("Source Package" "SW PUSHBUTTON")
-     (Source Digikey)
      (MFG "TE Connectivity")
+     (Source Digikey)
      (Value "NM(SW-PUCK)")
      ("MFG-PN" FSM4JH)))
    (place SW55
@@ -3477,8 +3191,8 @@
      ("Source-PN" "450-1650-ND")
      (timestamp 0005DAEE)
      ("Source Package" "SW PUSHBUTTON")
-     (MFG "TE Connectivity")
      (Source Digikey)
+     (MFG "TE Connectivity")
      (Value "NM(SW-PUCK)")
      ("MFG-PN" FSM4JH)))
    (place SW56
@@ -3487,8 +3201,8 @@
      ("Source-PN" "450-1650-ND")
      (timestamp 0005DAFE)
      ("Source Package" "SW PUSHBUTTON")
-     (MFG "TE Connectivity")
      (Source Digikey)
+     (MFG "TE Connectivity")
      (Value "NM(SW-PUCK)")
      ("MFG-PN" FSM4JH)))
    (place SW24
@@ -3497,8 +3211,8 @@
      ("Source-PN" "450-1650-ND")
      (timestamp 008B1313)
      ("Source Package" "SW PUSHBUTTON")
-     (Source Digikey)
      (MFG "TE Connectivity")
+     (Source Digikey)
      (Value "NM(SW-PUCK)")
      ("MFG-PN" FSM4JH)))
    (place SW57
@@ -3507,8 +3221,8 @@
      ("Source-PN" "450-1650-ND")
      (timestamp 0005DB0E)
      ("Source Package" "SW PUSHBUTTON")
-     (MFG "TE Connectivity")
      (Source Digikey)
+     (MFG "TE Connectivity")
      (Value "NM(SW-PUCK)")
      ("MFG-PN" FSM4JH)))
    (place SW25
@@ -3517,8 +3231,8 @@
      ("Source-PN" "450-1650-ND")
      (timestamp 008B1323)
      ("Source Package" "SW PUSHBUTTON")
-     (Source Digikey)
      (MFG "TE Connectivity")
+     (Source Digikey)
      (Value "NM(SW-PUCK)")
      ("MFG-PN" FSM4JH)))
    (place SW59
@@ -3527,8 +3241,8 @@
      ("Source-PN" "450-1650-ND")
      (timestamp 0090FE2A)
      ("Source Package" "SW PUSHBUTTON")
-     (MFG "TE Connectivity")
      (Source Digikey)
+     (MFG "TE Connectivity")
      (Value "NM(SW-PUCK)")
      ("MFG-PN" FSM4JH)))
    (place SW27
@@ -3537,8 +3251,8 @@
      ("Source-PN" "450-1650-ND")
      (timestamp 0086D9AE)
      ("Source Package" "SW PUSHBUTTON")
-     (Source Digikey)
      (MFG "TE Connectivity")
+     (Source Digikey)
      (Value "NM(SW-PUCK)")
      ("MFG-PN" FSM4JH)))
    (place SW28
@@ -3547,8 +3261,8 @@
      ("Source-PN" "450-1650-ND")
      (timestamp 008B0E21)
      ("Source Package" "SW PUSHBUTTON")
-     (Source Digikey)
      (MFG "TE Connectivity")
+     (Source Digikey)
      (Value "NM(SW-PUCK)")
      ("MFG-PN" FSM4JH)))
    (place SW29
@@ -3557,8 +3271,8 @@
      ("Source-PN" "450-1650-ND")
      (timestamp 008B0E31)
      ("Source Package" "SW PUSHBUTTON")
-     (Source Digikey)
      (MFG "TE Connectivity")
+     (Source Digikey)
      (Value "NM(SW-PUCK)")
      ("MFG-PN" FSM4JH)))
    (place SW60
@@ -3567,8 +3281,8 @@
      ("Source-PN" "450-1650-ND")
      (timestamp 0090FE3A)
      ("Source Package" "SW PUSHBUTTON")
-     (MFG "TE Connectivity")
      (Source Digikey)
+     (MFG "TE Connectivity")
      (Value "NM(SW-PUCK)")
      ("MFG-PN" FSM4JH)))
    (place SW61
@@ -3577,8 +3291,8 @@
      ("Source-PN" "450-1650-ND")
      (timestamp 0090FE4A)
      ("Source Package" "SW PUSHBUTTON")
-     (MFG "TE Connectivity")
      (Source Digikey)
+     (MFG "TE Connectivity")
      (Value "NM(SW-PUCK)")
      ("MFG-PN" FSM4JH)))
    (place SW30
@@ -3587,8 +3301,8 @@
      ("Source-PN" "450-1650-ND")
      (timestamp 008B0E41)
      ("Source Package" "SW PUSHBUTTON")
-     (Source Digikey)
      (MFG "TE Connectivity")
+     (Source Digikey)
      (Value "NM(SW-PUCK)")
      ("MFG-PN" FSM4JH)))
    (place SW62
@@ -3597,8 +3311,8 @@
      ("Source-PN" "450-1650-ND")
      (timestamp 0090FE5A)
      ("Source Package" "SW PUSHBUTTON")
-     (MFG "TE Connectivity")
      (Source Digikey)
+     (MFG "TE Connectivity")
      (Value "NM(SW-PUCK)")
      ("MFG-PN" FSM4JH)))
    (place SW31
@@ -3607,8 +3321,8 @@
      ("Source-PN" "450-1650-ND")
      (timestamp 008B0E51)
      ("Source Package" "SW PUSHBUTTON")
-     (Source Digikey)
      (MFG "TE Connectivity")
+     (Source Digikey)
      (Value "NM(SW-PUCK)")
      ("MFG-PN" FSM4JH)))
    (place SW63
@@ -3617,8 +3331,8 @@
      ("Source-PN" "450-1650-ND")
      (timestamp 0090FE6A)
      ("Source Package" "SW PUSHBUTTON")
-     (MFG "TE Connectivity")
      (Source Digikey)
+     (MFG "TE Connectivity")
      (Value "NM(SW-PUCK)")
      ("MFG-PN" FSM4JH)))
    (place SW64
@@ -3627,8 +3341,8 @@
      ("Source-PN" "450-1650-ND")
      (timestamp 0090FF2A)
      ("Source Package" "SW PUSHBUTTON")
-     (Source Digikey)
      (MFG "TE Connectivity")
+     (Source Digikey)
      (Value "NM(SW-PUCK)")
      ("MFG-PN" FSM4JH)))
    (place SW32
@@ -3637,8 +3351,8 @@
      ("Source-PN" "450-1650-ND")
      (timestamp 008B0E61)
      ("Source Package" "SW PUSHBUTTON")
-     (Source Digikey)
      (MFG "TE Connectivity")
+     (Source Digikey)
      (Value "NM(SW-PUCK)")
      ("MFG-PN" FSM4JH)))
    (place SW65
@@ -3647,8 +3361,8 @@
      ("Source-PN" "450-1650-ND")
      (timestamp 0090FF3A)
      ("Source Package" "SW PUSHBUTTON")
-     (Source Digikey)
      (MFG "TE Connectivity")
+     (Source Digikey)
      (Value "NM(SW-PUCK)")
      ("MFG-PN" FSM4JH)))
    (place SW33
@@ -3657,8 +3371,8 @@
      ("Source-PN" "450-1650-ND")
      (timestamp 008B0E71)
      ("Source Package" "SW PUSHBUTTON")
-     (Source Digikey)
      (MFG "TE Connectivity")
+     (Source Digikey)
      (Value "NM(SW-PUCK)")
      ("MFG-PN" FSM4JH)))
    (place SW66
@@ -3667,8 +3381,8 @@
      ("Source-PN" "450-1650-ND")
      (timestamp 0090FF4A)
      ("Source Package" "SW PUSHBUTTON")
-     (Source Digikey)
      (MFG "TE Connectivity")
+     (Source Digikey)
      (Value "NM(SW-PUCK)")
      ("MFG-PN" FSM4JH)))
    (place SW67
@@ -3677,8 +3391,8 @@
      ("Source-PN" "450-1650-ND")
      (timestamp 0090FF5A)
      ("Source Package" "SW PUSHBUTTON")
-     (Source Digikey)
      (MFG "TE Connectivity")
+     (Source Digikey)
      (Value "NM(SW-PUCK)")
      ("MFG-PN" FSM4JH)))
    (place SW36
@@ -3687,8 +3401,8 @@
      ("Source-PN" "450-1650-ND")
      (timestamp 008B0999)
      ("Source Package" "SW PUSHBUTTON")
-     (Source Digikey)
      (MFG "TE Connectivity")
+     (Source Digikey)
      (Value "NM(SW-PUCK)")
      ("MFG-PN" FSM4JH)))
    (place SW37
@@ -3697,8 +3411,8 @@
      ("Source-PN" "450-1650-ND")
      (timestamp 008B09A9)
      ("Source Package" "SW PUSHBUTTON")
-     (Source Digikey)
      (MFG "TE Connectivity")
+     (Source Digikey)
      (Value "NM(SW-PUCK)")
      ("MFG-PN" FSM4JH)))
    (place SW38
@@ -3707,8 +3421,8 @@
      ("Source-PN" "450-1650-ND")
      (timestamp 008B09B9)
      ("Source Package" "SW PUSHBUTTON")
-     (Source Digikey)
      (MFG "TE Connectivity")
+     (Source Digikey)
      (Value "NM(SW-PUCK)")
      ("MFG-PN" FSM4JH)))
    (place SW39
@@ -3717,8 +3431,8 @@
      ("Source-PN" "450-1650-ND")
      (timestamp 008B09C9)
      ("Source Package" "SW PUSHBUTTON")
-     (Source Digikey)
      (MFG "TE Connectivity")
+     (Source Digikey)
      (Value "NM(SW-PUCK)")
      ("MFG-PN" FSM4JH)))
    (place SW2
@@ -3727,8 +3441,8 @@
      ("Source-PN" "450-1650-ND")
      (timestamp 008B1CE5)
      ("Source Package" "SW PUSHBUTTON")
-     (Source Digikey)
      (MFG "TE Connectivity")
+     (Source Digikey)
      (Value "NM(SW-PUCK)")
      ("MFG-PN" FSM4JH)))
    (place SW3
@@ -3737,8 +3451,8 @@
      ("Source-PN" "450-1650-ND")
      (timestamp 008B1CF5)
      ("Source Package" "SW PUSHBUTTON")
-     (Source Digikey)
      (MFG "TE Connectivity")
+     (Source Digikey)
      (Value "NM(SW-PUCK)")
      ("MFG-PN" FSM4JH)))
    (place SW4
@@ -3747,8 +3461,8 @@
      ("Source-PN" "450-1650-ND")
      (timestamp 008B1D05)
      ("Source Package" "SW PUSHBUTTON")
-     (Source Digikey)
      (MFG "TE Connectivity")
+     (Source Digikey)
      (Value "NM(SW-PUCK)")
      ("MFG-PN" FSM4JH)))
    (place SW5
@@ -3757,8 +3471,8 @@
      ("Source-PN" "450-1650-ND")
      (timestamp 008B1D15)
      ("Source Package" "SW PUSHBUTTON")
-     (Source Digikey)
      (MFG "TE Connectivity")
+     (Source Digikey)
      (Value "NM(SW-PUCK)")
      ("MFG-PN" FSM4JH)))
    (place SW8
@@ -3767,8 +3481,8 @@
      ("Source-PN" "450-1650-ND")
      (timestamp 0086D740)
      ("Source Package" "SW PUSHBUTTON")
-     (Source Digikey)
      (MFG "TE Connectivity")
+     (Source Digikey)
      (Value "NM(SW-PUCK)")
      ("MFG-PN" FSM4JH)))
    (place SW40
@@ -3777,8 +3491,8 @@
      ("Source-PN" "450-1650-ND")
      (timestamp 008B09D9)
      ("Source Package" "SW PUSHBUTTON")
-     (Source Digikey)
      (MFG "TE Connectivity")
+     (Source Digikey)
      (Value "NM(SW-PUCK)")
      ("MFG-PN" FSM4JH)))
    (place SW9
@@ -3787,8 +3501,8 @@
      ("Source-PN" "450-1650-ND")
      (timestamp 008B1CD5)
      ("Source Package" "SW PUSHBUTTON")
-     (Source Digikey)
      (MFG "TE Connectivity")
+     (Source Digikey)
      (Value "NM(SW-PUCK)")
      ("MFG-PN" FSM4JH)))
    (place SW41
@@ -3797,8 +3511,8 @@
      ("Source-PN" "450-1650-ND")
      (timestamp 008B09E9)
      ("Source Package" "SW PUSHBUTTON")
-     (Source Digikey)
      (MFG "TE Connectivity")
+     (Source Digikey)
      (Value "NM(SW-PUCK)")
      ("MFG-PN" FSM4JH)))
    (place SW11
@@ -3807,8 +3521,8 @@
      ("Source-PN" "450-1650-ND")
      (timestamp 008B17BF)
      ("Source Package" "SW PUSHBUTTON")
-     (Source Digikey)
      (MFG "TE Connectivity")
+     (Source Digikey)
      (Value "NM(SW-PUCK)")
      ("MFG-PN" FSM4JH)))
    (place SW44
@@ -3817,8 +3531,8 @@
      ("Source-PN" "450-1650-ND")
      (timestamp 008B052B)
      ("Source Package" "SW PUSHBUTTON")
-     (Source Digikey)
      (MFG "TE Connectivity")
+     (Source Digikey)
      (Value "NM(SW-PUCK)")
      ("MFG-PN" FSM4JH)))
    (place SW12
@@ -3827,8 +3541,8 @@
      ("Source-PN" "450-1650-ND")
      (timestamp 008B17CF)
      ("Source Package" "SW PUSHBUTTON")
-     (Source Digikey)
      (MFG "TE Connectivity")
+     (Source Digikey)
      (Value "NM(SW-PUCK)")
      ("MFG-PN" FSM4JH)))
    (place SW45
@@ -3837,8 +3551,8 @@
      ("Source-PN" "450-1650-ND")
      (timestamp 008B053B)
      ("Source Package" "SW PUSHBUTTON")
-     (Source Digikey)
      (MFG "TE Connectivity")
+     (Source Digikey)
      (Value "NM(SW-PUCK)")
      ("MFG-PN" FSM4JH)))
    (place SW13
@@ -3847,8 +3561,8 @@
      ("Source-PN" "450-1650-ND")
      (timestamp 008B17DF)
      ("Source Package" "SW PUSHBUTTON")
-     (Source Digikey)
      (MFG "TE Connectivity")
+     (Source Digikey)
      (Value "NM(SW-PUCK)")
      ("MFG-PN" FSM4JH)))
    (place SW46
@@ -3857,8 +3571,8 @@
      ("Source-PN" "450-1650-ND")
      (timestamp 008B054B)
      ("Source Package" "SW PUSHBUTTON")
-     (Source Digikey)
      (MFG "TE Connectivity")
+     (Source Digikey)
      (Value "NM(SW-PUCK)")
      ("MFG-PN" FSM4JH)))
    (place SW14
@@ -3867,8 +3581,8 @@
      ("Source-PN" "450-1650-ND")
      (timestamp 008B17EF)
      ("Source Package" "SW PUSHBUTTON")
-     (Source Digikey)
      (MFG "TE Connectivity")
+     (Source Digikey)
      (Value "NM(SW-PUCK)")
      ("MFG-PN" FSM4JH)))
    (place SW47
@@ -3877,8 +3591,8 @@
      ("Source-PN" "450-1650-ND")
      (timestamp 008B055B)
      ("Source Package" "SW PUSHBUTTON")
-     (Source Digikey)
      (MFG "TE Connectivity")
+     (Source Digikey)
      (Value "NM(SW-PUCK)")
      ("MFG-PN" FSM4JH)))
    (place SW15
@@ -3887,8 +3601,8 @@
      ("Source-PN" "450-1650-ND")
      (timestamp 008B17FF)
      ("Source Package" "SW PUSHBUTTON")
-     (Source Digikey)
      (MFG "TE Connectivity")
+     (Source Digikey)
      (Value "NM(SW-PUCK)")
      ("MFG-PN" FSM4JH)))
    (place SW48
@@ -3897,8 +3611,8 @@
      ("Source-PN" "450-1650-ND")
      (timestamp 008B056B)
      ("Source Package" "SW PUSHBUTTON")
-     (Source Digikey)
      (MFG "TE Connectivity")
+     (Source Digikey)
      (Value "NM(SW-PUCK)")
      ("MFG-PN" FSM4JH)))
    (place SW16
@@ -3907,8 +3621,8 @@
      ("Source-PN" "450-1650-ND")
      (timestamp 008B180F)
      ("Source Package" "SW PUSHBUTTON")
-     (Source Digikey)
      (MFG "TE Connectivity")
+     (Source Digikey)
      (Value "NM(SW-PUCK)")
      ("MFG-PN" FSM4JH)))
    (place SW49
@@ -3917,8 +3631,8 @@
      ("Source-PN" "450-1650-ND")
      (timestamp 008B057B)
      ("Source Package" "SW PUSHBUTTON")
-     (Source Digikey)
      (MFG "TE Connectivity")
+     (Source Digikey)
      (Value "NM(SW-PUCK)")
      ("MFG-PN" FSM4JH))))
   (component CAP,1U,6.3V
@@ -3928,37 +3642,20 @@
      ("Source-PN" "490-1319-2-ND")
      (timestamp 0001867A)
      ("Source Package" CAP,1U,6.3V)
-     (MFG muRata)
      (Source Digikey)
+     (MFG muRata)
      (Value 1U)
      ("MFG-PN" GRM155R60J105ME19D)))))
  (library
   (image RES,10.0K,0402,1%
    (property 
     (sourcelib "C:\\PCB\\ORCAD-LIBS\\RES-0402-1%.OLB")
-    ("Source-PN" "311-10.0KLRCT-ND")
-    (Source Digikey)
-    (MFG Digikey)
-    ("MFG-PN" "RC0402FR-0710KL")
-    (Tolerance 1%)
-    (Power 1/16W))
-   (pin 999 1
-    (property 
-     (pinname 1)
-     (pintype 4)))
-   (pin 999 2
-    (property 
-     (pinname 2)
-     (pintype 4))))
-  (image RES,47.0K,0402,1%
-   (property 
-    (sourcelib "C:\\PCB\\ORCAD-LIBS\\RES-0402-1%.OLB")
     (Power 1/16W)
     (Tolerance 1%)
-    ("MFG-PN" "RC0402FR-0747KL")
-    (MFG Yageo)
+    ("MFG-PN" "RC0402FR-0710KL")
+    (MFG Digikey)
     (Source Digikey)
-    ("Source-PN" "311-47.0KLRCT-ND"))
+    ("Source-PN" "311-10.0KLRCT-ND"))
    (pin 999 1
     (property 
      (pinname 1)
@@ -3970,10 +3667,10 @@
   (image DIODE,BAT54C
    (property 
     (sourcelib "C:\\PCB\\ORCAD-LIBS\\LOCAL.OLB")
-    ("Source-PN" "BAT54CFSTR-ND")
-    (MFG Fairchild)
+    ("MFG-PN" BAT54C)
     (Source Digikey)
-    ("MFG-PN" BAT54C))
+    (MFG Fairchild)
+    ("Source-PN" "BAT54CFSTR-ND"))
    (pin 999 3
     (property 
      (pinname 3)
@@ -3989,10 +3686,10 @@
   (image "DIODE-ESD-DUAL"
    (property 
     (sourcelib "C:\\PCB\\ORCAD-LIBS\\LOCAL.OLB")
-    ("Source-PN" "568-4041-1-ND")
-    (MFG NXP)
+    ("MFG-PN" PESD3V3L2BT,215)
     (Source Digikey)
-    ("MFG-PN" PESD3V3L2BT,215))
+    (MFG NXP)
+    ("Source-PN" "568-4041-1-ND"))
    (pin 999 1
     (property 
      (pinname 1)
@@ -4008,10 +3705,10 @@
   (image MMBT3906
    (property 
     (sourcelib "C:\\PCB\\ORCAD-LIBS\\LOCAL.OLB")
-    ("Source-PN" "MMBT3906-FDICT-ND")
-    (Source Digikey)
+    ("MFG-PN" MMBT3904,215)
     (MFG NXP)
-    ("MFG-PN" MMBT3904,215))
+    (Source Digikey)
+    ("Source-PN" "MMBT3906-FDICT-ND"))
    (pin 999 3
     (property 
      (pinname COLLECTOR)
@@ -4027,10 +3724,10 @@
   (image MMBT3904
    (property 
     (sourcelib "C:\\PCB\\ORCAD-LIBS\\LOCAL.OLB")
-    ("MFG-PN" MMBT3904,215)
-    (MFG NXP)
+    ("Source-PN" "568-4510-2-ND")
     (Source Digikey)
-    ("Source-PN" "568-4510-2-ND"))
+    (MFG NXP)
+    ("MFG-PN" MMBT3904,215))
    (pin 999 3
     (property 
      (pinname COLLECTOR)
@@ -4057,10 +3754,10 @@
   (image TPS63020
    (property 
     (sourcelib "C:\\PCB\\ORCAD-LIBS\\LOCAL.OLB")
-    ("Source-PN" TPS63020DSJ)
-    (MFG TI)
+    ("MFG-PN" TPS63020DSJR)
     (Source TI)
-    ("MFG-PN" TPS63020DSJR))
+    (MFG TI)
+    ("Source-PN" TPS63020DSJ))
    (pin 999 1
     (property 
      (pinname VINA)
@@ -4124,12 +3821,12 @@
   (image RES,4.70K,0402,1%
    (property 
     (sourcelib "C:\\PCB\\ORCAD-LIBS\\RES-0402-1%.OLB")
-    ("Source-PN" "P4.70KLCT-ND")
-    (Source Digikey)
-    (MFG Panasonic)
-    ("MFG-PN" "ERJ-2RKF4701X")
+    (Power 1/16W)
     (Tolerance 1%)
-    (Power 1/16W))
+    ("MFG-PN" "ERJ-2RKF4701X")
+    (MFG Panasonic)
+    (Source Digikey)
+    ("Source-PN" "P4.70KLCT-ND"))
    (pin 999 1
     (property 
      (pinname 1)
@@ -4141,12 +3838,12 @@
   (image RES,100,0402,1%
    (property 
     (sourcelib "C:\\PCB\\ORCAD-LIBS\\RES-0402-1%.OLB")
-    ("Source-PN" x)
-    (Source x)
-    (MFG x)
-    ("MFG-PN" x)
+    (Power 1/16W)
     (Tolerance 1%)
-    (Power 1/16W))
+    ("MFG-PN" x)
+    (MFG x)
+    (Source x)
+    ("Source-PN" x))
    (pin 999 1
     (property 
      (pinname 1)
@@ -4158,10 +3855,10 @@
   (image DIODE,RB520S30T1
    (property 
     (sourcelib "C:\\PCB\\ORCAD-LIBS\\LOCAL.OLB")
-    ("MFG-PN" RB520S30T1G)
-    (Source Digikey)
+    ("Source-PN" "RB520S30T1GOSTR-ND")
     (MFG ON)
-    ("Source-PN" "RB520S30T1GOSTR-ND"))
+    (Source Digikey)
+    ("MFG-PN" RB520S30T1G))
    (pin 999 2
     (property 
      (pinname 3)
@@ -4173,12 +3870,12 @@
   (image RES,0,0402,1%
    (property 
     (sourcelib "C:\\PCB\\ORCAD-LIBS\\RES-0402-1%.OLB")
-    ("Source-PN" "311-0.0JRCT-ND")
-    (Source Digikey)
-    (MFG Yaego)
-    ("MFG-PN" "RC0402JR-070RL")
+    (Power 1/16W)
     (Tolerance 1%)
-    (Power 1/16W))
+    ("MFG-PN" "RC0402JR-070RL")
+    (MFG Yaego)
+    (Source Digikey)
+    ("Source-PN" "311-0.0JRCT-ND"))
    (pin 999 1
     (property 
      (pinname 1)
@@ -4190,10 +3887,27 @@
   (image RES,10.0,0402,1%
    (property 
     (sourcelib "C:\\PCB\\ORCAD-LIBS\\RES-0402-1%.OLB")
-    ("Source-PN" "311-10.0LRCT-ND")
+    (Power 1/16W)
+    (Tolerance 1%)
+    ("MFG-PN" "RC0402FR-0710RL")
+    (MFG Yageo)
+    (Source Digikey)
+    ("Source-PN" "311-10.0LRCT-ND"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4))))
+  (image RES,47.0K,0402,1%
+   (property 
+    (sourcelib "C:\\PCB\\ORCAD-LIBS\\RES-0402-1%.OLB")
+    ("Source-PN" "311-47.0KLRCT-ND")
     (Source Digikey)
     (MFG Yageo)
-    ("MFG-PN" "RC0402FR-0710RL")
+    ("MFG-PN" "RC0402FR-0747KL")
     (Tolerance 1%)
     (Power 1/16W))
    (pin 999 1
@@ -4214,9 +3928,9 @@
   (image CAP,1NF,0402,X7R,50V
    (property 
     (sourcelib "C:\\DOCUMENTS AND SETTINGS\\CALEB\\MY DOCUMENTS\\BRITEPAD\\TRUNK\\ORCAD_LIBS\\CAP-0402-X7R.OLB")
-    (Dielectric X7R)
+    (Voltage 50V)
     (Source Digikey)
-    (Voltage 50V))
+    (Dielectric X7R))
    (pin 999 1
     (property 
      (pinname 1)
@@ -4228,20 +3942,6 @@
   (image CAP,4.7UF,0805,X5R,10V
    (property 
     (sourcelib "C:\\PCB\\ORCAD-LIBS\\CAP-1206-X5R.OLB")
-    (Dielectric X5R)
-    (Source Digikey)
-    (Voltage 10V))
-   (pin 999 1
-    (property 
-     (pinname 1)
-     (pintype 4)))
-   (pin 999 2
-    (property 
-     (pinname 2)
-     (pintype 4))))
-  (image CAP,100NF,0402,X5R,10V
-   (property 
-    (sourcelib "C:\\DOCUMENTS AND SETTINGS\\CALEB\\MY DOCUMENTS\\PCB\\BRITEPAD\\ORCAD_LIBS\\CAP-0402-X5R.OLB")
     (Voltage 10V)
     (Source Digikey)
     (Dielectric X5R))
@@ -4253,15 +3953,29 @@
     (property 
      (pinname 2)
      (pintype 4))))
+  (image CAP,100NF,0402,X5R,10V
+   (property 
+    (sourcelib "C:\\DOCUMENTS AND SETTINGS\\CALEB\\MY DOCUMENTS\\PCB\\BRITEPAD\\ORCAD_LIBS\\CAP-0402-X5R.OLB")
+    (Dielectric X5R)
+    (Source Digikey)
+    (Voltage 10V))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4))))
   (image CAP,2.2NF,0402,X7R,50V
    (property 
     (sourcelib "C:\\PCB\\ORCAD-LIBS\\CAP-0402-X7R.OLB")
-    ("MFG-PN" C1005X7R1H222K)
-    (MFG TDK)
-    (Dielectric X7R)
-    ("Source-PN" "445-1257-1-ND")
+    (Voltage 50V)
     (Source Digikey)
-    (Voltage 50V))
+    ("Source-PN" "445-1257-1-ND")
+    (Dielectric X7R)
+    (MFG TDK)
+    ("MFG-PN" C1005X7R1H222K))
    (pin 999 1
     (property 
      (pinname 1)
@@ -4273,12 +3987,12 @@
   (image CAP,33UF,1210,X5R,6.3V
    (property 
     (sourcelib "C:\\PCB\\ORCAD-LIBS\\CAP-1210-X5R.OLB")
-    (Voltage 6.3V)
-    (Source Digikey)
-    ("Source-PN" "445-3953-2-ND")
-    (Dielectric X5R)
+    ("MFG-PN" C3225X5R0J336M/2.50)
     (MFG TDK)
-    ("MFG-PN" C3225X5R0J336M/2.50))
+    (Dielectric X5R)
+    ("Source-PN" "445-3953-2-ND")
+    (Source Digikey)
+    (Voltage 6.3V))
    (pin 999 1
     (property 
      (pinname 1)
@@ -4290,12 +4004,12 @@
   (image CAP,2.2UF,0603,X5R,10V
    (property 
     (sourcelib "C:\\PCB\\ORCAD-LIBS\\CAP-0603-X5R.OLB")
-    ("MFG-PN" C1608X5R0J225K)
-    (MFG TDK)
-    (Dielectric X5R)
-    ("Source-PN" "445-5175-1-ND")
+    (Voltage 10V)
     (Source Digikey)
-    (Voltage 10V))
+    ("Source-PN" "445-5175-1-ND")
+    (Dielectric X5R)
+    (MFG TDK)
+    ("MFG-PN" C1608X5R0J225K))
    (pin 999 1
     (property 
      (pinname 1)
@@ -4307,9 +4021,9 @@
   (image CAP,1UF,0402,X5R,10V
    (property 
     (sourcelib "C:\\DOCUMENTS AND SETTINGS\\CALEB\\MY DOCUMENTS\\PCB\\BRITEPAD\\ORCAD_LIBS\\CAP-0402-X5R.OLB")
-    (Voltage 6.3V)
+    (Dielectric X5R)
     (Source Digikey)
-    (Dielectric X5R))
+    (Voltage 6.3V))
    (pin 999 1
     (property 
      (pinname 1)
@@ -4321,12 +4035,12 @@
   (image CAP,10UF,0805,X5R,6.3V
    (property 
     (sourcelib "C:\\PCB\\ORCAD-LIBS\\CAP-0805-X5R.OLB")
-    ("MFG-PN" C2012X5R0J106M)
-    (MFG TDK)
-    (Dielectric X5R)
-    ("Source-PN" "445-1363-1-ND")
+    (Voltage 6.3V)
     (Source Digikey)
-    (Voltage 6.3V))
+    ("Source-PN" "445-1363-1-ND")
+    (Dielectric X5R)
+    (MFG TDK)
+    ("MFG-PN" C2012X5R0J106M))
    (pin 999 1
     (property 
      (pinname 1)
@@ -4338,12 +4052,12 @@
   (image CAP,10NF,0402,X7R,25V
    (property 
     (sourcelib "C:\\PCB\\ORCAD-LIBS\\CAP-0402-X7R.OLB")
-    (Voltage 25V)
-    (Source Digikey)
-    ("Source-PN" "311-1349-2-ND")
-    (Dielectric X7R)
+    ("MFG-PN" CC0402KRX7R9BB103)
     (MFG Yageo)
-    ("MFG-PN" CC0402KRX7R9BB103))
+    (Dielectric X7R)
+    ("Source-PN" "311-1349-2-ND")
+    (Source Digikey)
+    (Voltage 25V))
    (pin 999 1
     (property 
      (pinname 1)
@@ -4355,12 +4069,12 @@
   (image RES,1.00K,0402,1%
    (property 
     (sourcelib "C:\\PCB\\ORCAD-LIBS\\RES-0402-1%.OLB")
-    ("Source-PN" "311-1.00KLRCT-ND")
-    (Source Digikey)
-    (MFG Yaego)
-    ("MFG-PN" "RC0402FR-071KL")
+    (Power 1/16W)
     (Tolerance 1%)
-    (Power 1/16W))
+    ("MFG-PN" "RC0402FR-071KL")
+    (MFG Yaego)
+    (Source Digikey)
+    ("Source-PN" "311-1.00KLRCT-ND"))
    (pin 999 1
     (property 
      (pinname 1)
@@ -4372,12 +4086,12 @@
   (image RES,24.0,0402,1%
    (property 
     (sourcelib "C:\\PCB\\ORCAD-LIBS\\RES-0402-1%.OLB")
-    ("Source-PN" x)
-    (Source x)
-    (MFG x)
-    ("MFG-PN" x)
+    (Power 1/16W)
     (Tolerance 1%)
-    (Power 1/16W))
+    ("MFG-PN" x)
+    (MFG x)
+    (Source x)
+    ("Source-PN" x))
    (pin 999 1
     (property 
      (pinname 1)
@@ -5075,12 +4789,12 @@
   (image CAP,4.7UF,0603,X5R,6.3V
    (property 
     (sourcelib "C:\\PCB\\ORCAD-LIBS\\CAP-0603-X5R.OLB")
-    ("MFG-PN" C1608X5R0J475M)
-    (MFG TDK)
-    (Dielectric X5R)
-    ("Source-PN" "445-1417-1-ND")
+    (Voltage 6.3V)
     (Source Digikey)
-    (Voltage 6.3V))
+    ("Source-PN" "445-1417-1-ND")
+    (Dielectric X5R)
+    (MFG TDK)
+    ("MFG-PN" C1608X5R0J475M))
    (pin 999 1
     (property 
      (pinname 1)
@@ -5092,12 +4806,12 @@
   (image CAP,1UF,0603,X5R,16V
    (property 
     (sourcelib "C:\\PCB\\ORCAD-LIBS\\CAP-0603-X5R.OLB")
-    ("MFG-PN" C1608X5R1E105K)
-    (MFG TDK)
-    (Dielectric X5R)
-    ("Source-PN" "445-5146-1-ND")
+    (Voltage 16V)
     (Source Digikey)
-    (Voltage 16V))
+    ("Source-PN" "445-5146-1-ND")
+    (Dielectric X5R)
+    (MFG TDK)
+    ("MFG-PN" C1608X5R1E105K))
    (pin 999 1
     (property 
      (pinname 1)
@@ -5109,10 +4823,10 @@
   (image MDDR1,32MX16,VFBGA
    (property 
     (sourcelib "C:\\PCB\\ORCAD-LIBS\\LOCAL.OLB")
-    ("Source-PN" "MT46H32M16LFBF-6 IT:C")
-    (Source "NU Horizons")
+    ("MFG-PN" MT46H32M16LF)
     (MFG Micron)
-    ("MFG-PN" MT46H32M16LF))
+    (Source "NU Horizons")
+    ("Source-PN" "MT46H32M16LFBF-6 IT:C"))
    (pin 999 K9
     (property 
      (pinname VDD)
@@ -5356,12 +5070,12 @@
   (image RES,470K,0402,1%
    (property 
     (sourcelib "C:\\CYGWIN\\HOME\\CALEB\\BRITEPAD\\TRUNK\\ORCAD_LIBS\\RES-0402-1%.OLB")
-    ("Source-PN" x)
-    (Source x)
-    (MFG x)
-    ("MFG-PN" x)
+    (Power 1/16W)
     (Tolerance 1%)
-    (Power 1/16W))
+    ("MFG-PN" x)
+    (MFG x)
+    (Source x)
+    ("Source-PN" x))
    (pin 999 1
     (property 
      (pinname 1)
@@ -5373,10 +5087,10 @@
   (image "MICROSD-lid-type"
    (property 
     (sourcelib "C:\\PCB\\ORCAD-LIBS\\LOCAL.OLB")
-    ("Source-PN" "101-00303-68-1-ND")
-    (MFG Amphenol)
+    ("MFG-PN" "101-00303-68")
     (Source Digikey)
-    ("MFG-PN" "101-00303-68"))
+    (MFG Amphenol)
+    ("Source-PN" "101-00303-68-1-ND"))
    (pin 999 1
     (property 
      (pinname DAT2)
@@ -5428,12 +5142,12 @@
   (image RES,100K,0402,1%
    (property 
     (sourcelib "C:\\DOCUMENTS AND SETTINGS\\CALEB\\MY DOCUMENTS\\PCB\\BRITEPAD\\ORCAD_LIBS\\RES-0402-1%.OLB")
-    ("Source-PN" x)
-    (Source x)
-    (MFG x)
-    ("MFG-PN" x)
+    (Power 1/16W)
     (Tolerance 1%)
-    (Power 1/16W))
+    ("MFG-PN" x)
+    (MFG x)
+    (Source x)
+    ("Source-PN" x))
    (pin 999 1
     (property 
      (pinname 1)
@@ -5445,10 +5159,10 @@
   (image "SPI-EEPROM"
    (property 
     (sourcelib "C:\\PCB\\ORCAD-LIBS\\LOCAL.OLB")
-    ("Source-PN" "CAT25080YI-GT3TR-ND")
-    (MFG ON)
+    ("MFG-PN" "CAT25080YI-GT3")
     (Source Digikey)
-    ("MFG-PN" "CAT25080YI-GT3"))
+    (MFG ON)
+    ("Source-PN" "CAT25080YI-GT3TR-ND"))
    (pin 999 1
     (property 
      (pinname C\\S\\)
@@ -5599,10 +5313,10 @@
   (image "BATTERY-AA-2X"
    (property 
     (sourcelib "C:\\PCB\\ORCAD-LIBS\\LOCAL.OLB")
-    ("Source-PN" "BA2AAPC-ND")
-    (MFG MPD)
+    ("MFG-PN" BA2AAPC)
     (Source Digikey)
-    ("MFG-PN" BA2AAPC))
+    (MFG MPD)
+    ("Source-PN" "BA2AAPC-ND"))
    (pin 999 1
     (property 
      (pinname +)
@@ -5774,29 +5488,6 @@
     (property 
      (pinname NC40)
      (pintype 4))))
-  (image LMV321/SO
-   (property 
-    (sourcelib C:\\ORCAD\\ORCAD_10.5\\TOOLS\\CAPTURE\\LIBRARY\\OPAMP.OLB))
-   (pin 999 1
-    (property 
-     (pinname +VIN)
-     (pintype 0)))
-   (pin 999 4
-    (property 
-     (pinname OUT)
-     (pintype 2)))
-   (pin 999 5
-    (property 
-     (pinname +VCC)
-     (pintype 7)))
-   (pin 999 2
-    (property 
-     (pinname "-VCC")
-     (pintype 7)))
-   (pin 999 3
-    (property 
-     (pinname "-VIN")
-     (pintype 0))))
   (image FERRITE
    (property 
     (sourcelib "C:\\DOCUMENTS AND SETTINGS\\CALEB\\MY DOCUMENTS\\PCB\\BRITEPAD\\ORCAD_LIBS\\LOCAL.OLB"))
@@ -5850,12 +5541,12 @@
   (image RES,0.100,0402,1%
    (property 
     (sourcelib "C:\\DOCUMENTS AND SETTINGS\\CALEB\\MY DOCUMENTS\\PCB\\BRITEPAD\\ORCAD_LIBS\\RES-0402-1%.OLB")
-    ("Source-PN" x)
-    (Source x)
-    (MFG x)
-    ("MFG-PN" x)
+    (Power 1/16W)
     (Tolerance 1%)
-    (Power 1/16W))
+    ("MFG-PN" x)
+    (MFG x)
+    (Source x)
+    ("Source-PN" x))
    (pin 999 1
     (property 
      (pinname 1)
@@ -5867,12 +5558,12 @@
   (image RES,1.00,0402,1%
    (property 
     (sourcelib "C:\\DOCUMENTS AND SETTINGS\\CALEB\\MY DOCUMENTS\\PCB\\BRITEPAD\\ORCAD_LIBS\\RES-0402-1%.OLB")
-    ("Source-PN" x)
-    (Source x)
-    (MFG x)
-    ("MFG-PN" x)
+    (Power 1/16W)
     (Tolerance 1%)
-    (Power 1/16W))
+    ("MFG-PN" x)
+    (MFG x)
+    (Source x)
+    ("Source-PN" x))
    (pin 999 1
     (property 
      (pinname 1)
@@ -5884,10 +5575,10 @@
   (image RES,47K,0402,1%
    (property 
     (sourcelib "C:\\DOCUMENTS AND SETTINGS\\CALEB\\MY DOCUMENTS\\PCB\\BRITEPAD\\DOCS\\MX233\\ORCAD\\LOCAL.OLB")
-    ("MFG-PN" "RMCF 1/16S 0 R")
-    (MFG Stackpole)
+    ("Source-PN" "RMCF1/16S0RTR-ND")
     (Source Digikey)
-    ("Source-PN" "RMCF1/16S0RTR-ND"))
+    (MFG Stackpole)
+    ("MFG-PN" "RMCF 1/16S 0 R"))
    (pin 999 1
     (property 
      (pinname 1)
@@ -5899,10 +5590,10 @@
   (image IND,15u,920mA
    (property 
     (sourcelib "C:\\DOCUMENTS AND SETTINGS\\CALEB\\MY DOCUMENTS\\PCB\\BRITEPAD\\DOCS\\MX233\\ORCAD\\LOCAL.OLB")
-    ("Source-PN" "SDR0403-150MLTR-ND")
-    (Source Digikey)
+    ("MFG-PN" "SDR0403-150ML")
     (MFG Bournes)
-    ("MFG-PN" "SDR0403-150ML"))
+    (Source Digikey)
+    ("Source-PN" "SDR0403-150MLTR-ND"))
    (pin 999 1
     (property 
      (pinname 1)
@@ -5914,12 +5605,12 @@
   (image RES,1.20,0402,1%
    (property 
     (sourcelib "C:\\PCB\\ORCAD-LIBS\\RES-0402-1%.OLB")
-    ("Source-PN" x)
-    (Source x)
-    (MFG x)
-    ("MFG-PN" x)
+    (Power 1/16W)
     (Tolerance 1%)
-    (Power 1/16W))
+    ("MFG-PN" x)
+    (MFG x)
+    (Source x)
+    ("Source-PN" x))
    (pin 999 1
     (property 
      (pinname 1)
@@ -5942,24 +5633,10 @@
   (image CAP,8PF,0402,COG,50V
    (property 
     (sourcelib "C:\\PCB\\ORCAD-LIBS\\CAP-0402-COG.OLB")
-    (Voltage 50V)
-    (Source Digikey)
-    ("Source-PN" "445-4891-1-ND")
-    (Dielectric NPO)
+    ("MFG-PN" C1005C0G1H080D)
     (MFG TDK)
-    ("MFG-PN" C1005C0G1H080D))
-   (pin 999 1
-    (property 
-     (pinname 1)
-     (pintype 4)))
-   (pin 999 2
-    (property 
-     (pinname 2)
-     (pintype 4))))
-  (image CAP,15PF,0402,COG,50V
-   (property 
-    (sourcelib "C:\\PCB\\ORCAD-LIBS\\CAP-0402-COG.OLB")
     (Dielectric NPO)
+    ("Source-PN" "445-4891-1-ND")
     (Source Digikey)
     (Voltage 50V))
    (pin 999 1
@@ -5970,7 +5647,7 @@
     (property 
      (pinname 2)
      (pintype 4))))
-  (image CAP,47PF,0402,COG,50V
+  (image CAP,15PF,0402,COG,50V
    (property 
     (sourcelib "C:\\PCB\\ORCAD-LIBS\\CAP-0402-COG.OLB")
     (Voltage 50V)
@@ -5984,13 +5661,27 @@
     (property 
      (pinname 2)
      (pintype 4))))
+  (image CAP,47PF,0402,COG,50V
+   (property 
+    (sourcelib "C:\\PCB\\ORCAD-LIBS\\CAP-0402-COG.OLB")
+    (Dielectric NPO)
+    (Source Digikey)
+    (Voltage 50V))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4))))
   (image CRYSTAL_24MHZ_SMT
    (property 
     (sourcelib "C:\\DOCUMENTS AND SETTINGS\\CALEB\\MY DOCUMENTS\\PCB\\MX233\\ORCAD\\LOCAL.OLB")
-    ("MFG-PN" "NX8045GB-24.000000MHZ")
-    (MFG NDK)
+    ("Source-PN" "644-1027-2-ND")
     (Source Digikey)
-    ("Source-PN" "644-1027-2-ND"))
+    (MFG NDK)
+    ("MFG-PN" "NX8045GB-24.000000MHZ"))
    (pin 999 1
     (property 
      (pinname 1)
@@ -6002,10 +5693,10 @@
   (image CRYSTAL_0.768KHZ_SMT
    (property 
     (sourcelib "C:\\DOCUMENTS AND SETTINGS\\CALEB\\MY DOCUMENTS\\OPENCALC\\TRUNK\\SCH\\OPENCALC-PA1.DSN")
-    ("Source-PN" "535-9033-2-ND")
-    (Source Digikey)
+    ("MFG-PN" "AB26TRB-32.768KHZ-T")
     (MFG "Abracon Corporation")
-    ("MFG-PN" "AB26TRB-32.768KHZ-T"))
+    (Source Digikey)
+    ("Source-PN" "535-9033-2-ND"))
    (pin 999 1
     (property 
      (pinname 1)
@@ -6036,38 +5727,6 @@
   (image RES,75.0K,0402,1%
    (property 
     (sourcelib "C:\\PCB\\ORCAD-LIBS\\RES-0402-1%.OLB")
-    ("Source-PN" x)
-    (Source x)
-    (MFG x)
-    ("MFG-PN" x)
-    (Tolerance 1%)
-    (Power 1/16W))
-   (pin 999 1
-    (property 
-     (pinname 1)
-     (pintype 4)))
-   (pin 999 2
-    (property 
-     (pinname 2)
-     (pintype 4))))
-  (image CAP,1U,6.3V
-   (property 
-    (sourcelib "C:\\DOCUMENTS AND SETTINGS\\CALEB\\MY DOCUMENTS\\PCB\\BRITEPAD\\DOCS\\MX233\\ORCAD\\LOCAL.OLB")
-    ("Source-PN" "490-1319-2-ND")
-    (Source Digikey)
-    (MFG muRata)
-    ("MFG-PN" GRM155R60J105ME19D))
-   (pin 999 1
-    (property 
-     (pinname 1)
-     (pintype 4)))
-   (pin 999 2
-    (property 
-     (pinname 2)
-     (pintype 4))))
-  (image RES,2.20K,0402,1%
-   (property 
-    (sourcelib "C:\\DOCUMENTS AND SETTINGS\\CALEB\\MY DOCUMENTS\\BRITEPAD\\TRUNK\\ORCAD_LIBS\\RES-0402-1%.OLB")
     (Power 1/16W)
     (Tolerance 1%)
     ("MFG-PN" x)
@@ -6082,15 +5741,47 @@
     (property 
      (pinname 2)
      (pintype 4))))
+  (image CAP,1U,6.3V
+   (property 
+    (sourcelib "C:\\DOCUMENTS AND SETTINGS\\CALEB\\MY DOCUMENTS\\PCB\\BRITEPAD\\DOCS\\MX233\\ORCAD\\LOCAL.OLB")
+    ("MFG-PN" GRM155R60J105ME19D)
+    (MFG muRata)
+    (Source Digikey)
+    ("Source-PN" "490-1319-2-ND"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4))))
+  (image RES,2.20K,0402,1%
+   (property 
+    (sourcelib "C:\\DOCUMENTS AND SETTINGS\\CALEB\\MY DOCUMENTS\\BRITEPAD\\TRUNK\\ORCAD_LIBS\\RES-0402-1%.OLB")
+    ("Source-PN" x)
+    (Source x)
+    (MFG x)
+    ("MFG-PN" x)
+    (Tolerance 1%)
+    (Power 1/16W))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4))))
   (image RES,24.0K,0402,1%
    (property 
     (sourcelib "C:\\PCB\\ORCAD-LIBS\\RES-0402-1%.OLB")
-    (Power 1/16W)
-    (Tolerance 1%)
-    ("MFG-PN" "ERJ-2RKF2402X")
-    (MFG Panasonic)
+    ("Source-PN" "P24.0KLCT-ND")
     (Source Digikey)
-    ("Source-PN" "P24.0KLCT-ND"))
+    (MFG Panasonic)
+    ("MFG-PN" "ERJ-2RKF2402X")
+    (Tolerance 1%)
+    (Power 1/16W))
    (pin 999 1
     (property 
      (pinname 1)
@@ -6102,10 +5793,10 @@
   (image USB_MICRO_B
    (property 
     (sourcelib "C:\\DOCUMENTS AND SETTINGS\\CALEB\\MY DOCUMENTS\\PCB\\MX233\\ORCAD\\LOCAL.OLB")
-    ("MFG-PN" "ZX62-B-5PA(11)")
-    (MFG Hirose)
+    ("Source-PN" "H11634TR-ND")
     (Source Digikey)
-    ("Source-PN" "H11634TR-ND"))
+    (MFG Hirose)
+    ("MFG-PN" "ZX62-B-5PA(11)"))
    (pin 999 1
     (property 
      (pinname VBUS)
@@ -6142,9 +5833,13 @@
     (property 
      (pinname G)
      (pintype 4))))
-  (image "HEADER-3-.1"
+  (image "CON-3-DF13-VERTICAL"
    (property 
-    (sourcelib "C:\\DOCUMENTS AND SETTINGS\\CALEB\\MY DOCUMENTS\\BRITEPAD\\TRUNK\\ORCAD_LIBS\\LOCAL.OLB"))
+    (sourcelib "C:\\PCB\\ORCAD-LIBS\\LOCAL.OLB")
+    ("MFG-PN" "DF13-3P-1.25DSA")
+    (Source Digikey)
+    (MFG HIROSE)
+    ("Source-PN" "H2192-ND"))
    (pin 999 1
     (property 
      (pinname 1)
@@ -6160,12 +5855,12 @@
   (image RES,240K,0402,1%
    (property 
     (sourcelib "C:\\PCB\\ORCAD-LIBS\\RES-0402-1%.OLB")
-    (Power 1/16W)
-    (Tolerance 1%)
-    ("MFG-PN" "ERJ-2RKF2403X")
-    (MFG Panasonic)
+    ("Source-PN" "P240KLCT-ND")
     (Source Digikey)
-    ("Source-PN" "P240KLCT-ND"))
+    (MFG Panasonic)
+    ("MFG-PN" "ERJ-2RKF2403X")
+    (Tolerance 1%)
+    (Power 1/16W))
    (pin 999 1
     (property 
      (pinname 1)
@@ -6188,12 +5883,12 @@
   (image RES,150K,0402,1%
    (property 
     (sourcelib "C:\\PCB\\ORCAD-LIBS\\RES-0402-1%.OLB")
-    (Power 1/16W)
-    (Tolerance 1%)
-    ("MFG-PN" "RC0402FR-07150KL")
-    (MFG Yaego)
+    ("Source-PN" "311-150KLRCT-ND")
     (Source Digikey)
-    ("Source-PN" "311-150KLRCT-ND"))
+    (MFG Yaego)
+    ("MFG-PN" "RC0402FR-07150KL")
+    (Tolerance 1%)
+    (Power 1/16W))
    (pin 999 1
     (property 
      (pinname 1)
@@ -6205,10 +5900,10 @@
   (image DIODE,BAT54S
    (property 
     (sourcelib "C:\\PCB\\ORCAD-LIBS\\LOCAL.OLB")
-    ("Source-PN" "BAT54SFSTR-ND")
-    (MFG Fairchild)
+    ("MFG-PN" BAT54C)
     (Source Digikey)
-    ("MFG-PN" BAT54C))
+    (MFG Fairchild)
+    ("Source-PN" "BAT54SFSTR-ND"))
    (pin 999 3
     (property 
      (pinname 3)
@@ -6323,10 +6018,10 @@
   (image "PHONEJACK-4COND-SJ-43515TS"
    (property 
     (sourcelib "C:\\PCB\\ORCAD-LIBS\\LOCAL.OLB")
-    ("MFG-PN" "SJ-43515TS")
-    (Source Digikey)
+    ("Source-PN" "CP-43515TS-ND")
     (MFG CUI)
-    ("Source-PN" "CP-43515TS-ND"))
+    (Source Digikey)
+    ("MFG-PN" "SJ-43515TS"))
    (pin 999 5
     (property 
      (pinname A)
@@ -6350,10 +6045,10 @@
   (image "LCD-ASI-2.7-3.0-DISPLAY"
    (property 
     (sourcelib "C:\\PCB\\ORCAD-LIBS\\LOCAL.OLB")
-    ("Source-PN" "ASI-T-270EA2AN/D")
-    (MFG ASI)
+    ("MFG-PN" "ASI-T-270EA2AN/D")
     (Source ASI)
-    ("MFG-PN" "ASI-T-270EA2AN/D"))
+    (MFG ASI)
+    ("Source-PN" "ASI-T-270EA2AN/D"))
    (pin 999 1
     (property 
      (pinname VCOM)
@@ -6521,10 +6216,10 @@
   (image DIODE,20V,1A
    (property 
     (sourcelib "C:\\PCB\\ORCAD-LIBS\\LOCAL.OLB")
-    ("MFG-PN" "B120-13-F")
-    (Source Digikey)
+    ("Source-PN" "B120-FDITR-ND")
     (MFG Diodes)
-    ("Source-PN" "B120-FDITR-ND"))
+    (Source Digikey)
+    ("MFG-PN" "B120-13-F"))
    (pin 999 1
     (property 
      (pinname ANODE)
@@ -6536,10 +6231,10 @@
   (image "SW DIP-8-0.05"
    (property 
     (sourcelib "C:\\PCB\\ORCAD-LIBS\\LOCAL.OLB")
-    ("Source-PN" "563-1011-1-ND")
-    (Source Digikey)
+    ("MFG-PN" "CHS-08TA")
     (MFG Copal)
-    ("MFG-PN" "CHS-08TA"))
+    (Source Digikey)
+    ("Source-PN" "563-1011-1-ND"))
    (pin 999 1
     (property 
      (pinname A_A)
@@ -6604,38 +6299,15 @@
     (property 
      (pinname B_H)
      (pintype 4))))
-  (image "PMOS, BSS84"
-   (property 
-    (sourcelib "C:\\PCB\\ORCAD-LIBS\\LOCAL.OLB")
-    ("Source-PN" "568-1660-1-ND")
-    (Source Digikey)
-    (MFG Diodes)
-    ("MFG-PN" BSS84)
-    (VGSS "+-20")
-    (RDSON "15 @ 3V")
-    (VDSS 50)
-    (Idrain 0.130))
-   (pin 999 1
-    (property 
-     (pinname GATE)
-     (pintype 0)))
-   (pin 999 3
-    (property 
-     (pinname DRAIN)
-     (pintype 0)))
-   (pin 999 2
-    (property 
-     (pinname SOURCE)
-     (pintype 0))))
   (image CAP,10UF,0603,X5R,6.3V
    (property 
     (sourcelib "C:\\PCB\\ORCAD-LIBS\\CAP-0603-X5R.OLB")
-    ("MFG-PN" C1608X5R0J106M)
-    (MFG TDK)
-    (Dielectric X5R)
-    ("Source-PN" "445-4112-1-ND")
+    (Voltage 6.3V)
     (Source Digikey)
-    (Voltage 6.3V))
+    ("Source-PN" "445-4112-1-ND")
+    (Dielectric X5R)
+    (MFG TDK)
+    ("MFG-PN" C1608X5R0J106M))
    (pin 999 1
     (property 
      (pinname 1)
@@ -6647,29 +6319,12 @@
   (image RES,1.00M,0402,1%
    (property 
     (sourcelib "C:\\PCB\\ORCAD-LIBS\\RES-0402-1%.OLB")
-    (Power 1/16W)
-    (Tolerance 1%)
-    ("MFG-PN" "RC0402FR-071ML")
-    (MFG Yaego)
+    ("Source-PN" "311-1.00MLRCT-ND")
     (Source Digkey)
-    ("Source-PN" "311-1.00MLRCT-ND"))
-   (pin 999 1
-    (property 
-     (pinname 1)
-     (pintype 4)))
-   (pin 999 2
-    (property 
-     (pinname 2)
-     (pintype 4))))
-  (image RES,3.00K,0402,1%
-   (property 
-    (sourcelib "C:\\PCB\\ORCAD-LIBS\\RES-0402-1%.OLB")
-    (Power 1/16W)
+    (MFG Yaego)
+    ("MFG-PN" "RC0402FR-071ML")
     (Tolerance 1%)
-    ("MFG-PN" x)
-    (MFG x)
-    (Source x)
-    ("Source-PN" x))
+    (Power 1/16W))
    (pin 999 1
     (property 
      (pinname 1)
@@ -6679,33 +6334,18 @@
      (pinname 2)
      (pintype 4)))))
  (network
-  (net N9567842
-   (pins
-     Q10-1 R88-1 Q11-3))
-  (net N9563308
-   (pins
-     U22-5 Q10-3))
-  (net N9526335
-   (pins
-     C83-1 U22-1 R87-1 R86-2))
-  (net N9524356
-   (pins
-     U22-3))
   (net PSWITCH_A
    (pins
      U2-N2 Q9-3 R78-1 TP14-1))
-  (net N9587653
-   (pins
-     R89-2 Q11-1))
   (net N9905672
    (pins
-     J8-36 R90-1 C110-1))
+     C110-1 R90-1 J8-36))
   (net N9111941
    (pins
      D27-1 SW40-1))
   (net N9905604
    (pins
-     Q12-1 C110-2 R90-2))
+     C110-2 R90-2 Q12-1))
   (net N4892967
    (pins
      R39-1 Q1-3))
@@ -6729,7 +6369,7 @@
      U2-L2 U5-7))
   (net N9910684
    (pins
-     R93-1 R92-1 J8-37))
+     J8-37 R93-1 R92-1))
   (net N9111945
    (pins
      SW36-1 D25-1))
@@ -6748,15 +6388,12 @@
   (net N9111817
    (pins
      D25-2 SW37-1))
-  (net N9578277
-   (pins
-     R89-1))
   (net USB_ID
    (pins
-     R1-2 J1-4 U19-1 R82-2))
+     J1-4 U19-1 R82-2 R1-2))
   (net VBUS_A
    (pins
-     C1-1 J1-1 L1-2))
+     C1-1 L1-2 J1-1))
   (net DCDC_L+
    (pins
      U2-A12 L5-1))
@@ -6769,18 +6406,18 @@
   (net N9302859
    (pins
      U2-J8 R82-1))
-  (net N10131014
-   (pins
-     R101-1 U23-4 U23-2))
   (net N9916662
    (pins
-     R94-2 R91-1 J8-38))
+     J8-38 R91-1 R94-2))
+  (net N10131014
+   (pins
+     U23-4 U23-2 R101-1))
   (net N2156141
    (pins
      R12-2 SW1-2))
   (net N9905658
    (pins
-     R92-2 Q12-3 L7-2 C112-1))
+     C112-1 Q12-3 R92-2 L7-1))
   (net N3195271
    (pins
      SW1-1 R11-2))
@@ -6789,16 +6426,16 @@
      Q3-3 R43-2))
   (net N10070456
    (pins
-     U23-1 R94-1 LCD_K1-1))
+     LCD_K1-1 U23-1 R94-1))
   (net LCD_D4
    (pins
-     J8-11 U2-F3 U6-21 U7-9))
+     U2-F3 U7-9 U6-21 J8-11))
   (net KEY_ROW_3
    (pins
      U2-M3 D22-3 D21-3 D20-3))
   (net LCD_D7
    (pins
-     J8-8 U7-12 U2-G5 U6-24))
+     U2-G5 U7-12 U6-24 J8-8))
   (net N4894052
    (pins
      R41-1 Q1-2 D7-1))
@@ -6810,30 +6447,30 @@
      U2-M2 D31-3 D30-3 D29-3))
   (net LCD_D6
    (pins
-     U6-23 J8-9 U7-11 U2-G2))
+     U2-G2 U7-11 U6-23 J8-9))
   (net KEY_COL_1
    (pins
      U2-F6 R59-2 C78-1 SW53-2 SW45-2 SW37-2 SW29-2 SW22-2 SW12-2
      SW2-2 SW59-2 SW51-2))
   (net LCD_D0
    (pins
-     J8-15 R22-1 SW1-12 U6-17 U2-D3 U7-5))
+     U2-D3 U6-17 R22-1 SW1-12 U7-5 J8-15))
   (net KEY_COL_2
    (pins
      U2-E6 R60-2 C79-1 SW54-2 SW46-2 SW38-2 SW30-2 SW23-2 SW13-2
      SW3-2 SW60-2 SW64-2))
-  (net LCD_D2
-   (pins
-     J8-13 SW1-14 R20-1 U6-19 U2-E4 U7-7))
   (net N9960744
    (pins
-     LCD_A1-1 R93-2 C140-1 U23-7 D41-3))
+     R93-2 D41-3 U23-7 C140-1 LCD_A1-1))
+  (net LCD_D2
+   (pins
+     U2-E4 U6-19 R20-1 SW1-14 U7-7 J8-13))
   (net KEY_ROW_1
    (pins
      U2-M5 D14-3 D13-3 D12-3))
   (net LCD_D1
    (pins
-     J8-14 U7-6 U2-E2 U6-18 SW1-13 R21-1))
+     U2-E2 U6-18 R21-1 SW1-13 U7-6 J8-14))
   (net N4898822
    (pins
      Q3-1 R46-2))
@@ -6843,13 +6480,13 @@
      SW9-2 SW50-2))
   (net LCD_D5
    (pins
-     J8-10 U6-22 U2-F5 U7-10 R17-1))
-  (net KEY_ROW_0
-   (pins
-     U2-N1 D10-3 D9-3 D8-3))
+     U2-F5 U6-22 R17-1 U7-10 J8-10))
   (net SD_SCK
    (pins
      U4-5 U2-D12))
+  (net KEY_ROW_0
+   (pins
+     U2-N1 D10-3 D9-3 D8-3))
   (net SD_CMD
    (pins
      U4-3 U2-H9))
@@ -6875,16 +6512,16 @@
      U2-F9 U4-8))
   (net LCD_D3
    (pins
-     J8-12 SW1-15 R19-1 U6-20 U2-F1 U7-8))
+     U2-F1 U6-20 R19-1 SW1-15 U7-8 J8-12))
   (net N259634
    (pins
-     C39-1 U2-A3))
+     U2-A3 C39-1))
   (net SD_DATA0
    (pins
      U2-G9 U4-7))
   (net N9969658
    (pins
-     U23-8 L9-1 D41-2 D41-1))
+     U23-8 L9-1 D41-1 D41-2))
   (net KEY_ROW_2
    (pins
      U2-M4 D18-3 D17-3 D16-3))
@@ -6894,78 +6531,42 @@
   (net KEY_ROW_4
    (pins
      U2-M1 D27-3 D26-3 D25-3))
-  (net N9767333
-   (pins
-     C125-2 J9-21))
   (net N8602604
    (pins
      C35-1 U2-B8))
-  (net N9767353
-   (pins
-     C122-1 J9-18))
-  (net N9767449
-   (pins
-     C123-1 J9-23))
-  (net N9767361
-   (pins
-     J9-22 C125-1))
   (net BACKLIGHT_PWM
    (pins
-     U2-C12 R86-1 U23-5 R102-1))
-  (net N9766985
-   (pins
-     J9-29 C127-1))
+     U2-C12 U23-5 R102-1))
   (net BUTTON_X
    (pins
      U2-N3 Q5-3 R66-2 TP12-1))
   (net N9054255
    (pins
      U7-34 C27-1))
-  (net N9767179
-   (pins
-     C119-2 J9-19))
-  (net N9767001
-   (pins
-     C124-1 J9-35))
   (net N9113013
    (pins
      D21-1 SW30-1))
-  (net N9766949
-   (pins
-     C127-2 J9-28))
   (net N9112977
    (pins
      D20-2 SW29-1))
-  (net N9767211
-   (pins
-     J9-20 C119-1))
-  (net N9766905
-   (pins
-     J9-25 C126-1))
   (net N9113229
    (pins
      D22-2 SW33-1))
-  (net N9767453
-   (pins
-     C130-1 J9-33))
-  (net N9766893
-   (pins
-     C126-2 J9-24))
   (net N9056584
    (pins
-     C26-1 U7-36))
+     U7-36 C26-1))
   (net N9113037
    (pins
      D21-2 SW31-1))
   (net N9057901
    (pins
-     U7-35 C26-2))
+     C26-2 U7-35))
   (net VDDIO_P
     (property 
      (nettype S))
    (pins
-     R1-1 J2-1 R80-1 R81-1 U4-4 C16-1 U5-8 C17-1 R12-1
-     R11-1 R15-1 R14-1 R13-1 R7-2 D2-2 D1-2 D4-2 D3-2
+     R1-1 J2-1 R81-1 R80-1 U4-4 C16-1 U5-8 C17-1 R12-1
+     R15-1 R14-1 R13-1 R11-1 R7-2 D1-2 D2-2 D3-2 D4-2
      U2-E11 C62-2 C61-1 C59-1 U2-C13 TP7-1 C60-1 U2-G3 C84-1
      C88-1 R84-1 D6-2 J6-21 R58-1 R63-1 R62-1 R61-1 R60-1
      R59-1 SW8-2 R78-2 R66-1 Q6-2))
@@ -6977,7 +6578,7 @@
      SW28-1 D20-1))
   (net N9059454
    (pins
-     C28-1 U7-38))
+     U7-38 C28-1))
   (net N9060130
    (pins
      U7-37 C29-1))
@@ -6990,9 +6591,6 @@
   (net UART_RX/SDA
    (pins
      U2-C6 J6-12 U18-1))
-  (net BACKLIGHT_POWER
-   (pins
-     U2-F7))
   (net LRDAC2
    (pins
      U13-2 R34-2 J6-8))
@@ -7001,7 +6599,7 @@
      U9-2 R24-1 J6-6))
   (net AUDIO_OUT_L
    (pins
-     C33-2 L3-1 R27-1 J6-4))
+     R27-1 L3-1 C33-2 J6-4))
   (net AUDIO_IN_L
    (pins
      U12-2 R25-1 J6-2))
@@ -7013,13 +6611,13 @@
      U2-C3 J6-17 U16-2))
   (net AUDIO_OUT_R
    (pins
-     C35-2 R26-1 L4-1 J6-5))
+     R26-1 L4-1 C35-2 J6-5))
   (net LRDAC1
    (pins
-     U9-1 R23-1 J6-7))
+     R23-1 U9-1 J6-7))
   (net LRDAC3
    (pins
-     R33-2 U13-1 J6-9))
+     U13-1 R33-2 J6-9))
   (net N9740702
    (pins
      C138-1 J8-31))
@@ -7027,7 +6625,7 @@
     (property 
      (nettype S))
    (pins
-     C149-1 U23-3 L9-2 U14-10 U14-11 C72-1 U14-12 U21-1 Q2-2
+     U23-3 L9-2 C149-1 U14-10 U14-11 C72-1 U14-12 U21-1 Q2-2
      R40-2 U20-2 J6-19))
   (net N9805525
    (pins
@@ -7042,7 +6640,7 @@
      D39-2 SW67-1))
   (net N4907217
    (pins
-     C19-1 R8-1 U6-1))
+     U6-1 R8-1 C19-1))
   (net N9502378
    (pins
      D40-1 SW64-1))
@@ -7057,19 +6655,13 @@
      D32-2 SW51-1))
   (net N9659142
    (pins
-     U2-G1 U7-32))
-  (net N9818761
-   (pins
-     C128-1 J9-30))
+     U7-32 U2-G1))
   (net N9502154
    (pins
      D38-2 SW61-1))
   (net N9660825
    (pins
-     U2-F2 U7-39))
-  (net N9819558
-   (pins
-     C129-1 J9-31))
+     U7-39 U2-F2))
   (net N9114255
    (pins
      D17-2 SW24-1))
@@ -7078,10 +6670,10 @@
      D37-1 SW62-1))
   (net N4908558
    (pins
-     C18-1 U6-2))
+     U6-2 C18-1))
   (net N9662517
    (pins
-     U7-40 U2-E5))
+     U2-E5 U7-40))
   (net N9114195
    (pins
      D16-2 SW22-1))
@@ -7089,34 +6681,33 @@
     (property 
      (nettype S))
    (pins
-     R2-2 J1-9 J1-7 C3-2 J1-5 J2-3 J1-6 C1-2 J1-8
-     C5-2 C2-2 C4-2 U19-3 U3-A1 U3-F1 U3-K1 U3-A3 U3-B9
+     R2-2 J1-8 J1-7 C5-2 C4-2 J1-5 J2-3 U19-3 C1-2
+     J1-6 C2-2 C3-2 J1-9 U3-A1 U3-F1 U3-K1 U3-A3 U3-B9
      U3-C1 U3-E1 C6-2 C9-2 C8-2 C7-2 C11-2 C13-2 C12-2
      C10-2 C14-2 C15-2 U3-D9 R4-2 R5-2 R6-2 C16-2 U4-10
-     U4-12 U4-9 U4-11 U4-6 U5-4 C17-2 R10-2 C27-2 C25-2
-     R87-2 R91-2 U22-2 C29-2 C28-2 C112-2 R9-2 C149-2 Q12-2
-     C140-2 C133-2 U6-9 C24-2 U7-19 C124-2 C19-2 R8-2 C123-2
-     C132-2 C122-2 C120-2 C144-2 U23-6 C135-2 C145-2 U7-16 C129-2
-     C134-2 C147-2 C146-2 C128-2 Q11-2 C83-2 J9-32 J9-16 J8-32
-     J8-16 U23-9 R102-2 R101-2 R17-2 R18-2 R20-2 R19-2 R21-2
-     R22-2 J8-G2 J8-G1 C138-2 C137-2 R31-2 U8-3 R30-2 U11-3
-     C38-2 C37-2 C39-2 U12-3 U9-3 C31-1 C30-1 C41-2 U13-3
-     C40-2 J7-5 C32-2 R27-2 U10-3 R26-2 D1-1 D2-1 D3-1
-     D4-1 C58-2 C48-2 R37-2 U2-A13 U2-C8 U2-J9 U2-D4 U2-E9
-     U2-A2 U2-J7 U2-D6 R36-2 C43-2 C42-2 C44-2 C50-2 C49-2
-     R38-2 C62-1 C59-2 C60-2 C61-2 C63-2 C64-2 C70-1 C67-2
-     C68-2 C69-2 C65-2 C66-2 C57-2 C56-2 C47-2 C52-1 C53-2
-     C54-2 C55-2 C88-2 C84-2 R49-2 C71-2 R45-2 R83-2 U14-2
-     C75-2 U14-15 C76-2 C74-2 C72-2 C73-2 U14-13 Q3-2 Q4-2
-     D6-1 U20-3 U21-2 U16-3 U15-3 U18-3 U17-3 J6-1 J6-10
-     J6-22 C87-1 Q5-2 R69-2 R77-2 C85-1 Q8-2 R76-2 Q9-2
-     C86-2 R50-1 R51-1 R52-1 R53-1 R54-1 R55-1))
+     U4-12 U4-9 U4-11 U4-6 U5-4 C17-2 R91-2 C25-2 R9-2
+     C29-2 R10-2 C149-2 C112-2 C28-2 C140-2 Q12-2 C27-2 R22-2
+     R21-2 R17-2 R20-2 R19-2 R18-2 R8-2 C19-2 C24-2 U6-9
+     U7-16 U7-19 C135-2 C134-2 C147-2 J8-32 J8-16 C133-2 C137-2
+     C138-2 C146-2 C145-2 R101-2 U23-9 U23-6 R102-2 J8-G2 J8-G1
+     C37-2 U8-3 U11-3 R31-2 R30-2 C38-2 R26-2 R27-2 C39-2
+     D2-1 U10-3 D1-1 U9-3 U12-3 C41-2 C40-2 D4-1 D3-1
+     C32-2 C31-1 C30-1 U13-3 J7-5 C58-2 C48-2 R37-2 U2-A13
+     U2-C8 U2-J9 U2-D4 U2-E9 U2-A2 U2-J7 U2-D6 R36-2 C43-2
+     C42-2 C44-2 C50-2 C49-2 R38-2 C62-1 C59-2 C60-2 C61-2
+     C63-2 C64-2 C70-1 C67-2 C68-2 C69-2 C65-2 C66-2 C57-2
+     C56-2 C47-2 C52-1 C53-2 C54-2 C55-2 C88-2 C84-2 R49-2
+     C71-2 R45-2 R83-2 U14-2 C75-2 U14-15 C76-2 C74-2 C72-2
+     C73-2 U14-13 Q3-2 Q4-2 D6-1 U20-3 U21-2 U16-3 U15-3
+     U18-3 U17-3 J6-1 J6-10 J6-22 C87-1 Q5-2 R69-2 R77-2
+     C85-1 Q8-2 R76-2 Q9-2 C86-2 R50-1 R51-1 R52-1 R53-1
+     R54-1 R55-1))
+  (net N9663655
+   (pins
+     U2-E3 U7-27))
   (net N4909299
    (pins
      U6-3 C18-2))
-  (net N9663655
-   (pins
-     U7-27 U2-E3))
   (net N9114319
    (pins
      D18-1 SW25-1))
@@ -7125,16 +6716,16 @@
      D36-2 SW59-1))
   (net N00552
    (pins
-     U2-A5 C2-1 Y1-1))
+     C2-1 Y1-1 U2-A5))
   (net N9665948
    (pins
-     U2-E1 U7-26))
+     U7-26 U2-E1))
   (net N9502454
    (pins
      D39-1 SW66-1))
   (net N370844
    (pins
-     SW1-16 R18-1 U2-J3 U6-13 U7-3))
+     R18-1 U6-13 SW1-16 U7-3 U2-J3))
   (net N9114231
    (pins
      D17-1 SW23-1))
@@ -7157,8 +6748,8 @@
     (property 
      (nettype S))
    (pins
-     U7-20 C25-1 U7-18 R16-1 J8-17 U6-8 C24-1 L7-1 C133-1
-     J9-17 C120-1 R7-1 TP1-1))
+     C24-1 U6-8 R16-1 U7-18 U7-20 C25-1 R7-1 TP1-1 J8-17
+     C133-1 L7-2))
   (net N9114447
    (pins
      D18-2 SW20-1))
@@ -7173,25 +6764,25 @@
      U2-A6 C36-2))
   (net N8328922
    (pins
-     C37-1 C34-1 R30-1 R25-2))
+     C34-1 C37-1 R25-2 R30-1))
   (net N4916476
    (pins
-     C21-1 C20-1 U6-7))
+     U6-7 C20-1 C21-1))
   (net N8330326
    (pins
-     C36-1 C38-1 R31-1 R28-2))
+     R28-2 R31-1 C38-1 C36-1))
   (net N4917498
    (pins
-     U6-4 C20-2 C21-2))
+     C21-2 C20-2 U6-4))
   (net N9081337
    (pins
      SW52-1 D33-1))
   (net N4918633
    (pins
-     C23-1 C22-1 U6-6))
+     U6-6 C22-1 C23-1))
   (net N4919164
    (pins
-     C23-2 C22-2 U6-5))
+     U6-5 C23-2 C22-2))
   (net N384745
    (pins
      SW54-1 D34-1))
@@ -7203,10 +6794,10 @@
      D34-2 SW55-1))
   (net LCD_WR
    (pins
-     U7-4 U6-14 U2-J4))
+     U2-J4 U6-14 U7-4))
   (net VDAC1
    (pins
-     U2-C11 C32-1 J7-6 U8-1))
+     U2-C11 C32-1 U8-1 J7-6))
   (net N9094236
    (pins
      D35-1 SW56-1))
@@ -7215,37 +6806,37 @@
      D35-2 SW57-1))
   (net LCD_CS
    (pins
-     U2-H4 J8-2 U7-17 U6-12))
+     U2-H4 U6-12 U7-17 J8-2))
   (net LCD_RESET
    (pins
-     U6-16 R9-1 U7-14 U2-J5))
+     U2-J5 U7-14 R9-1 U6-16))
   (net N4928967
    (pins
      U2-K1 U7-13 U6-15 J8-7))
   (net N8336132
    (pins
-     U2-B9 R23-2 D1-3 C30-2))
+     R23-2 U2-B9 C30-2 D1-3))
   (net N8786149
    (pins
      C77-2 R50-2))
   (net N8336415
    (pins
-     U2-A8 R24-2 D2-3 C31-2))
+     R24-2 U2-A8 C31-2 D2-3))
   (net N9690784
    (pins
      U2-J1 J8-6))
   (net N4930919
    (pins
-     U6-11 R10-1))
+     R10-1 U6-11))
   (net N889817914
    (pins
      U7-15 R16-2))
   (net N259746
    (pins
-     J4-2 U11-2 R32-2))
+     R32-2 U11-2 J4-2))
   (net N9696056
    (pins
-     U2-J2 J8-5))
+     J8-5 U2-J2))
   (net N8646277
    (pins
      U2-C1 R29-1))
@@ -7254,7 +6845,7 @@
      D12-2 SW12-1))
   (net N8646461
    (pins
-     R29-2 U11-1 J4-1))
+     J4-1 U11-1 R29-2))
   (net N8789031
    (pins
      C78-2 R51-2))
@@ -7275,22 +6866,22 @@
      D14-1 SW15-1))
   (net N329982
    (pins
-     Y2-4 C5-1 U2-C4))
+     Y2-4 U2-C4 C5-1))
   (net N9115499
    (pins
      D13-2 SW14-1))
   (net N329978
    (pins
-     C4-1 Y2-1 U2-B4))
+     C4-1 U2-B4 Y2-1))
   (net N8340084
    (pins
-     U2-D9 C40-1 R33-1 D4-3))
+     D4-3 C40-1 R33-1 U2-D9))
   (net N8789624
    (pins
      C79-2 R52-2))
   (net N8340692
    (pins
-     R34-1 C41-1 U2-C9 D3-3))
+     D3-3 C41-1 U2-C9 R34-1))
   (net DDR_DQ6
    (pins
      U2-L11 U3-D8))
@@ -7302,7 +6893,7 @@
      U2-H10 U3-H2))
   (net N9717237
    (pins
-     C147-1 J8-18))
+     J8-18 C147-1))
   (net N8790255
    (pins
      C80-2 R53-2))
@@ -7311,7 +6902,7 @@
      U2-L12 U3-H9))
   (net N9719473
    (pins
-     C134-1 J8-23))
+     J8-23 C134-1))
   (net DDR_A07
    (pins
      U2-G11 U3-J2))
@@ -7326,7 +6917,7 @@
      U2-L13 U3-H8))
   (net N9722408
    (pins
-     C135-1 J8-35))
+     J8-35 C135-1))
   (net DDR_A04
    (pins
      U2-G10 U3-K2))
@@ -7347,7 +6938,7 @@
      U2-J6 U5-5))
   (net N8649736
    (pins
-     L4-2 U10-2 J7-1))
+     J7-1 U10-2 L4-2))
   (net N8962186
    (pins
      R67-1 Q5-1))
@@ -7356,19 +6947,19 @@
      U2-J11 U3-G7))
   (net N9724907
    (pins
-     C136-2 J8-19))
+     J8-19 C136-2))
   (net N8648963
    (pins
-     J7-4 U10-1 L3-2))
+     L3-2 U10-1 J7-4))
   (net N00612
    (pins
-     C3-1 U2-A4 Y1-2))
+     Y1-2 U2-A4 C3-1))
   (net DDR_CKE
    (pins
      U3-G1 R5-1 U2-F11))
   (net N9726173
    (pins
-     J8-20 C136-1))
+     C136-1 J8-20))
   (net VBUS
     (property 
      (nettype S))
@@ -7394,7 +6985,7 @@
      U2-G12 U3-K3))
   (net N9729523
    (pins
-     C141-2 J8-21))
+     J8-21 C141-2))
   (net N8791485
    (pins
      C82-2 R55-2))
@@ -7433,7 +7024,7 @@
      U2-L7 U3-C3))
   (net N9734158
    (pins
-     J8-25 C142-1))
+     C142-1 J8-25))
   (net VDDA
     (property 
      (nettype S))
@@ -7447,7 +7038,7 @@
      U2-L9 U3-E7))
   (net N9734146
    (pins
-     C142-2 J8-24))
+     J8-24 C142-2))
   (net DDR_DQ14
    (pins
      U2-N7 U3-B3))
@@ -7476,13 +7067,13 @@
      U2-N6 U3-G3))
   (net N9734907
    (pins
-     J8-29 C143-1))
+     C143-1 J8-29))
   (net DDR_CE0N
    (pins
      U3-H7 R3-2 U2-J10))
   (net N9734895
    (pins
-     C143-2 J8-28))
+     J8-28 C143-2))
   (net DDR_DQM1
    (pins
      U2-M9 U3-F2))
@@ -7529,7 +7120,7 @@
      U2-K10 U3-A8))
   (net VCOM
    (pins
-     J8-39 J8-1 J8-34 C139-2 J9-34 J9-39 C130-2 J9-1))
+     J8-34 J8-39 C139-2 J8-1))
   (net N9110683
    (pins
      D29-2 SW45-1))
@@ -7553,7 +7144,7 @@
      U2-J13 U3-K7))
   (net N9745390
    (pins
-     C139-1 J8-33))
+     J8-33 C139-1))
   (net N9116741
    (pins
      D8-2 SW2-1))
@@ -7585,12 +7176,6 @@
   (net N89871271
    (pins
      Q7-2 Q8-3))
-  (net N9877094
-   (pins
-     C132-1 J9-26))
-  (net N9877899
-   (pins
-     C144-1 J9-27))
   (net N8358355
    (pins
      R42-2 Q2-3))
@@ -7608,10 +7193,10 @@
      R73-1 Q8-1))
   (net USB_DP
    (pins
-     J1-3 U2-A1))
+     U2-A1 J1-3))
   (net N257036
    (pins
-     J2-2 U2-E12 R2-1))
+     U2-E12 R2-1 J2-2))
   (net N8360048
    (pins
      R47-1 Q4-1))
@@ -7626,7 +7211,7 @@
      U2-N5 R46-1 R83-1))
   (net N9446356
    (pins
-     J7-3 U8-2))
+     U8-2 J7-3))
   (net N8997575
    (pins
      R70-1 Q6-1))
@@ -7635,7 +7220,7 @@
      R70-2 Q7-3))
   (net N9898702
    (pins
-     C146-1 J8-26))
+     J8-26 C146-1))
   (net N9900348
    (pins
      J8-27 C145-1))
@@ -7656,10 +7241,10 @@
      L6-2 U14-6 U14-7))
   (net N1442591
    (pins
-     R13-2 SW1-3))
+     SW1-3 R13-2))
   (net SAIF_BCLK
    (pins
-     U7-33 U2-F4 J6-13 U15-1))
+     U2-F4 U7-33 J6-13 U15-1))
   (net N2156181
    (pins
      R15-2 SW1-5))
@@ -7667,18 +7252,18 @@
     (property 
      (nettype S))
    (pins
-     Q10-2 R88-2 U2-B11 U2-A11 C42-1 C43-1 TP3-1 C45-2 C44-1
-     D5-1 U14-5 C76-1 C75-1 C74-1 U14-4 R48-1))
+     U2-B11 U2-A11 C42-1 TP3-1 C43-1 C45-2 C44-1 D5-1 U14-5
+     C76-1 C75-1 C74-1 U14-4 R48-1))
   (net SAIF_WCLK
    (pins
-     U7-31 U2-G4 J6-15 U16-1))
+     U2-G4 U7-31 J6-15 U16-1))
   (net N2082101
    (pins
      SW1-4 R14-2))
   (net SAIF_TX
    (pins
-     U7-29 J8-4 U2-H3 U18-2 J6-14))
+     U2-H3 J8-4 U7-29 U18-2 J6-14))
   (net SAIF_RX
    (pins
-     U7-28 J8-3 U2-H2 U17-1 J6-16)))
+     U2-H2 J8-3 U7-28 U17-1 J6-16)))
 )

@@ -5,8 +5,9 @@ Photo-Plotter Apertures Report
 Position  Width  Hgt/ID  Shape    Qty
 ========  =====  ======  =====    ===
    10        1       0    RND       1
-   13        5       0    RND     260
-   68      5.91       0    RND       2
+   13        5       0    RND     250
+   14        6       0    RND       8
+   68      5.91       0    RND       4
 
 
 

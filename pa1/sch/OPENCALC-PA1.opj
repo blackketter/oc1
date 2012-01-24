@@ -44,7 +44,7 @@
     (CompileFileAddedOrDeleted "x")
     (ANNOTATE_Scope "0")
     (ANNOTATE_Mode "1")
-    (ANNOTATE_Action "3")
+    (ANNOTATE_Action "0")
     (Annotate_Page_Order "0")
     (ANNOTATE_Reset_References_to_1 "FALSE")
     (ANNOTATE_No_Page_Number_Change "FALSE")
@@ -92,8 +92,7 @@
     (DRC_Check_Unconnected_Nets "TRUE")
     (DRC_Report_Netnames "FALSE")
     (DRC_View_Output "TRUE")
-    (DRC_Report_File
-       ".\opencalc-pa1.DRC")
+    (DRC_Report_File ".\opencalc-pa1.DRC")
     (DRC_Check_for_Misleading_TAP "FALSE")
     (DRC_Visible_Power_pins "FALSE"))
   (Folder "Outputs"
@@ -105,13 +104,14 @@
       (Type "Report"))
     (File "..\..\orcad_libs\local.olb"
       (Type "Report"))
-    (File
-       "c:\cygwin\home\caleb\opencalc-hw\oc1\pa1\sch\opencalc-pa1.drc"
-      (Type "Report"))
     (File "c:\pcb\orcad-libs\local.olb"
       (Type "Schematic Library")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (CON-3-DF13-VERTICAL
+      (FullPartName "CON-3-DF13-VERTICAL.Normal")
+      (LibraryName "C:\PCB\ORCAD-LIBS\LOCAL.OLB")
+      (DeviceIndex "0"))
     (RES,47.0K,0402,1%
       (FullPartName "RES,47.0K,0402,1%.Normal")
       (LibraryName "C:\PCB\ORCAD-LIBS\RES-0402-1%.OLB")
@@ -208,15 +208,16 @@
     (MMBT3904
       (FullPartName "MMBT3904.Normal")
       (LibraryName "C:\PCB\ORCAD-LIBS\LOCAL.OLB")
-      (DeviceIndex "0"))
-    ("PMOS, BSS84"
-      (FullPartName "PMOS, BSS84.Normal")
-      (LibraryName "C:\PCB\ORCAD-LIBS\LOCAL.OLB")
       (DeviceIndex "0")))
   (LastUsedLibraryBrowseDirectory "C:\OrCAD\OrCAD_10.5\tools\capture\library")
   (GlobalState
     (FileView
       (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\cygwin\home\caleb\opencalc-hw\oc1\pa1\sch\opencalc-pa1.dsn")
+      (Path "Design Resources"
+         "C:\cygwin\home\caleb\opencalc-hw\oc1\pa1\sch\opencalc-pa1.dsn"
+         "SCHEMATIC1")
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library" "C:\PCB\ORCAD-LIBS\CAP-1210-X5R.OLB")
       (Path "Outputs"))
@@ -224,6 +225,6 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -30 33 443 15 612"))
+        (Placement "44 0 1 -1 -1 -4 -30 33 443 15 612"))
       (Tab 0)))
   (MPSSessionName "caleb"))
